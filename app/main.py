@@ -11,6 +11,8 @@ from app.service.pdf import pdf_search
 from app.service.video import scrape_video
 
 from app.aptitude.generalApt.logicalReasoning import logical_aptitude
+from app.aptitude.generalApt.verbalAbilityApt import aptitude as verbal_ability_aptitude
+from app.aptitude.generalApt.verbalReasoningApt import aptitude as verbal_reasoning_aptitude
 
 app = FastAPI()
 
@@ -71,6 +73,19 @@ async def general_aptitude(data: Aptitude):
         if (data.topic).lower() == 'logical reasoning':
             response = logical_aptitude()
 
-        
+        if (data.topic).lower() == 'verbal ability':
+            response = verbal_ability_aptitude()
+
+        if (data.topic).lower() == 'verbal reasoning':
+            response = verbal_reasoning_aptitude()
+
+        if (data.topic).lower() == 'arithmetic':
+            response = verbal_reasoning_aptitude()
+
+        if (data.topic).lower() == 'general knowledge':
+            response = verbal_reasoning_aptitude()
+
+        if (data.topic).lower() == 'non':
+            response = verbal_reasoning_aptitude()
             
     return response
