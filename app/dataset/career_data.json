@@ -1,0 +1,3108 @@
+[
+    {
+        "job_name": "Mayor",
+        "job_description": "A mayor is a chief executive in charge of a city. They are responsible for the municipality’s day-to-day affairs, such as presiding over council meetings, making executive decisions, passing and enacting legislation, and attending important municipal events. A mayor will also travel across the city to meet constituents as well as other officials to gather thoughts and ideas on issues of the day.",
+        "skill": [
+            "Leadership","Communication","Interpersonal","Decision-making","Problem-solving","Analytical","Coordination","Negotiation","Fiscal management","Customer service","Integrity","Flexibility","Cooperation","Independence"
+        ]
+    },
+    {
+        "job_name": "Advertising Account Executive",
+        "job_description": "Advertising account executives act as the main point of contact between an advertising agency or media company and its clients. They communicate with the client to understand their advertising needs, budget, target audience and market competition. The account executive then liaises with colleagues, including media planners and designers, to build the appropriate advertising campaign.",
+        "skill": [
+            "Communication","Organisational","Interpersonal","Analytical","Decision-making","Creativity","Writing","Problem-solving","Time management","Persuasion","Negotiation","Deductive reasoning","Critical thinking","Coordination","Marketing","Customer service"
+        ]
+    },
+    {
+        "job_name": "Advertising Manager",
+        "job_description": "Advertising managers coordinate with sales, financial and creative staff to promote a product or service for a company or client. They use marketing data, product information and company objectives to create, direct and launch advertising campaigns that generate interest from the target audience.",
+        "skill": [
+            "Accounting software","Project management software","Sales and marketing","Digital media","Communication","Creativity","Analytical thinking","Social perceptiveness","Psychology","Persuasion","Writing","Teamwork","Time management","Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Petroleum Engineer",
+        "job_description": "Petroleum engineers design the methods and tools needed to extract oil and gas from underground reservoirs for national energy needs. They help locate these reservoirs on land or offshore, and study how to obtain the most product per drill site.",
+        "skill": [
+            "Systems analysis","Monitoring","Reading comprehension","Time management","Critical thinking","Problem-solving","Teamwork","Leadership","Visualisation","Communication","Innovation","Persistence","Initiative","Adaptability","Attention to detail","Analytical software","Scientific software","Cad software","Project management software","Physics","Chemistry","Mathematics"
+        ]
+    },
+    {
+        "job_name": "Promotions Manager",
+        "job_description": "Promotions managers plan and coordinate programmes that combine advertising and purchasing incentives to increase sales of a product or service. They use techniques such as in-store displays, internet advertisements, newspaper flyers and special events to boost consumer interest. These promotional techniques include incentives to buy such as discounts, rebates, samples and contests.",
+        "skill": [
+            "Sales software","Marketing software","Project management software","Communications and media","Customer service","Accounting","Active listening","Social perceptiveness","Psychology","Problem-solving","Decision-making","Time management","Active learning","Negotiation","Monitoring","Initiative","Leadership","Creativity","Analytical thinking","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Dentist",
+        "job_description": "Dentists are in charge of patients’ dental health by monitoring, diagnosing and treating their teeth, gums and other parts of the mouth. In addition to removing tooth decay, repairing damaged teeth and filling cavities, dentists also provide advice and instruction on proper dental hygiene to ensure patients take good care of their teeth and gums.",
+        "skill": [
+            "Communication","Manual dexterity","Interpersonal","Leadership","Organisational","Time management","Problem-solving","Decision-making","Stamina","Supervision","Analytical","Numerical"
+        ]
+    },
+    {
+        "job_name": "Psychiatrist",
+        "job_description": "Psychiatrists are primary care physicians who diagnose, treat and help prevent mental disorders. They tailor a combination of personal counselling, group counselling, psychoanalysis, medication and hospitalisation to each individual.",
+        "skill": [
+            "Psychology","Medicine","Therapy and counselling","Active listening","Social perceptiveness","Compassion","Service orientation","Communication","Monitoring","Reading comprehension","Writing","Persuasion","Time management","Critical thinking","Problem-solving","Adaptability","Patience","Persistence","Leadership","Cooperation"
+        ]
+    },
+    {
+        "job_name": "Pr Manager",
+        "job_description": "PR managers are responsible for managing their client’s reputation. They do this by trying to influence people’s opinion and behaviour towards their client or brand.",
+        "skill": [
+            "Attention to detail","Communication","Customer service","Manual dexterity","Creativity","Interpersonal","Problem-solving","Decision-making","Organisational","Coordination","Negotiation","Leadership"
+        ]
+    },
+    {
+        "job_name": "Airline Pilot",
+        "job_description": "Airline pilots work in the aviation industry. They operate aircraft, such as commercial jets, to transport people and goods to destinations all over the world. As an airline pilot, you will fly aeroplanes on short- or long-haul flights for airlines of all sizes, usually on scheduled air carrier routes.",
+        "skill": [
+            "Communication","Problem-solving","Mathematics","Active listening","Critical thinking","Time management","Coordination","Systems analysis","Attention to detail","Observation","Patience","Far vision","Arm-hand steadiness","Decision-making"
+        ]
+    },
+    {
+        "job_name": "Chief Executive",
+        "job_description": "Chief executives provide overall direction to companies and organisations. They devise and implement policies, procedures and strategies to ensure the company's goals are met.",
+        "skill": [
+            "Accounting software","Workflow software","Management software","Industry regulations and laws","Economics","Psychology","Social perception","Active listening","Negotiation","Leadership","Teamwork","Critical thinking","Problem-solving","Decision-making","Time management","Writing","Social orientation","Adaptability","Persistence","Initiative"
+        ]
+    },
+    {
+        "job_name": "Financial Manager",
+        "job_description": "Financial managers oversee all aspects of an organisation's financial activities, including accounting, budgeting and investing. They monitor all financial transactions to assure they comply with legal requirements. Financial managers also compile business and financial reports and create forecast models. They advise management on cost-cutting measures, investment strategies and expansion opportunities.",
+        "skill": [
+            "Economics","Mathematics","Accounting","Government regulations","Critical thinking","Problem-solving","Active listening","Communication","Time management","Decision-making","Leadership","Teamwork","Stress tolerance","Attention to detail","Dependability","Integrity"
+        ]
+    },
+    {
+        "job_name": "Lawyer",
+        "job_description": "Lawyers are licensed professionals who advise and represent clients – individuals, businesses or governments – in legal matters. They may specialise in a particular legal area – such as tax, intellectual property, corporate, immigration or family law – or practise law across many different areas.",
+        "skill": [
+            "Problem-solving","Research","Interpersonal","Analytical thinking","Active listening","Communication","Attention to detail","Time management","Legal knowledge"
+        ]
+    },
+    {
+        "job_name": "Green Marketer",
+        "job_description": "Green marketers are in charge of advertising, marketing and promoting environmentally friendly goods and services. Working with a diverse array of experts, from graphic designers to sales agents, they try to sell new and expensive green products to the consuming public through various campaigns, community activities and industry conferences.",
+        "skill": [
+            "Analytical","Creativity","Attention to detail","Tech-savviness","Numerical","Organisational","Decision-making","Communication","Computer knowledge"
+        ]
+    },
+    {
+        "job_name": "Surgeon",
+        "job_description": "Surgeons treat injuries, diseases and physical deformities through operations. Using a variety of instruments, tools and devices, they repair bone and tissue after injury, correct deformities and perform preventative or elective surgeries on patients.",
+        "skill": [
+            "Anatomy","Biology","Mathematics","Psychology","Active listening","Problem-solving","Critical thinking","Monitoring","Social perceptiveness","Coordination","Manual dexterity","Service orientation","Visualisation","Attention to detail","Stress tolerance","Dependability","Integrity","Time management","Persistence","Initiative","Leadership","Compassion"
+        ]
+    },
+    {
+        "job_name": "Marketing Manager",
+        "job_description": "Marketing managers research, assess and determine product demand and concentrate on the practical application of marketing methods in companies with their available resources. This professional controls all the market activity – promotion, research and strategies – of the marketing department and is in charge of a product, service or brand.",
+        "skill": [
+            "Creativity","Communication","Leadership","Attention to detail","Commercial awareness","Organisation","Tech-savvy","Negotiation","Collaboration","Bookkeeping","Multitasking","Networking"
+        ]
+    },
+    {
+        "job_name": "Compensation Manager",
+        "job_description": "Compensation and benefits managers plan, develop and administer programmes to pay and compensate employees. They set a company’s pay and benefits structure and ensure that it is current, competitive and in compliance with legal regulations.",
+        "skill": [
+            "Mathematics","Organisational","Analytical","Business","Communication","Decision-making","Leadership","Sales","Customer service"
+        ]
+    },
+    {
+        "job_name": "Astronaut",
+        "job_description": "Astronauts serve as either pilots or commanders on a space shuttle. They manage the spacecraft, oversee the crew and ensure the safety of the flight. In addition, they may perform a wide array of tasks aboard the International Space Station (ISS), including completing scientific research in a microgravity environment.",
+        "skill": [
+            "Numerical","Analytical thinking","Communication","Physical stamina","Problem-solving","Teamwork","Leadership","Adaptability","Mental endurance","Independence","Good eyesight"
+        ]
+    },
+    {
+        "job_name": "Hr Manager",
+        "job_description": "HR managers oversee and manage the human resources department of a company. Their work involves handling employee-related services, regulatory compliance and employee relations, among other things.",
+        "skill": [
+            "Active listening","Communication","Interpersonal","Decision-making","Problem-solving","Organisational","Speaking","Organisational","Attention to detail","Coordination","Negotiation","Time management","Business management","Leadership","Teamwork","Hr and employment law","Psychology","Hr software"
+        ]
+    },
+    {
+        "job_name": "Broadcast News Analyst",
+        "job_description": "Broadcast news analysts gather multiple sources related to a story and examine, analyse and interpret the news as objectively as possible. This position will also entail penning columns, commentaries or scripts prior to going on air as an anchor for news broadcast programmes on television, radio or online channels.",
+        "skill": [
+            "Communication","Attention to detail","Organisational","Time management","Critical thinking","Analytical","Independent thinking","Teamwork","Tech savviness","Creativity","Memorisation","Stamina"
+        ]
+    },
+    {
+        "job_name": "Training & Development Manager",
+        "job_description": "Training and development managers plan and supervise continuing education activities for employees of an organisation. This can include programmes to update their technology skill, learn new laws related to their profession or work on team building.",
+        "skill": [
+            "Education and training","Personnel and human resources","Communications and media","Presentation and conferencing software","Psychology","Critical thinking","Active listening","Social perceptiveness","Persuasion","Writing","Communication","Teamwork","Time management","Public speaking","Organisational","Leadership","Initiative"
+        ]
+    },
+    {
+        "job_name": "Physicist",
+        "job_description": "Physicists study and research the behaviour and properties of energy and matter. They perform experiments to test theories, do complex mathematical calculations for data analysis, or design new scientific equipment such as microscopes and lasers.",
+        "skill": [
+            "Analytical","Communication","Critical thinking","Curiosity","Interpersonal","Mathematics","Computer software","Problem-solving","Attention to detail","Self-discipline"
+        ]
+    },
+    {
+        "job_name": "Judge",
+        "job_description": "Judges uphold the law by analysing and interpreting all the evidence presented in a court of law. Along with the jury, a judge ensures that justice is served by dictating a fair verdict and determining a sentence relevant to the crime. A judge can also act as a referee in litigation, render a decision in legal quandaries and rule on questions of the law.",
+        "skill": [
+            "Critical reasoning","Communication","Patience","Objectivity","Conflict resolution","Leadership","Interpersonal","Analytical","Reading comprehension","Organisational","Critical thinking","Decision-making","Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Palaeontologist",
+        "job_description": "Palaeontologists study the fossils of animals, plants, bacteria, fungi and other single-celled organisms. They often specialise in a particular area of palaeontology such as vertebrate or invertebrate palaeontology, ichnology, palaeobotany and taphonomy. Typical employers include museums, universities, government agencies, consulting organisations, oil and gas companies, and even TV or film productions.",
+        "skill": [
+            "Mathematics","Geography","Analytical thinking","Communication","Attention to detail","Patience","Scientific software","Active listening","Time management","Coordination","Problem-solving","Deductive reasoning","Chemistry","Cad software","Writing","Decision-making","Critical thinking","Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Geoscientist",
+        "job_description": "Geoscientists study all aspects of the structure and composition of the Earth. They use simple, mechanical and technological tools to scan for, collect and evaluate natural resources. Geoscientists examine physical samples and observe Earth processes to understand the past and predict future events. Geoscientist specialists focus on certain aspects of the Earth such as its oceans, minerals or seismic activity.",
+        "skill": [
+            "Mathematics","Physics","Scientific software","Mapping software","Cad software","Reading comprehension","Critical thinking","Deductive reasoning","Problem-solving","Writing","Coordination","Physical stamina","Outdoor survival","Patience"
+        ]
+    },
+    {
+        "job_name": "Purchasing Manager",
+        "job_description": "Purchasing managers plan, coordinate and supervise the activities of buyers, purchasing agents and related staff. They oversee the purchase of goods and services that businesses use or resell.",
+        "skill": [
+            "Maths","Accounting","Inventory management software","Project management software","Contract and import laws","Critical thinking","Problem-solving","Negotiation","Persuasion","Time management","Reading comprehension","Organisational","Leadership","Teamwork","Adaptability","Attention to detail","Dependability","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Actuary",
+        "job_description": "Actuaries gather data and analyze statistic to calculate, measure and manage insurance risks, premiums and uncertainties that can impact assets, liabilities, valuations and balance sheets. This business professional will develop, outline and communicate solutions to intricate problems for multiple industries, ranging from insurance to consulting.",
+        "skill": [
+            "Attention to detail","Analytical","Research","Numeracy","Computer literacy","Communication","Problem-solving","Interpersonal","Management","Leadership","Creativity","Independence","Teamwork","Self-motivation"
+        ]
+    },
+    {
+        "job_name": "Air Traffic Controller",
+        "job_description": "Air traffic controllers liaise closely with pilots and other aviation professionals to monitor and manage airspaces and airport runways, identify potential hazards, and ensure collision risks are minimised. It is a technical and complex role with zero margin for error and can, therefore, be highly demanding.",
+        "skill": [
+            "Communication","Decision making","Attention to detail","Concentration","Multitasking","Problem-solving","Alertness","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Postsecondary Teacher",
+        "job_description": "Postsecondary teachers instruct and educate students in postsecondary schools such as colleges or universities. They specialise and teach courses in their subject area, whether it be maths, science or history. Some postsecondary teachers conduct research and/or experiments, publish scholarly papers and books based on their specialisation, and attend professional conferences to develop knowledge in their field.",
+        "skill": [
+            "Teaching","Communication","Listening","Interpersonal","Attention to detail","Critical thinking","Resourcefulness","Writing"
+        ]
+    },
+    {
+        "job_name": "Sales Manager",
+        "job_description": "Sales managers direct and oversee the sales representatives of an organisation. They’re responsible for devising plans, goals and strategies for the sales department and aim to acquire new customers or clients and increase business revenue.",
+        "skill": [
+            "Customer service","Interpersonal","Communication","Listening","Problem-solving","Attention to detail","Analytical","Leadership","Persuasion"
+        ]
+    },
+    {
+        "job_name": "Art Director",
+        "job_description": "Art directors are responsible for the visual design concepts and presentation strategies in media, including print, advertising, television and film. They direct staff who develop artwork, photos, logos and other creative elements according to the client's overall vision and goals. Art directors can design everything from movie sets and advertising layouts to book covers and websites.",
+        "skill": [
+            "Cad software","Graphics and photo imaging software","Project management software","Fine arts","Sociology","Creativity","Communication","Leadership","Time management","Organisational","Sales","Problem-solving","Attention to detail","Social perceptiveness","Persuasion","Writing"
+        ]
+    },
+    {
+        "job_name": "Chemical Engineer",
+        "job_description": "Chemical engineers use the principles of chemistry and engineering – and other sciences – to research, develop and manufacture raw materials and turn them into a wide range of usable products, such as chemicals, drugs, energy and food. Their work also involves designing and operating plants and equipment.",
+        "skill": [
+            "Communication","Commercial awareness","Time management","Adaptability","Negotiation","Cooperative","Creativity","Methodological","Analytical"
+        ]
+    },
+    {
+        "job_name": "Film & Video Editor",
+        "job_description": "Film and video editors compile and arrange footage shot by camera operators. They may also edit and sync the soundtrack to the final images. Film and video editors consult with the director on editing techniques and the overall vision for the project, they then edit individual scenes and their order to more clearly convey a story that informs or entertains.",
+        "skill": [
+            "Communications and media","Film editing equipment","Film editing software","Active listening","Reading comprehension","Attention to detail","Creativity","Critical thinking","Problem-solving","Communication","Decision-making","Time management","Writing","Information ordering","Patience","Teamwork","Leadership"
+        ]
+    },
+    {
+        "job_name": "Financial Analyst",
+        "job_description": "Financial analysts make investment recommendations to individuals and businesses. They follow economic trends, evaluate current and historical financial data, and assess the value of individual companies. They may specialise in a geographical region, type of product or one of 11 stock sectors like healthcare or energy.",
+        "skill": [
+            "Data and financial analysis software","Information retrieval software","Economics","Mathematics","Foreign languages","Reading comprehension","Critical thinking","Decision-making","Selective attention","Problem-solving","Communication","Teamwork","Initiative","Time management","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Systems Software Developer",
+        "job_description": "Systems software developers plan, design, develop and test the operating systems of electronics such as computers, cell phones and cars. They design and implement the mechanics and technicalities behind a system, and ensure electronics continue to function through maintenance and testing.",
+        "skill": [
+            "Technical","Mathematics","Dexterity","Organisational","Analytical","Attention to detail","Leadership","Creativity","Communication"
+        ]
+    },
+    {
+        "job_name": "Astronomer",
+        "job_description": "Astronomers are scientists who try to understand how the universe functions. They study planets and the Sun in our solar system, but they also research other solar systems, moons, galaxies, stars, comets, other celestial bodies and the entire universe.",
+        "skill": [
+            "Patience","Attention to detail","Communication","Concentration","Problem-solving","Decision-making","Methodological","Analytical-oriented"
+        ]
+    },
+    {
+        "job_name": "Administrative Services Manager",
+        "job_description": "Administrative services managers plan, coordinate and oversee the administrative and supportive services of a company. They are responsible for recordkeeping, mail distribution, facility maintenance, security, budget planning and ensuring that company operations and employees are running smoothly.",
+        "skill": [
+            "Organisational","Analytical","Planning","Coaching","Communication","Attention to detail","Leadership","Critical thinking","Problem-solving","Computer software"
+        ]
+    },
+    {
+        "job_name": "Sales Engineer",
+        "job_description": "Sales engineers promote and sell technical, scientific and mechanical materials to businesses. They collaborate with the sales team of an organisation to determine customer requirements and develop the appropriate sales strategy.",
+        "skill": [
+            "Sales","Customer service","Interpersonal","Persuasion","Communication","Problem-solving","Self-confidence","Technical","Mechanical","Scientific knowledge"
+        ]
+    },
+    {
+        "job_name": "Director",
+        "job_description": "Directors craft motion pictures, television shows, music videos or commercials and control a filming crew’s artistic, dramatic and technical aspects. Their main job is to visualise a screenplay and guide cast members and crew to ensure that vision is realised. For the most part, directors play a key role in selecting actors and key technical members, as well as putting together the production design.",
+        "skill": [
+            "Creativity","Leadership","Communication","Attention to detail","Organisational","Memorisation","Interpersonal","Problem-solving","Decision-making","Analytical thinking","Budgeting","Time management"
+        ]
+    },
+    {
+        "job_name": "Producer",
+        "job_description": "Producers oversee all aspects of a movie, television, stage, radio or other performing arts production. They raise money for the project, set the budget, as well as hire the director, editors and other staff.",
+        "skill": [
+            "Graphics software","Music editing software","Project management software","Communications and media","Critical thinking","Active listening","Reading comprehension","Leadership","Time management","Decision-making","Problem-solving","Social perceptiveness","Negotiation","Creativity","Stress tolerance","Attention to detail","Adaptability","Dependability","Initiative","Marketing"
+        ]
+    },
+    {
+        "job_name": "Talent Director",
+        "job_description": "Talent directors find, interview and audition performers needed for television, movie, radio or stage productions. They scout prospective talent by consulting with agents, attending or viewing performances, and holding open auditions.",
+        "skill": [
+            "Fine arts","Communications and media","Active listening","Social perceptiveness","Monitoring","Reading comprehension","Time management","Negotiation","Writing","Problem-solving","Creativity","Attention to detail","Initiative","Integrity","Stress tolerance","Adaptability","Teamwork","Psychology"
+        ]
+    },
+    {
+        "job_name": "Computer Network Architect",
+        "job_description": "Computer network architects design, construct and install data communication networks, such as Intranets, local area networks (LANs) and wide-area networks (WANs). Their role also entails understanding the business model and objective of the company they work for to ensure that the network can facilitate the organisation’s mission.",
+        "skill": [
+            "Analytical","Tech-savvy","Attention to detail","Communication","Leadership","Teamwork","Decision-making","Organisational","Creativity","Numerical","Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Aerospace Engineer",
+        "job_description": "Aerospace engineers design, construct and test aircraft, missiles, satellites and spacecraft. They may evaluate materials for future use in aviation, astronautics and defence, as well as create and analyse prototypes. Aerospace engineers also develop testing equipment and protocols for aircraft and spacecraft safety. The complexity of aerospace design requires extensive collaboration; specialisation in structural design, guidance systems, robotics, propulsion and other areas is encouraged.",
+        "skill": [
+            "Complex mathematics","Computer aided design (cad) software","Analytical software","Scientific software","Physics","Critical thinking","Problem-solving","Active listening","Reading comprehension","Emotional control","Stress tolerance","Communication","Teamwork","Technical writing","Initiative","Leadership"
+        ]
+    },
+    {
+        "job_name": "Construction Manager",
+        "job_description": "Construction managers plan, budget, organise and oversee all aspects of construction projects. This can include residential, commercial or public structures as well as memorials, roads and bridges. Construction managers collaborate with architects, engineers, trade workers, city inspectors and other construction professionals. They hire subcontractors, respond to work delays and emergencies, and comply with all building and safety codes.",
+        "skill": [
+            "Cad software","Accounting software","Building and construction","Building and safety codes","Active listening","Critical thinking","Problem-solving","Teamwork","Leadership","Negotiation","Time management","Communication","Attention to detail","Stress tolerance","Adaptability","Initiative","Dependability"
+        ]
+    },
+    {
+        "job_name": "Veterinarian",
+        "job_description": "Veterinarians are licensed medical professionals who protect the health and wellbeing of animals and people. They do this by diagnosing and treating the injuries and illnesses of a range of animals, including domestic pets, livestock and other animals.",
+        "skill": [
+            "Communication","Compassion","Decision-making","Problem-solving","Customer service","Attention to detail","Manual dexterity","Patience"
+        ]
+    },
+    {
+        "job_name": "Nuclear Engineer",
+        "job_description": "Nuclear engineers research and develop new processes, instruments and technologies to utilise nuclear energy and radiation. This includes working on advancements in medical imaging, cancer treatment and spacecraft propulsion. Nuclear engineers also design and monitor nuclear power plants and develop guidelines for waste disposal.",
+        "skill": [
+            "Engineering and technology","Mathematics","Chemistry and physics","Safety standards","Critical thinking","Attention to detail","Problem-solving","Reading comprehension","Design","Systems analysis","Communication","Teamwork","Writing","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Pharmacist",
+        "job_description": "Pharmacists dispense drugs to patients, following prescriptions from physicians and other healthcare providers. They instruct patients on the correct dosage for medications and how to take them.",
+        "skill": [
+            "Scientific and medical software","Inventory management software","Chemistry","Psychology","Active listening","Service orientation","Communication","Time management","Attention to detail","Critical thinking","Problem-solving","Organisational","Reading comprehension","Leadership"
+        ]
+    },
+    {
+        "job_name": "Logistics Manager",
+        "job_description": "Logistics managers are responsible for planning, directing and overseeing the movement, distribution and storage of a company’s goods. They’re also in charge of supervising purchasing, warehousing, forecasting and customer service to ensure materials meet customers on time.",
+        "skill": [
+            "Organisational","Attention to detail","Interpersonal","Communication","Planning","Problem-solving","Critical thinking","Leadership","Instructional"
+        ]
+    },
+    {
+        "job_name": "Transportation Manager",
+        "job_description": "Transportation managers plan, direct and coordinate logistics related to transporting people or goods. They oversee staff responsible for dispatching, routing and tracking transportation vehicles such as trucks, trains or aircraft.",
+        "skill": [
+            "Accounting software","Calendar and scheduling software","Project management software","Customer service","Public safety","Customs and environmental regulations","Geography","Reading comprehension","Critical thinking","Problem-solving","Adaptability","Creativity","Time management","Operations analysis","Information ordering","Decision-making","Attention to detail","Stress tolerance","Dependability","Integrity"
+        ]
+    },
+    {
+        "job_name": "Information Security Analyst",
+        "job_description": "Information security analysts are in charge of installing, monitoring, operating and protecting computer networks at private companies, public agencies and non-profit organisations to ensure security breaches and a wide array of other cybersecurity incidents do not happen. This position can work with computer systems in any industry, from finance to marketing to government departments.",
+        "skill": [
+            "Attention to detail","Analytical","Communication","Creativity","Problem-solving","Independence","Teamwork","Curiosity","Ethical hacking","Situational awareness","Networking","Persistence","Leadership"
+        ]
+    },
+    {
+        "job_name": "Fashion Designer",
+        "job_description": "Fashion designers are skilled professionals who design clothing, shoes, accessories and footwear. They do this by creating unique sketches by hand or through CAD software, selecting fabrics and overseeing the entire production line in fashion houses.",
+        "skill": [
+            "Communication","Critical thinking","Problem-solving","Decision-making","Creative thinking","Organisation","Attention to detail","Physical stamina","Patience"
+        ]
+    },
+    {
+        "job_name": "Musician",
+        "job_description": "Musicians write and/or play music using a variety of instruments such as a guitar or piano. They sometimes perform music for live audiences or recordings. Musicians usually specialise in a particular genre of music, whether it be rock, jazz, or classical. They are typically part of a band or an orchestra, or they play solo.",
+        "skill": [
+            "Musical talent","Dexterity","Listening","Interpersonal","Sales","Dedication","Discipline","Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Acquisitions Manager",
+        "job_description": "An acquisitions manager is a professional who searches, organises, negotiates and completes purchases or takeovers of a company by their employer. The position involves finding suitors, analysing deals, determining if a deal suits the mission statement of the buyer, and developing and implementing an acquisitions strategy to ensure the synergies will be successful moving forward.",
+        "skill": [
+            "Leadership","Problem-solving","Communication","Numerical","Analytical","Negotiation","Organisational","Time management","Multitasking","Teamwork","Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Electrical Engineer",
+        "job_description": "Depending on their qualifications and interest, electrical engineers can work in a variety of public, commercial and manufacturing roles. They apply their knowledge of circuitry and engineering concepts to build smartphones, implement electrical systems in cars and other vehicles, and even run entire national power grids.",
+        "skill": [
+            "Advanced numeracy","Problem-solving","Communication","Organisation","Programming","Scientific knowledge","Attention to detail","Teamwork","Leadership","Commercial awareness","Multitasking"
+        ]
+    },
+    {
+        "job_name": "Management Analyst",
+        "job_description": "Management analysts help businesses make operations run more efficiently and effectively. By conducting studies, performing evaluations, designing procedures and preparing operational manuals, a management analyst can propose a wide range of solutions to improve operations, from work simplification to streamlining day-to-day activities.",
+        "skill": [
+            "Attention to detail","Communication","Interpersonal","Leadership","Time management","Organisational","Decision-making","Problem-solving","Creativity","Analytical","Critical thinking","Risk management","Coordination"
+        ]
+    },
+    {
+        "job_name": "Singer",
+        "job_description": "Singers are trained musicians who are able to read and interpret musical compositions. They then apply their tone and style and use their vocal range to add individuality and uniqueness to a song which they perform in a recording studio or in front of a live audience.",
+        "skill": [
+            "Patience","Perseverance","Attention to detail","Communication","Physical stamina","Interpersonal","Problem-solving","Customer service","Active listening","Memorisation","Hearing sensitivity","Speech clarity","Critical thinking"
+        ]
+    },
+    {
+        "job_name": "Chiropractor",
+        "job_description": "Chiropractors diagnose and treat issues with the spine, nerves, muscles and other elements of the neuromusculoskeletal system. They use manual spinal adjustments, manipulation, massage and other treatments to address pain, headaches and other health problems.",
+        "skill": [
+            "Physiology","Neuroscience","Psychology","Active listening","Reading comprehension","Critical thinking","Problem-solving","Coordination","Physical strength","Empathy","Social perceptiveness","Integrity","Attention to detail","Initiative"
+        ]
+    },
+    {
+        "job_name": "Maritime Pilot",
+        "job_description": "Maritime pilots command ships by steering them in and out of harbours or river mouths. Using their extensive knowledge of waterways – currents, depths and hazards – they operate the boat to navigate through berths, dangerous waters and traffic.",
+        "skill": [
+            "Communication","Problem-solving","Analytical","Judgment","Quick thinking","Teamwork","Leadership","Navigation","Critical thinking","Decision-making","Tech-savviness","Numerical","Hand-eye coordination","Stamina"
+        ]
+    },
+    {
+        "job_name": "Web Administrator",
+        "job_description": "In addition to the technical design and development of websites, web administrators are responsible for setting up a web host, establishing mail services, configuring access for users, modifying back-end components and connecting databases. Their job involves working with programming languages. The main goal is to increase the efficiency and speed of websites.",
+        "skill": [
+            "Numerical","Tech-savviness","Problem-solving","Analytical","Creativity","Attention to detail","Decision-making","Time management","Organisational","Independence","Teamwork","Resourcefulness"
+        ]
+    },
+    {
+        "job_name": "It Project Manager",
+        "job_description": "IT project managers are responsible for the planning, designing, installing and monitoring of information technologies. Using a defined and supported technological strategy, they lead, delegate and supervise the work completed by technical staff. Their work consists of tracking the progress of user departments and data centres to ensure corporate standards, cost targets and deadlines are met.",
+        "skill": [
+            "Analytical","Numerical","Decision-making","Problem-solving","Tech-savviness","Leadership","Teamwork","Time management","Communication","Interpersonal","Negotiation","Critical thinking","Organisational","Risk management"
+        ]
+    },
+    {
+        "job_name": "Database Architect",
+        "job_description": "Database architects construct, maintain and update enterprise database systems. By establishing its structure and working with administrators and analysts, they set standards, install solutions and integrate new systems with the current framework and modify performance and functionality to improve user experience.",
+        "skill": [
+            "Numerical reasoning","Analytical thinking","Attention to detail","Communication","Tech-savvy","Leadership","Teamwork","Problem-solving","Decision-making","Creativity","Time management","Organisational","Negotiation"
+        ]
+    },
+    {
+        "job_name": "Principal",
+        "job_description": "Principals work in elementary, middle and high schools, as well as pre-schools, daycares, colleges and universities, the entire year. He or she will manage public and private school operations and other daily activities.",
+        "skill": [
+            "Communication","Leadership","Teamwork","Emotional intelligence","Dedication","Problem-solving","Interpersonal","Observational","Consistent","Organisational","Good memory","Visionary","Judgement"
+        ]
+    },
+    {
+        "job_name": "Civil Engineer",
+        "job_description": "A civil engineer will apply physical and scientific principles to plan, design, construct, maintain, operate and supervise infrastructure projects and systems. Whether it is the public or private sector, a civil engineer will work on roads, airports, bridges, tunnels and dams. This position also includes developing systems for water supply and sewage treatment.",
+        "skill": [
+            "Attention to detail","Organisational","Teamwork","Leadership","Communication","Numeracy","Problem-solving","Negotiation","Management","Critical thinking","Creativity","Time management","Commitment","Enthusiasm"
+        ]
+    },
+    {
+        "job_name": "Product Safety Engineer",
+        "job_description": "Product safety engineers develop and conduct testing to evaluate a product’s potential to cause illness, injury or property damage. They recommend redesign and material upgrades and other measures to reduce danger to consumers. They may also consult on product usage and precautionary labelling and instructions.",
+        "skill": [
+            "Reading comprehension","Writing","Critical thinking","Problem-solving","Monitoring","Systems analysis","Visualisation","Creativity","Initiative","Teamwork","Integrity","Attention to detail","Stress tolerance","Design","Law and government","Chemistry","Physics","Mathematics"
+        ]
+    },
+    {
+        "job_name": "Fitness & Wellness Coordinator",
+        "job_description": "Fitness and wellness coordinators work in a gym or and health facility where they manage its fitness and wellness programmes and services, including classes, seminars and special events.",
+        "skill": [
+            "Communication","Customer service","Motivational","Active listening","Problem-solving","Physical fitness","Coordination","Critical thinking","Social perceptiveness","Time management","Negotiation","Persuasion","Deductive reasoning"
+        ]
+    },
+    {
+        "job_name": "QA Engineer",
+        "job_description": "QA engineers test software to assess its design and functionality before its official launch. They identify problems and their causes, and assist developers in finding solutions.",
+        "skill": [
+            "Program testing software","Project management software","Database management software","Mathematics","Computer engineering","Critical thinking","Programming","Reading comprehension","Active listening","Monitoring","Problem-solving","Systems analysis","Time management","Attention to detail","Teamwork","Adaptability","Persistence"
+        ]
+    },
+    {
+        "job_name": "Intelligence Analyst",
+        "job_description": "Intelligence analysts collect, isolate, analyse and evaluate vital information obtained through surveillance, investigation, intelligence networks and geographic information systems reports. They report, anticipate or prevent organised crime efforts, such as drug trafficking, car theft rings and terrorism.",
+        "skill": [
+            "Analytical","Communication","Critical thinking","Deductive reasoning","Interviewing","Problem-solving","Decision-making","Interpersonal","Foreign languages","Organisational","Creativity","Teamwork","Independence"
+        ]
+    },
+    {
+        "job_name": "Database Administrator",
+        "job_description": "Database administrators utilise special software to store and organise data and records, such as customer shipping records, financial information and employee hours. The position often entails database design, performance monitoring, installation and configuration, and data recovery and security. Database administrators ensure that the data they are responsible for is secure from unauthorised access.",
+        "skill": [
+            "Attention to detail","Critical thinking","Communication","Problem-solving","Creativity","Analytical","Programming","Active listening","Time management","Teamwork","Deductive reasoning","Mathematical reasoning"
+        ]
+    },
+    {
+        "job_name": "Architect",
+        "job_description": "Architects plan and design new buildings and suggest alterations to existing buildings, including houses, office buildings, factories, shopping centres and other structures. They can be commissioned to design anything from a single room to an entire complex of buildings.",
+        "skill": [
+            "Analytical","Creative","Attention to detail","Organisational","Time management","Communication","Adaptive","Decision-making","Dependable","Persistence","Visualisation","Stress tolerance","Problem-solving","Mathematics","Persuasion","Cad software"
+        ]
+    },
+    {
+        "job_name": "Aquacultural Manager",
+        "job_description": "Aquacultural managers supervise staff by coordinating, directing, monitoring and supporting fish hatchery production for businesses, cooperatives and public departments or agencies. Their primary task is to ensure that fish and shellfish are grown as cash crops and released into freshwater or saltwater by utilising output and environmental data.",
+        "skill": [
+            "Critical thinking","Communication","Leadership","Numerical","Negotiation","Problem-solving","Organisational","Teamwork","Interpersonal","Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Nursery Manager",
+        "job_description": "Nursery managers are responsible for the day-to-day operations of a nursery by planning, organising, supervising, controlling and directing horticultural or botany activities related to flowers, mushrooms and trees. A nursery manager will also take a hands-on approach to grow and cultivate plants for sale, display or research.",
+        "skill": [
+            "Management","Researching","Leadership","Communication","Organisational","Interpersonal","Recordkeeping","Teamwork","Critical thinking","Problem-solving","Decision-making","Analytical","Tech-savviness"
+        ]
+    },
+    {
+        "job_name": "Mechanical Engineer",
+        "job_description": "Mechanical engineers research, plan and design engines, machines, sensors and other mechanically functioning equipment. They oversee building, installation and testing, including large-scale appliances and machinery such as air, heating, water, steam and gas systems.",
+        "skill": [
+            "Reading comprehension","Systems analysis","Problem-solving","Creativity","Information ordering","Problem sensitivity","Attention to detail","Adaptability","Initiative","Persistence","Teamwork","Mathematics","Physics","Design","Analytical software","Scientific software","Cad software","Project management software"
+        ]
+    },
+    {
+        "job_name": "Environmental Engineer",
+        "job_description": "Environmental engineers use the principles of engineering to respond to a diverse array of environmental issues, such as waste management, effluent disposal, pollution control and site remediation. By preventing, controlling and resolving an environmental mishap, they can determine if a private enterprise or a public outfit is complying with public regulations established by the government.",
+        "skill": [
+            "Communication","Analytical","Attention to detail","Patience","Numerical","Tech-savviness","Organisational","Time management","Creativity","Teamwork","Independence","Leadership","Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Farm Manager",
+        "job_description": "Farm managers plan, organise, supervise and administer daily activities on farm estates. This can include anything from purchasing livestock to buying farm equipment as well as organising sales of agricultural products. They are also in charge of the farm’s financial and marketing activities.",
+        "skill": [
+            "Physical stamina","Analytical","Problem-solving","Decision-making","Numerical","Communication","Leadership","Teamwork","Time management","Organisational","Critical thinking"
+        ]
+    },
+    {
+        "job_name": "Water Engineer",
+        "job_description": "Water engineers design and oversee construction and operations of all systems involving water and wastewater. This includes projects for distribution of drinking water, flood water reservoirs and sewage treatment.",
+        "skill": [
+            "Critical thinking","Problem-solving","Visualisation","Systems analysis","Monitoring","Reading comprehension","Writing","Time management","Attention to detail","Leadership","Teamwork","Creativity","Analytical software","Scientific software","Cad software","Project management software","Building and construction","Biology","Chemistry","Mathematics","Law and government"
+        ]
+    },
+    {
+        "job_name": "Computer Programmer",
+        "job_description": "Computer programmers write, modify and test code to produce software applications using a wide variety of coding languages, such as C++ and Java. Working with various other coders and developers, they propose and design programs that perform specific tasks, like tracking inventory, storing data, writing documents or controlling equipment.",
+        "skill": [
+            "Analytical thinking","Numerical reasoning","Attention to detail","Communication","Time management","Teamwork","Problem-solving","Memorisation","Self-motivation","Creativity"
+        ]
+    },
+    {
+        "job_name": "Gaming Manager",
+        "job_description": "Gaming managers direct, operate and oversee gaming staff and operations in gambling establishments. They ensure that operations at gaming tables run smoothly and that customers are satisfied with the services. Gaming managers observe customers and employees to ensure they comply with all gaming rules and regulations. They also explain gaming operating rules and make sure payouts are correct. Some gaming managers also interview and train new employees.",
+        "skill": [
+            "Observational","Interpersonal","Communication","Organisational","Customer service","Leadership","Mathematical","Patience"
+        ]
+    },
+    {
+        "job_name": "Microbiologist",
+        "job_description": "Microbiologists study microorganisms and the various subdisciplines of microbiology, including algae, bacteria, fungi, viruses and many types of parasites. The purpose of this position is to better understand how these organisms live, thrive and interact with their environments. Microbiologists will collaborate on a research team with other scientists and technicians to improve medical treatments and food supplies and to contribute to alternative energy sources.",
+        "skill": [
+            "Attention to detail","Communication","Teamwork","Concentration","Patience","Independence","Analytical","Mathematics","Organisational","Planning","Managing","Tech-savviness"
+        ]
+    },
+    {
+        "job_name": "Industrial Engineer",
+        "job_description": "Industrial engineers create systems to streamline production or administrative processes, eliminating waste and utilising materials, facilities and workers for optimum efficiency. They study every aspect of the business, from production schedules to process flow to quality control.",
+        "skill": [
+            "Critical thinking","Creativity","Problem-solving","Reading comprehension","Active listening","Writing","Speaking","Time management","Social perceptiveness","Systems analysis","Information ordering","Selective attention","Attention to detail","Adaptability","Teamwork","Leadership","Analytical software","Scientific software","Cad software","Project management software","Mathematics","Science"
+        ]
+    },
+    {
+        "job_name": "Loan Officer",
+        "job_description": "Loan officers review, advise and approve loan applications for people and businesses. They meet with applicants to evaluate and verify their financial information, answer questions and guide them through the application process.",
+        "skill": [
+            "Sales","Customer service","Interpersonal","Decision-making","Attention to detail","Initiative","Organisational","Computer software"
+        ]
+    },
+    {
+        "job_name": "Actor",
+        "job_description": "Actors use speech, gesture, facial expression and physical movement to portray characters on film, television, stage, radio or other media and venues. They follow and interpret a writer's script to play a specific role in a story meant to entertain, educate or inform an audience. Actors may specialise in a particular medium or in dramatic, comedic or musical works.",
+        "skill": [
+            "Creativity","Dramatic arts","Persistence","Memorisation","Reading comprehension","Improvisation","Physical stamina","Physical coordination","Psychology","Public speaking","Active listening","Social perceptiveness","Problem-solving","Teamwork","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Insurance Sales Agent",
+        "job_description": "Insurance sales agents work for insurance firms or serve as independent brokers to sell automobile, health, home and life insurance to clients. They compile personal information about clients and devise profiles to determine what is the best product for them.",
+        "skill": [
+            "Analytical","Communication","Interpersonal","Independence","Time management","Sales","Organisational","Problem-solving","Decision-making","Customer service","Adaptability","Honesty","Emotional intelligence"
+        ]
+    },
+    {
+        "job_name": "Web Developer",
+        "job_description": "Web developers produce websites by coding, designing and laying out an organisation’s webpages. They’re responsible for implementing content, graphics, applications and overall performance and capacity. With experience in graphic design and computer programming, they utilise software to convert written, audio, graphic and video content into web formats.",
+        "skill": [
+            "Creativity","Attention to detail","Communication","Independence","Problem-solving","Decision-making","Tech-savviness","Analytical","Numerical","Concentration","Customer service","Time management","Organisational"
+        ]
+    },
+    {
+        "job_name": "Animator",
+        "job_description": "Animators produce moving images that provide information or depict stories for motion pictures, television series, video games, commercials and other media. Using computers, software and other digital tools, and collaborating with colleagues and clients, they create storyboards and design and refine animations.",
+        "skill": [
+            "Creativity","Attention to detail","Communication","Tech savviness","Independence","Time management","Multitasking","Teamwork","Customer service","Design","Cad software"
+        ]
+    },
+    {
+        "job_name": "Sustainability Specialist",
+        "job_description": "Sustainability specialist work with organisations to consider their environmental impact, identify waste inside the company and institute sustainability strategies across the business. They oversee the development of mechanisms that not only meet environmental regulatory mandates but also establish long-term programmes that help transition to be greener.",
+        "skill": [
+            "Analytical","Communication","Attention to detail","Problem-solving","Decision-making","Judgment","Leadership","Resourcefulness","Organisational","Critical thinking","Tech-savviness","Creativity"
+        ]
+    },
+    {
+        "job_name": "Investment Underwriter",
+        "job_description": "Investment underwriters work with private companies who want to go public and sell shares of their company stock, also known as an initial public offering (IPO), by determining the price of a firm’s IPO stock. They manage communications between corporate issuers of securities and clients pertaining to private equity investments by contacting potential investors, such as mutual funds or insurance firms, and negotiating and structuring the terms and conditions of mergers and acquisitions.",
+        "skill": [
+            "Analytical","Numerical","Communication","Project management","Teamwork","Independence","Organisational","Time management","Negotiation","Tech-savviness","Data-driven","Research","Risk management and assessment"
+        ]
+    },
+    {
+        "job_name": "Auditor",
+        "job_description": "Auditors check, prepare and arrange the financial records and documentations of an individual or company. They’re responsible for the payment of accurate and timely taxes and ensuring financial operations are functioning smoothly.",
+        "skill": [
+            "Mathematics","Computer software","Analytical","Communication","Attention to detail","Organisational","Critical thinking","Writing","Time management","Negotiation","Coordination","Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Labour Relations Specialist",
+        "job_description": "Labour relations specialists act as a liaison between management and employees. They negotiate collective bargaining contracts that cover issues such as salaries, healthcare and pension.",
+        "skill": [
+            "Hr software","Law and government","Communication","Active listening","Social perceptiveness","Psychology","Problem-solving","Negotiation","Reading comprehension","Decision-making","Service orientation","Attention to detail","Time management","Writing","Stress tolerance","Persistence","Adaptability"
+        ]
+    },
+    {
+        "job_name": "Accountant",
+        "job_description": "Accountants manage the finances of clients that range from large corporations to governmental bodies and small businesses to individuals. Their work involves preparing and checking financial statements and records, assessing the financial implications of business decisions, preparing company accounts, filing tax returns and providing financial advice.",
+        "skill": [
+            "Analytical","Communication","Interpersonal","Attention to detail","Mathematics","Problem-solving","Time management","Organisational","Integrity","Business acumen","Methodical","Teamwork","Accounting software"
+        ]
+    },
+    {
+        "job_name": "Writer",
+        "job_description": "Writers develop original written content for various kinds of media, including blogs, books, music, movies, television, theatre and advertisements. They conduct research and interviews to gather factual information and enhance work with authentic details.",
+        "skill": [
+            "English spelling and grammar","Communications and media","Psychology","Creativity","Reading comprehension","Writing","Critical thinking","Social perceptiveness","Problem-solving","Attention to detail","Independence","Fluency of ideas","Information ordering","Selective attention","Persistence","Integrity","Innovation"
+        ]
+    },
+    {
+        "job_name": "Occupational Therapist",
+        "job_description": "Occupational therapists create and implement rehabilitative and assistive programmes to treat ill, injured or disabled patients. They use repetitive tasks, exercises and activities to help patients develop or recover the skill needed for daily life and work. They recommend and assist with adaptive devices and equipment.",
+        "skill": [
+            "Biology","Psychology","Therapy and counselling","Medical software","Active listening","Social perceptiveness","Communication","Reading comprehension","Problem-solving","Coordination","Dexterity","Physical strength","Selective attention","Patience","Adaptability","Compassion","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Market Research Analyst",
+        "job_description": "Market research analysts conduct research, employ strategies and gather data to assist a company in marketing its products or services or to help the government to learn what the public thinks. They utilise various tactics, methods and digital tools (such as focus groups, statistical software and telephone polling) to gain insight into consumer demographics, buying habits, preferences and opinions.",
+        "skill": [
+            "Attention to detail","Communication","Tech-savviness","Teamwork","Analytical","Numerical","Problem-solving","Decision-making","Leadership","Organisational","Interpersonal","Creativity"
+        ]
+    },
+    {
+        "job_name": "Food Scientist",
+        "job_description": "Food scientists use chemistry, microbiology and other sciences to study food content, safety and processing. They analyse nutritional value and research ways to make foods healthier and more flavourful. Food scientists evaluate data and test results to discover better techniques for food selection, preservation and distribution.",
+        "skill": [
+            "Chemistry","Microbiology","Food production","Analytical software","Scientific software","Reading comprehension","Monitoring","Attention to detail","Critical thinking","Problem-solving","Coordination","Social perceptiveness","Initiative","Leadership","Integrity","Persistence","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Audiologist",
+        "job_description": "Audiologists are healthcare professionals who identify, diagnose, monitor and treat hearing, tinnitus or balance disorders. They work with patients by providing them with support, guidance, treatment, testing and device fitting during each appointment, and they make themselves available for any questions or concerns their patients and their families may have.",
+        "skill": [
+            "Communication","Problem-solving","Critical thinking","Compassion","Patience","Leadership","Interpersonal","Organisational","Coordination","Time management","Instructing"
+        ]
+    },
+    {
+        "job_name": "Editor",
+        "job_description": "Editors plan, coordinate, review and edit content such as articles, blog posts, manuscripts, speeches, reports, business plans and proposals for all sorts of media, including books, newspapers, magazines, websites, blogs and emails, as well as movies, TV shows, commercials, podcasts and radio programmes. They work with writers to ensure copy is clear, concise, on-brand and legally compliant.",
+        "skill": [
+            "Attention to detail","Writing","Interpersonal","Communication","Reading comprehension","Critical thinking","Organisational","Time management","Teamwork","Concentration","Leadership","Research","Problem-solving","English language","Word processing software","Cms software"
+        ]
+    },
+    {
+        "job_name": "Nuclear Technician",
+        "job_description": "Nuclear technicians assist engineers, physicists and other scientists in a laboratory, power plant or other production facilities to research, produce and maintain fuels, medicines, reactors and other technologies. A key part of the position is to monitor radiation levels while operating equipment, conduct quality control for nuclear testing and maintain tools in labs.",
+        "skill": [
+            "Attention to detail","Analytical","Numerical","Decision-making","Problem-solving","Teamwork","Leadership","Communication","Tech-savviness","Mechanical","Critical thinking"
+        ]
+    },
+    {
+        "job_name": "Technical Writer",
+        "job_description": "Technical writers communicate complex technical information in a way that is easy to understand. They generate instruction manuals, appendices, journal articles, maintenance procedures and other support documents for a product line.",
+        "skill": [
+            "Graphics and photo imaging software","Communications and media","Production and processing","Customer service","Reading comprehension","Writing","Time management","Critical thinking","Active listening","Communication","Teamwork","Visualisation","Attention to detail","Innovation","Adaptability"
+        ]
+    },
+    {
+        "job_name": "Urban Planner",
+        "job_description": "Urban planners develop plans and programmes for land use that improve and renovate communities. By working alongside public officials, developers and the general public, urban planners improve economic, social and environmental issues. Their job involves developing plans for new schools or parks, providing shelters for the homeless, finding locations for new roads, and making areas more attractive for businesses.",
+        "skill": [
+            "Attention to detail","Analytical","Communication","Organisational","Leadership","Decision-making","Technical","Instructional"
+        ]
+    },
+    {
+        "job_name": "Animal Scientist",
+        "job_description": "Animal scientists conduct research on farm animals in order to improve the quality, safety and efficiency of food production. They study animal nutrition, genetics, reproduction, growth, development and diseases. Experiments with crossbreeding, diet and environment help animal scientists discover better methods of producing meat, poultry, eggs and milk. They share their data and findings with farmers, ranchers, the scientific community and the public.",
+        "skill": [
+            "Analytical and scientific software","Cad software","Biology and chemistry","Nutrition","Critical thinking","Originality","Reading comprehension","Writing","Observation","Problem-solving","Attention to detail","Teamwork","Leadership","Communication","Time management","Patience","Integrity"
+        ]
+    },
+    {
+        "job_name": "Landscape Architect",
+        "job_description": "Landscape architects design public parks, playgrounds, college campuses, residential areas and other open spaces. They create appealing environments that are both functional and in harmony with nature.",
+        "skill": [
+            "Cad software","Design","Building and construction","Environmental laws","Geography","Creativity","Active listening","Communication","Teamwork","Critical thinking","Problem-solving","Attention to detail","Service orientation","Reading comprehension","Initiative","Dependability","Innovation"
+        ]
+    },
+    {
+        "job_name": "Music Director",
+        "job_description": "Music directors lead musical groups such as orchestras, choirs and bands. They’re responsible for ensuring the precision and quality of the overall sound by checking effects like melody, timing, rhythm and volume.",
+        "skill": [
+            "Musical talent","Listening","Communication","Interpersonal","Discipline","Leadership","Determination","Promotional","Critical thinking","Hearing sensitivity","Auditory attention"
+        ]
+    },
+    {
+        "job_name": "Real Estate Sales Agent",
+        "job_description": "Real estate sales agents help clients buy, sell or rent residential or commercial properties. They assist sellers in assessing a fair market value and helping them find qualified buyers. They also discuss a client's budget and preferences in a house or business, before advising them on available properties.",
+        "skill": [
+            "Accounting and analytical software","Crm software","Customer service","Sales and marketing","Housing laws","Psychology","Active listening","Social perceptiveness","Service orientation","Decision-making","Adaptability","Negotiation","Persuasion","Leadership","Reading comprehension","Problem-solving","Integrity","Dependability"
+        ]
+    },
+    {
+        "job_name": "Pr Specialist",
+        "job_description": "PR specialists are responsible for creating and promoting a positive public image for an individual, group or organisation. They write media releases and develop a social media presence to shape the public's views of their client. PR specialists also book interviews and appearances to help clients promote their work and objectives.",
+        "skill": [
+            "Word processing software","Webpage design","Social media","Communication","Active listening","Social perceptiveness","Psychology","Critical thinking","Problem-solving","Organisational","Persuasion","Creativity","Adaptability","Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Midwife",
+        "job_description": "Midwives are highly trained nurses who specialise in providing the necessary care to pregnant women during pregnancy, labour and the postpartum period. They also provide care for the newborn, while their services are essential to reducing maternal deaths and making childbirth safer.",
+        "skill": [
+            "Compassion","Communication","Problem-solving","Manual dexterity","Attention to detail","Decision-making","Adaptability","Customer service","Critical thinking","Active listening","Social perceptiveness","Inductive reasoning","Medical software"
+        ]
+    },
+    {
+        "job_name": "Coroner",
+        "job_description": "Coroners investigate deaths within a legal jurisdiction, determining the cause of death and responsibility for violent, accidental and unexplained deaths. They direct autopsies, pathological and toxicological analyses, and inquests.",
+        "skill": [
+            "Scientific software","Law and government","Public safety","Active listening","Social perceptiveness","Communication","Critical thinking","Decision-making","Problem-solving","Deductive reasoning","Attention to detail","Integrity","Dependability","Compassion","Stress tolerance","Teamwork","Leadership"
+        ]
+    },
+    {
+        "job_name": "Licensing Examiner",
+        "job_description": "Licensing examiners examine, assess and inspect an individual’s eligibility to qualify for a licence or permit. They also check the individual’s conformity with and their liability under a particular licence or permit.",
+        "skill": [
+            "Organisational","Interpersonal","Communication","Computer software","Instructional","Problem-solving","Critical thinking","Writing","Decision-making"
+        ]
+    },
+    {
+        "job_name": "Composer",
+        "job_description": "Composers write and transcribe original music for a variety of genres, including classical, jazz and opera. They arrange musical scores for orchestras, bands, singers and other various musical groups. Sometimes, composers help coordinate musical rehearsals and performances for opera, theatre or musicals, and they also create the music for commercial jingles, movies and television productions.",
+        "skill": [
+            "Musical talent","Writing","Active listening","Interpersonal","Leadership","Perseverance","Promotional","Coordination","Time management","Problem-solving","Active learning"
+        ]
+    },
+    {
+        "job_name": "Industrial Designer",
+        "job_description": "Industrial designers are responsible for creating manufactured consumer products, such as automobiles, computer hardware, consumer electronics and medical equipment. They merge their knowledge of art, business and engineering and produce ideas for goods and services, and determine how they will be consumed, how the company will market them and what components could be utilised to maximise functionality.",
+        "skill": [
+            "Numerical","Analytical","Attention to detail","Creativity","Problem-solving","Independence","Teamwork","Decision-making","Leadership","Tech-savviness","Communication","Interpersonal"
+        ]
+    },
+    {
+        "job_name": "Power Plant Operator",
+        "job_description": "Power plant operators monitor, control and maintain machinery used to generate and distribute electricity. Power may be generated from one or more sources, including coal, gas and hydroelectric energy.",
+        "skill": [
+            "Industrial control software","Mechanical design and repair","Monitoring","Problem-solving","Critical thinking","Stress tolerance","Reading comprehension","Writing","Coordination","Selective attention","Information ordering","Adaptability","Dependability","Attention to detail","Integrity","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Nurse",
+        "job_description": "Nurses are registered health professionals tasked with the care, treatment and management of patients within hospitals and other medical facilities. Despite their advanced clinical skill, they work under the direction of doctors, as well as alongside other health professionals. Nurses can specialise in a variety of clinical areas, including emergency medicine, midwifery and intensive care.",
+        "skill": [
+            "Communication","Decision making","Attention to detail","Self-confidence","Adaptability","Flexibility","Endurance","Organisation","Teamwork","Diplomacy","Leadership","Multitasking"
+        ]
+    },
+    {
+        "job_name": "Customs Inspector",
+        "job_description": "Customs inspectors investigate and inspect people, luggage, vehicles, aircraft and boats arriving to or departing from the United States. They search for banned goods, fraudulent documents and other violations of customs and revenue laws and regulations. Customs inspectors are federal law enforcement officers and can detain any individuals or transport and can seize any illegal or suspicious items.",
+        "skill": [
+            "Physical fitness and strength","Endurance","Service orientation","Psychology","Social perceptiveness","Attention to detail","Foreign language","Active listening","Critical thinking","Problem-solving","Reading comprehension","Writing","Negotiation","Teamwork","Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Police Officer",
+        "job_description": "Police officers work in partnership with their local communities to maintain law and order and investigate criminal activity. They instigate regular public awareness and education campaigns alongside schools, local businesses and various community groups, and on a larger scale also tackle broader criminal threats, such as terrorism and organised crime.",
+        "skill": [
+            "Communication","Cultural awareness","Integrity","Robustness","Personal responsibility","Problem-solving","Professionalism","Literacy","Numeracy","Objectivity","Tolerance","Physical fitness"
+        ]
+    },
+    {
+        "job_name": "Court Reporter",
+        "job_description": "Court reporters transcribe verbatim everything that is said inside of a courtroom during trials, hearings, depositions, tribunals and meetings. They use shorthand, voice writing equipment or machine shorthand to produce official word-for-word transcripts of a criminal case, corporate takeover or medical disciplinary hearing.",
+        "skill": [
+            "Grammar and spelling","Stamina","Attention detail","Typing","Punctual","Neutrality","Organisational","Time management","Communication","Listening","Confidence","Determined"
+        ]
+    },
+    {
+        "job_name": "Retail Buyer",
+        "job_description": "Retail buyers plan, select, manage and acquire goods and merchandise to stock inventories inside stores and web outlets. They also review current supplies to ensure they’re in good quality, as well as source new products to remain competitive in a tough sector.",
+        "skill": [
+            "Interpersonal","Risk management","Teamwork","Time management","Tech-savviness","Numerical","Communication","Decision-making","Problem-solving","Organisational","Creativity","Judgment","Recordkeeping"
+        ]
+    },
+    {
+        "job_name": "Exhibit Designer",
+        "job_description": "Exhibit designers create displays, erect fixtures, prepare objects and even restore items for a diverse array of events in museums, trade shows, exhibitions, galleries and libraries. They also identify and record these objects for proper arrangement in exhibitions.",
+        "skill": [
+            "Attention to detail","Creativity","Patience","Organisational","Analytical","Independence","Tech-savviness","Planning","Time management","Supervision","Active listening","Artistic","Communication","Teamwork","Self-motivation","Cad software"
+        ]
+    },
+    {
+        "job_name": "Fine Artist",
+        "job_description": "Fine artists create original illustrations, paintings, sculpture and other works of art for exhibition or sale. They use a variety of materials, tools and application techniques and choose specific colours, composition and perspective for artistic effect. Pieces are made to inspire, inform and provoke, focusing more on aesthetics, emotion and meaning than function.",
+        "skill": [
+            "Art and design software","Artistic ability","Originality","Creativity","Visualisation","Dexterity","Motivation","Self-confidence","Attention to detail","Active listening","Problem-solving","Communication","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Zoologist",
+        "job_description": "Zoologists study the physical characteristics, diets and behaviour of animals and other wildlife. They observe animals, in captivity or in the wild, to evaluate their interactions with ecosystems and the impacts humans have on their species.",
+        "skill": [
+            "Biology and ecology","Analytical software","Scientific software","Active listening","Monitoring","Inductive reasoning","Deductive reasoning","Reading comprehension","Writing","Information ordering","Attention to detail","Critical thinking","Social perceptiveness","Time management","Persuasion","Initiative","Persistence","Stress tolerance","Adaptability","Cooperation","Compassion"
+        ]
+    },
+    {
+        "job_name": "Athlete",
+        "job_description": "Athletes participate and compete in sports events on a professional level. The types of games in which they play include football, basketball, tennis, swimming, skiing, baseball and softball. Athletes compete in games on a regional, national or international level and play to entertain spectators.",
+        "skill": [
+            "Physical stamina","Athleticism","Concentration","Interpersonal","Passion","Confidence","Decision-making","Dedication","Coordination","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Set Designer",
+        "job_description": "Set designers plan, prepare, design and lay out sets for movie, television and theatre productions. They study scripts and budgets to determine what kind of set is required, including location, floor plans and design elements such as props and furniture.",
+        "skill": [
+            "Dexterity","Physical stamina","Communication","Leadership","Attention to detail","Problem-solving","Creativity","Artistic ability"
+        ]
+    },
+    {
+        "job_name": "Camera Operator",
+        "job_description": "Camera operators operate a wide variety of technical equipment during film, television and video production projects. During shoots, they assemble and operate a wide variety of high-tech equipment, such as single electronic cameras and multiple portable crane mountings.",
+        "skill": [
+            "Physical stamina","Attention to detail","Teamwork","Independence","Communication","Observation","Concentration","Problem-solving","Coordination","Multitasking","Artistic","Patience","Memorisation","Decision-making"
+        ]
+    },
+    {
+        "job_name": "Surveyor",
+        "job_description": "Surveyors work on construction projects, engineering initiatives and mapmaking efforts by making exact measurements to find out property boundaries. They gather and record data that is relevant to the contour and shape of the earth’s surface and geodetic measurements.",
+        "skill": [
+            "Numerical","Analytical","Problem-solving","Tech-savviness","Stamina","Communication","Attention to detail","Time management","Independence","Critical thinking","Data-focused"
+        ]
+    },
+    {
+        "job_name": "Lodging Manager",
+        "job_description": "Lodging managers oversee all activities at a hotel, motel or any other establishment that offers accommodation. They ensure that guests have a positive, comfortable stay in a clean, safe and service-oriented environment. Lodging managers can have multiple responsibilities, including room inspections, hiring staff, budgeting and resolving guest issues. Larger hotels may split duties between several managers.",
+        "skill": [
+            "Leadership","Communication","Problem-solving","Active listening","Facilities management software","Financial software","Accounting","Social perceptiveness","Decision-making","Negotiation","Time management","Stress tolerance","Initiative"
+        ]
+    },
+    {
+        "job_name": "Reporter",
+        "job_description": "Reporters provide the latest analysis, coverage and updates on current events for the public on a wide range of subjects, including political stories, business developments and local, national or international news. A reporter will compose articles for online publications, newspapers and print magazines or scripts for radio and television.",
+        "skill": [
+            "Analytical","Independence","Notetaking","Recordkeeping","Transcribing","Judgment","Teamwork","Time management","Decision-making","Communication","Interpersonal","Stamina","Tech-savviness"
+        ]
+    },
+    {
+        "job_name": "Gas Plant Operator",
+        "job_description": "Gas plant operators oversee and function the operating equipment that processes gas for utility companies. They are responsible for the process and distribution of gas by managing control compressors, heat exchanges and purifying towers. Gas plant operators liquefy, compress or regasify natural gas for industrial use. They record, review and test operation records, readings and results such as temperatures, pressures, concentrations and flows.",
+        "skill": [
+            "Critical thinking","Organisational","Problem-solving","Interpersonal","Communication","Dexterity","Mechanical","Safety-conscious","Mathematical","Technical"
+        ]
+    },
+    {
+        "job_name": "Legislator",
+        "job_description": "Legislators are elected officials who develop, introduce and enact laws, statutes, amendments and other government regulations. They operate at the local, tribal, state or federal level.",
+        "skill": [
+            "Laws and government","History and economics","Communication","Leadership","Critical thinking","Problem-solving","Service orientation","Social perceptiveness","Psychology","Negotiation","Integrity","Dependability","Adaptability","Stress tolerance","Persistence"
+        ]
+    },
+    {
+        "job_name": "Health Educator",
+        "job_description": "Health educators teach individuals, talk to communities and participate in healthcare settings on how to adopt and maintain healthier lifestyles. They concentrate on improving nutrition, avoiding bad habits (alcohol, cigarettes and smoking) and outlining a list of tools and techniques that patients can use to develop healthy behaviours and avoid life-threatening risks.",
+        "skill": [
+            "Communication","Interpersonal","Physical stamina","Time management","Public speaking","Leadership","Teamwork","Creativity","Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Choreographer",
+        "job_description": "Choreographers teach dance moves and routines to both amateur and professional dancers. They create their own dances or improve existing ones for dance companies, stage presentations, special events, and TV and movie productions. Choreographers teach steps, technique, posture, rhythm and interpretive movement, and they also select the desired music and costumes that accompany a performance.",
+        "skill": [
+            "Physical stamina","Flexibility","Athleticism","Communication","Teaching","Creativity","Leadership","Persistence","Teamwork"
+        ]
+    },
+    {
+        "job_name": "Locomotive Engineer",
+        "job_description": "Locomotive engineers are responsible for the driving of freight or passenger trains. They drive long-distance trains and commuter trains between stations.",
+        "skill": [
+            "Communication","Decision-making","Hand-eye coordination","Listening","Mechanical","Visual","Concentration","Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Special Education Teacher",
+        "job_description": "Special education teachers instruct and mentor students of all ages who have mental, physical or learning disabilities. These professionals accommodate general education lessons according to a student’s needs and develop and implement Individualized Education Programs (IEPs). They work with students in a class, in small groups or one-to-one, providing lessons and activities that help students develop academically, socially and personally.",
+        "skill": [
+            "Friendliness","Compassion","Interpersonal","Communication","Listening","Instructional","Leadership","Patience","Organisational","Resourceful"
+        ]
+    },
+    {
+        "job_name": "Fundraiser",
+        "job_description": "Fundraisers initiate campaigns, organise events and manage other forms of solicitations to raise money for organisations, churches, political parties and charitable causes. They may also participate in designing and producing promotional materials, as well as raising awareness of what an organisation does, what a group’s main objectives are and what the monetary donations and other gifts will be used for.",
+        "skill": [
+            "Communication",
+            "Tech-savviness",
+            "Creativity",
+            "Problem-solving",
+            "Organisational",
+            "Negotiation",
+            "Etiquette",
+            "Social awareness",
+            "Trustworthy",
+            "Assertive",
+            "Teamwork",
+            "Leadership",
+            "Judgement",
+            "Strategic",
+            "Interpersonal"
+        ]
+    },
+    {
+        "job_name": "Archaeologist",
+        "job_description": "Archaeologists study prehistoric peoples and their cultures by recording, analysing and preserving their artefacts, monuments, inscriptions and other cultural remains.",
+        "skill": [
+            "Analytical",
+            "Critical thinking",
+            "Communication",
+            "Physical stamina",
+            "Attention to detail",
+            "Active learning",
+            "Problem solving",
+            "Patience",
+            "Organisational",
+            "Manual dexterity",
+            "Writing",
+            "Research",
+            "Negotiation"
+        ]
+    },
+    {
+        "job_name": "Construction & Building Inspector",
+        "job_description": "Construction and building inspectors evaluate ongoing and completed construction to make sure it is structurally sound. They ensure that structures adhere to contract specifications, building codes, environmental regulations, safety standards and all other laws and ordinances. Inspectors typically specialise in one or more areas, including electrical, plumbing and elevators.",
+        "skill": [
+            "Compliance software",
+            "Cad software",
+            "Project management software",
+            "Engineering",
+            "Mathematics",
+            "Attention to detail",
+            "Building codes",
+            "Reading comprehension",
+            "Critical thinking",
+            "Problem-solving",
+            "Coordination",
+            "Physical stamina",
+            "Time management",
+            "Writing",
+            "Communication",
+            "Integrity"
+        ]
+    },
+    {
+        "job_name": "Fire Investigator",
+        "job_description": "Fire investigators determine the origin and causes of a fire or explosion. They examine and photograph the scene, collect evidence and interview witnesses. Fire investigators analyse information in coordination with chemists, engineers and attorneys. They exercise police powers and can testify in civil and criminal legal proceedings.",
+        "skill": [
+            "Analytical software",
+            "Scientific software",
+            "Building and construction",
+            "Fire safety codes and laws",
+            "Chemistry",
+            "Physics",
+            "Psychology",
+            "Active listening",
+            "Problem-solving",
+            "Critical thinking",
+            "Decision-making",
+            "Social perceptiveness",
+            "Strength and coordination",
+            "Selective attention",
+            "Persuasion",
+            "Writing",
+            "Attention to detail",
+            "Persistence",
+            "Stress tolerance",
+            "Teamwork"
+        ]
+    },
+    {
+        "job_name": "Electronics Engineering Technician",
+        "job_description": "Electronics engineering technicians design, build, repair and maintain electronic systems and components such as computers. They also work with equipment from the automation, aerospace and medical industries.",
+        "skill": [
+            "Mathematics",
+            "Manual dexterity",
+            "Logical reasoning",
+            "Mechanical",
+            "Design",
+            "Attention to detail",
+            "Problem-solving",
+            "Interpersonal",
+            "Observational",
+            "Writing"
+        ]
+    },
+    {
+        "job_name": "Electrician",
+        "job_description": "Electricians are skilled tradespeople who install, maintain and repair electrical equipment, circuits, machinery and wiring. They mainly work in buildings, such as homes, businesses and factories, though through specialisation may work on aeroplanes, ships and other mobile platforms, as well as data and cable lines.",
+        "skill": [
+            "Critical thinking",
+            "Customer service",
+            "Problem-solving",
+            "Attention to detail",
+            "Manual dexterity",
+            "Physical stamina",
+            "Physical strength",
+            "Troubleshooting",
+            "Active listening",
+            "Decision-making",
+            "Deductive reasoning",
+            "Colour vision",
+            "Mathematics"
+        ]
+    },
+    {
+        "job_name": "Elementary School Teacher",
+        "job_description": "Elementary school teachers teach, educate and instruct young children in basic subjects such as maths, English and science. Throughout their working day, they teach students how to interact with each other and overcome learning difficulties. Elementary school teachers also enforce classroom rules and behaviour, and they supervise children during lunchbreaks and playtime. Teachers grade students’ assignments and prepare them for tests and exams.",
+        "skill": [
+            "Teaching",
+            "Interpersonal",
+            "Communication",
+            "Patience",
+            "Physical stamina",
+            "Resourcefulness",
+            "Creativity",
+            "Assertiveness"
+        ]
+    },
+    {
+        "job_name": "Career Counsellor",
+        "job_description": "Career counsellors are trained professionals who help graduates, professionals and jobseekers find their direction in life. By using counselling techniques and looking at a person’s educational level, interests and work experience, career counsellors suggest potential career paths and set career goals that are achievable for their clients.",
+        "skill": [
+            "Communication",
+            "Problem-solving",
+            "Compassion",
+            "Decision-making",
+            "Empathy",
+            "Active listening",
+            "Time management",
+            "Motivational nature",
+            "Patience",
+            "Interpersonal",
+            "Tolerance"
+        ]
+    },
+    {
+        "job_name": "Plumber",
+        "job_description": "Plumbers install and repair pipes that carry water, gas, steam or drainage within homes, businesses, factories or power plants. They are responsible for the installation of plumbing systems in homes, such as toilets, bathtubs, dishwashers and even septic systems. Plumbers will follow blueprints to install, test and troubleshoot these systems, and they will also repair and replace any damaged ones.",
+        "skill": [
+            "Manual dexterity",
+            "Physical strength",
+            "Physical stamina",
+            "Attention to detail",
+            "Communication",
+            "Problem-solving",
+            "Precision",
+            "Critical thinking",
+            "Active listening",
+            "Near vision"
+        ]
+    },
+    {
+        "job_name": "Interior Designer",
+        "job_description": "Interior designers plan, design, and furnish the interiors of spaces according to clients’ needs and requirements. They aim is to create and implements designs that are practical, aesthetic and purposeful.",
+        "skill": [
+            "Creativity",
+            "Attention to detail",
+            "Interpersonal",
+            "Active listening",
+            "Problem-solving",
+            "Visualisation",
+            "Negotiation",
+            "Customer service",
+            "Time management",
+            "Coordination",
+            "Cad software",
+            "Design",
+            "Mathematics"
+        ]
+    },
+    {
+        "job_name": "Radio & Tv Announcer",
+        "job_description": "Radio and TV announcers present news, sports and music on air, often providing commentary and interviewing guests. They announce the time, weather, commercials and provide station and programming information.",
+        "skill": [
+            "Communications and media",
+            "Music and sound editing software",
+            "Marketing",
+            "Public speaking",
+            "Social perceptiveness",
+            "Active listening",
+            "Critical thinking",
+            "Time management",
+            "Decision-making",
+            "Writing",
+            "Reading comprehension",
+            "Service orientation",
+            "Dependability",
+            "Adaptability",
+            "Stress tolerance",
+            "Creativity",
+            "Initiative"
+        ]
+    },
+    {
+        "job_name": "Librarian",
+        "job_description": "Librarians help people find information and conduct research for personal and professional use. They work for a variety of institutions, including public libraries, schools and universities, museums, law firms, and corporations. Duties may include selecting, acquiring, cataloguing and circulating print, digital and media materials designed for educational and entertainment purposes. They also use and develop databases for classifying materials and teach classes on using these and other information resources.",
+        "skill": [
+            "Cataloguing and database software",
+            "Reading comprehension",
+            "Analytical thinking",
+            "Active listening",
+            "Social perceptiveness",
+            "Service orientation",
+            "Instructing",
+            "Problem-solving",
+            "Information ordering",
+            "Attention to detail",
+            "Writing",
+            "Communication",
+            "Selective attention",
+            "Persistence",
+            "Initiative",
+            "Integrity",
+            "Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Middle School Teacher",
+        "job_description": "Middle school teachers provide schooling in their chosen subject to children during their first years of high school (sixth, seventh and eighth grade). By training in their chosen subject, they offer specialised teaching by following a school’s curriculum to help their students learn the syllabus and pass their end-of-year exams.",
+        "skill": [
+            "Communication",
+            "Assertiveness",
+            "Customer service",
+            "Listening",
+            "Patience",
+            "Discretion",
+            "Time management",
+            "Interpersonal",
+            "Motivational nature"
+        ]
+    },
+    {
+        "job_name": "Food Service Manager",
+        "job_description": "Food service managers take care of the daily operations of restaurants, fast-food joints, coffee shops and other establishments that prepare and serve food and drinks. These positions will also make sure that customer service is superb, the business is profitable and the company adheres to industry standards and government regulations.",
+        "skill": [
+            "Customer service",
+            "Problem-solving",
+            "Organisation",
+            "Communication",
+            "Stamina",
+            "Detail-oriented",
+            "Basic math comprehension",
+            "Patience"
+        ]
+    },
+    {
+        "job_name": "Translator",
+        "job_description": "Translators convert the written word from a source language to a target language, while ensuring that the accuracy of meaning is maintained as best as possible. Although most translators provide their services in all subject areas, many choose to specialise in a particular field or industry such as medicine or law.",
+        "skill": [
+            "Foreign languages",
+            "English language",
+            "Attention to detail",
+            "Customer service",
+            "Independence",
+            "Concentration",
+            "Interpersonal",
+            "Listening",
+            "Reading",
+            "Speaking",
+            "Writing",
+            "Critical thinking",
+            "Computer-assisted translation software"
+        ]
+    },
+    {
+        "job_name": "Robotics Technician",
+        "job_description": "Robotics technicians play a major role in the production of robots, machines, and electromechanical and automation technology that are developed to complete tasks that would a human being would perform.",
+        "skill": [
+            "Analytical",
+            "Tech-savviness",
+            "Critical thinking",
+            "Problem-solving",
+            "Decision-making",
+            "Numerical",
+            "Independence",
+            "Teamwork",
+            "Communication",
+            "Manual dexterity",
+            "Judgment",
+            "Organisational",
+            "Creativity",
+            "Attention to detail",
+            "Logical thinking",
+            "Mechanical"
+        ]
+    },
+    {
+        "job_name": "Firefighter",
+        "job_description": "Firefighters represent the branch of the emergency services that are primarily responsible for tackling fires, both within urban areas and the outdoors. However, they also assist police and ambulance crews in other emergency situations, such as serious road traffic collisions or logistically challenging rescue situations.",
+        "skill": [
+            "Communication",
+            "Physical fitness",
+            "Teamwork",
+            "Decision-making",
+            "Robustness",
+            "Attention to detail",
+            "Problem solving",
+            "Stress tolerance",
+            "Diplomacy",
+            "Self-discipline",
+            "Integrity"
+        ]
+    },
+    {
+        "job_name": "Forester",
+        "job_description": "Foresters manage, improve and conserve public and private forested lands. They devise plans for forest regeneration and ensure that the lands are free from disease, insects and wildfires. Foresters also participate in forest fire suppression and timber harvesting to maintain minimum waste and eliminate environmental damage. They might also supervise other forestry workers.",
+        "skill": [
+            "Physical stamina",
+            "Physical strength",
+            "Manual dexterity",
+            "Analytical",
+            "Critical thinking",
+            "Decision-making",
+            "Management",
+            "Communication"
+        ]
+    },
+    {
+        "job_name": "Graphic Designer",
+        "job_description": "Graphic designers produce hand- or computer-generated images and text to communicate an idea to attract, inform and excite consumers. Developing designs for advertisements, publications, corporate reports, websites and other marketing materials, they convey a company’s values with an image.",
+        "skill": [
+            "Creativity",
+            "Time management",
+            "Tech-savviness",
+            "Artistic",
+            "Independence",
+            "Teamwork",
+            "Communication",
+            "Attention to detail",
+            "Organisational",
+            "Analytical",
+            "Design software"
+        ]
+    },
+    {
+        "job_name": "Dietitian",
+        "job_description": "Dietitians are experts in dietetics who counsel others on how and what to eat. By using their professional knowledge, dietitians help people achieve their health goals through the maintenance of a healthy and balanced diet. They also provide patients with eating guidelines to prevent and overcome chronic illnesses.",
+        "skill": [
+            "Communication",
+            "Compassion",
+            "Active listening",
+            "Monitoring",
+            "Critical thinking",
+            "Trustworthiness",
+            "Customer service",
+            "Patience",
+            "Attention to detail",
+            "Team working",
+            "Interpersonal",
+            "Scientific software",
+            "Biology"
+        ]
+    },
+    {
+        "job_name": "Event Planner",
+        "job_description": "Event planners organise all kinds of events, including weddings, anniversaries, reunions, product launches, concerts, festivals and award ceremonies. They coordinate all aspects of these events, from choosing and booking venues to hiring caterers and entertainment to ensuring everyone has a good time.",
+        "skill": [
+            "Communication",
+            "Interpersonal",
+            "Negotiation",
+            "Organisational",
+            "Problem-solving",
+            "Attention to detail",
+            "Coordination",
+            "Time management",
+            "Marketing",
+            "Budget management",
+            "Self-motivation",
+            "It skill"
+        ]
+    },
+    {
+        "job_name": "Wind Turbine Service Technician",
+        "job_description": "Wind turbine service technicians inspect, repair and diagnose wind turbines to resolve electrical, hydraulic and mechanical malfunctions. Their job also involves installing wind turbines and performing routine maintenance to ensure maximum functional operation.",
+        "skill": [
+            "Attention to detail",
+            "Communication",
+            "Problem-solving",
+            "Stamina",
+            "Decision-making",
+            "Independence",
+            "Tech-savviness",
+            "Dexterous",
+            "Strength",
+            "Analytical",
+            "Numerical"
+        ]
+    },
+    {
+        "job_name": "Dancer",
+        "job_description": "Dancers use movement, emotion and rhythm to express a feeling or story through their dancing techniques with the accompaniment of music to enhance storytelling.",
+        "skill": [
+            "Physical stamina",
+            "Flexibility",
+            "Creativity",
+            "Athleticism",
+            "Leadership",
+            "Teamwork",
+            "Persistence",
+            "Rhythm",
+            "Motivation",
+            "Discipline"
+        ]
+    },
+    {
+        "job_name": "Carpenter",
+        "job_description": "Carpenters construct, repair and install building frameworks and infrastructures such as partitions, kitchen cabinets, bridges and highways. By following blueprints and building plans, they build using a variety of materials including wood, plastic and fiberglass. They also use tools like levels, chisels and nail guns to put materials together.",
+        "skill": [
+            "Physical stamina",
+            "Attention to detail",
+            "Dexterity",
+            "Mathematics",
+            "Problem-solving",
+            "Mechanical drawing",
+            "Critical thinking",
+            "Communication",
+            "Precision"
+        ]
+    },
+    {
+        "job_name": "Tax Preparer",
+        "job_description": "Tax preparers fill out income tax returns for individuals and small businesses. They interview clients and review their financial records in order to correctly assess their tax bill or refund.",
+        "skill": [
+            "Economics",
+            "Accounting",
+            "Tax laws",
+            "Tax and spreadsheet software",
+            "Attention to detail",
+            "Active listening",
+            "Reading comprehension",
+            "Time management",
+            "Critical thinking",
+            "Problem-solving",
+            "Social perceptiveness",
+            "Customer service",
+            "Integrity",
+            "Writing",
+            "Stress tolerance",
+            "Initiative",
+            "Communication"
+        ]
+    },
+    {
+        "job_name": "Paralegal",
+        "job_description": "Paralegals provide legal support to lawyers by preparing legal documents, investigating facts and researching legal precedent, among other duties. While paralegals cannot give legal advice to clients or practise law, they are an integral part of an attorney’s office to begin legal action, formulate a defense and support the entire process.",
+        "skill": [
+            "Organisational",
+            "Attention to detail",
+            "Analytical",
+            "Critical thinking",
+            "Problem-solving",
+            "Decision-making",
+            "Time management",
+            "Researching",
+            "Teamwork",
+            "Communication",
+            "Flexibility",
+            "Prioritising"
+        ]
+    },
+    {
+        "job_name": "Marriage & Family Therapist",
+        "job_description": "Marriage and family therapists are trained and licensed professions who assess, treat and mend patients’ relationships and family trauma. They do this by applying psychotherapeutic and family system theories into practice.",
+        "skill": [
+            "Communication",
+            "Patience",
+            "Social awareness",
+            "Decision-making",
+            "Problem-solving",
+            "Compassion",
+            "Assertiveness",
+            "Customer service",
+            "Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Social Worker",
+        "job_description": "Social workers support vulnerable individuals and groups through challenging issues. They supervise the wellbeing of children and adults who are undergoing difficult situations like abuse, drug addiction or divorce. Social workers aim to improve outcomes in people’s lives by providing counselling, teaching emotional skill and referring them to community resources.",
+        "skill": [
+            "Communication",
+            "Active listening",
+            "Patience",
+            "Compassion",
+            "Empathy",
+            "Interpersonal",
+            "Organisational",
+            "Problem-solving",
+            "Negotiation",
+            "Observation",
+            "Analytical"
+        ]
+    },
+    {
+        "job_name": "Chef",
+        "job_description": "Chefs oversee and may take part in the daily food preparation at restaurants, private homes, hotels and other food establishments. They check the freshness of food and cleanliness of the kitchen work areas. Chefs plan menus and develop recipes and dish presentation ideas. They also direct and monitor the activities of cooks and other food preparation staff.",
+        "skill": [
+            "Recipe and menu software",
+            "Accounting software",
+            "Food production and safety",
+            "Service orientation",
+            "Dexterity",
+            "Creativity",
+            "Time management",
+            "Active listening",
+            "Critical thinking",
+            "Decision-making",
+            "Instruction",
+            "Attention to detail",
+            "Dependability",
+            "Initiative",
+            "Integrity",
+            "Teamwork",
+            "Leadership"
+        ]
+    },
+    {
+        "job_name": "Flight Attendant",
+        "job_description": "Flight attendants are responsible for the overall safety and comfort of an aircraft’s passengers, whether commercial or private. The job of a flight attendant is multifaceted, combining customer service with emergency care, food service, hospitality and sales.",
+        "skill": [
+            "Communication",
+            "Interpersonal",
+            "Decision-making",
+            "Customer service",
+            "Critical thinking",
+            "Coordination",
+            "Time management",
+            "Monitoring",
+            "Physical stamina",
+            "Public safety",
+            "Social perceptiveness",
+            "Problem-solving",
+            "Deductive reasoning",
+            "Foreign languages",
+            "Swimming"
+        ]
+    },
+    {
+        "job_name": "Fish & Game Warden",
+        "job_description": "Fish and game wardens patrol natural areas like forests and lakes, and enforce hunting, fishing and boating laws. They investigate complaints and accidents, prevent poaching and out-of-season hunting, and conduct search-and-rescue efforts. Fish and game wardens also work with environmental scientists on projects to preserve wildlife and their habitats. They inform the public on conservation efforts, regulations and staying safe in natural environments.",
+        "skill": [
+            "State and federal regulations",
+            "Environmental science",
+            "Geography",
+            "Biology",
+            "Criminal justice",
+            "Self-sufficiency",
+            "Active listening",
+            "Monitoring",
+            "Critical thinking",
+            "Physical fitness",
+            "Coordination",
+            "Social perceptiveness",
+            "Persuasion",
+            "Stress tolerance",
+            "Service orientation",
+            "Attention to detail",
+            "Persistence",
+            "Leadership",
+            "Integrity"
+        ]
+    },
+    {
+        "job_name": "Chemical Technician",
+        "job_description": "Chemical technicians conduct laboratory tests and experiments to analyse solids, liquids and gases for research and development purposes. They assist chemists and chemical engineers in developing products for a variety of industries, including paint, solvents, medicines and food additives. They also help assess and improve existing manufacturing processes. Chemical technicians maintain lab equipment, prepare technical reports and present findings to their colleagues and employers.",
+        "skill": [
+            "Attention to detail",
+            "Analytical",
+            "Problem-solving",
+            "Communication",
+            "Critical thinking",
+            "Interpersonal",
+            "Observation",
+            "Time management",
+            "Active listening",
+            "Reading comprehension",
+            "Manual dexterity",
+            "Teamwork",
+            "Technical writing"
+        ]
+    },
+    {
+        "job_name": "Bailiff",
+        "job_description": "Bailiffs provide security and maintain order in a court of law. They use available technology to screen people entering the courthouse for weapons and other prohibited items. Bailiffs provide security to judges, court personnel and the jury, which includes preventing jury tampering. Bailiffs also patrol the courtroom and transport prisoners and keep them secure during trial.",
+        "skill": [
+            "Us law",
+            "Court procedures",
+            "Social perceptiveness",
+            "Decision-making",
+            "Communication",
+            "Critical thinking",
+            "Physical stamina",
+            "Coordination",
+            "Customer service",
+            "Attention to detail",
+            "Active listening",
+            "Selective attention",
+            "Integrity",
+            "Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Massage Therapist",
+        "job_description": "Massage therapists are trained professionals who manipulate the soft tissue and muscles of the human body to help people relax and to also relieve muscle tension. They do this by diagnosing and treating clients with various injuries, stress and chronic problems to help improve circulation and soften the muscles. They also offer relaxation treatments for the general wellbeing of their clients.",
+        "skill": [
+            "Interpersonal",
+            "Communication",
+            "Compassion",
+            "Problem-solving",
+            "Customer service",
+            "Manual dexterity",
+            "Attention to detail",
+            "Customer service",
+            "Active listening",
+            "Critical thinking",
+            "Biology",
+            "Computer software"
+        ]
+    },
+    {
+        "job_name": "Sports Coach",
+        "job_description": "Sports coaches plan, organise, execute and manage various sports activities and athletic programmes for individuals, groups or teams. They are responsible for teaching skill, techniques, rules and strategies for a particular sport, such as baseball, basketball or football.",
+        "skill": [
+            "Physical stamina",
+            "Attention to detail",
+            "Time management",
+            "Leadership",
+            "Empathy",
+            "Communication",
+            "Athleticism",
+            "Interpersonal",
+            "Decision-making",
+            "Creativity",
+            "Organisational",
+            "Resourcefulness",
+            "Motivation"
+        ]
+    },
+    {
+        "job_name": "Sports Scout",
+        "job_description": "Sports scouts search, study and recruit new members of an amateur, collegiate or professional sports team. They assess athletes’ physical skill, attitude, education and overall talent to determine if they would be a good fit for their team. Most scouts will either work for a specific sports team or an external organisation that offers information to teams.",
+        "skill": [
+            "Communication",
+            "Leadership",
+            "Decision-making",
+            "Interpersonal",
+            "Dedication",
+            "Analytical",
+            "Judgment",
+            "Problem-solving",
+            "Numerical",
+            "Time management",
+            "Resourcefulness",
+            "Organisational"
+        ]
+    },
+    {
+        "job_name": "Art Therapist",
+        "job_description": "Art therapists work to enhance an individual’s physical, social and emotional wellbeing through various artistic or recreational activities. They help and support individuals with disabilities, injuries or illnesses by applying positive treatment programmes. Art therapists encourage artistic self-expression in a number of sessions to help patients overcome problems, develop interpersonal skill and reduce stress.",
+        "skill": [
+            "Active listening",
+            "Speaking",
+            "Critical thinking",
+            "Social perceptiveness",
+            "Decision-making",
+            "Problem-solving",
+            "Time management",
+            "Patience",
+            "Creativity",
+            "Psychology",
+            "Fine arts"
+        ]
+    },
+    {
+        "job_name": "Correctional Officer",
+        "job_description": "Correctional officers enforce rules and regulations inside prisons and ensure that everything is kept in order. This position entails guarding, supervising and monitoring inmates, as well as assisting in the rehabilitation process of any prisoner who has been sentenced by a court of law to an established amount of time or is waiting for their trial date.",
+        "skill": [
+            "Communication",
+            "Physical stamina",
+            "Responsiveness",
+            "Negotiation",
+            "Teamwork",
+            "Decision making",
+            "Problem solving",
+            "Leadership",
+            "Dedication",
+            "Resilience",
+            "Emotional intelligence",
+            "Good memory",
+            "Respectfulness",
+            "Judgement"
+        ]
+    },
+    {
+        "job_name": "Fitness Trainer",
+        "job_description": "Fitness trainers instruct and guide individuals or groups of all ages and skill levels in exercise activities. This includes stretching, cardiovascular exercises and strength training. Fitness trainers also instruct clients on the correct and safe use of exercise equipment. They provide information on additional aspects of health including nutrition, lifestyle choices and weight control.",
+        "skill": [
+            "Scheduling and database software",
+            "Physical fitness",
+            "Physical stamina",
+            "First aid",
+            "Service orientation",
+            "Education and instruction",
+            "Coordination",
+            "Communication",
+            "Social perceptiveness",
+            "Psychology",
+            "Patience",
+            "Problem-solving",
+            "Selective attention",
+            "Time management"
+        ]
+    },
+    {
+        "job_name": "Photographer",
+        "job_description": "Photographers are trained professionals who focus on the art of capturing good images with a digital or film camera. They do this by using their creativity and technical expertise to take and produce unique pictures. Some photographers focus on studio work, while others explore nature or select a niche industry to work in, such as magazine shoots or wedding images.",
+        "skill": [
+            "Attention to detail",
+            "Patience",
+            "Communication",
+            "Customer service",
+            "Manual dexterity",
+            "Creativity",
+            "Interpersonal skill",
+            "Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Substance Abuse Counsellor",
+        "job_description": "Substance abuse counsellors work with patients and help them through alcohol, drug and other substance abuse recovery. Their work typically involves partnering with patients’ families or friends to navigate through the rehabilitation process with various treatment strategies.",
+        "skill": [
+            "Resourcefulness",
+            "Compassionate",
+            "Time management",
+            "Organisational",
+            "Patience",
+            "Problem-solving",
+            "Decision-making",
+            "Analytical",
+            "Critical thinking",
+            "Neutrality",
+            "Communication",
+            "Interpersonal"
+        ]
+    },
+    {
+        "job_name": "Mental Health Counsellor",
+        "job_description": "Mental health counsellors help, treat and advise clients who are dealing with mental and emotional health issues as well as relationship problems. They may specialise in counselling a particular group of people such as the elderly, students or children.",
+        "skill": [
+            "Compassion",
+            "Problem-solving",
+            "Attention to detail",
+            "Interpersonal",
+            "Communication",
+            "Active listening",
+            "Patience",
+            "Psychology",
+            "Social perceptiveness"
+        ]
+    },
+    {
+        "job_name": "Athletic Trainer",
+        "job_description": "Athletic trainers work with physicians and other healthcare professionals to offer prevention, diagnosis, treatment and rehabilitation services to injured athletes. Not to be confused with fitness trainers (who instruct people in exercise activities), athletic trainers practise in the field of sports medicine.",
+        "skill": [
+            "Decision-making",
+            "Attention to detail",
+            "Interpersonal",
+            "Active listening",
+            "Communication",
+            "Compassion",
+            "Critical thinking",
+            "Deductive reasoning",
+            "Active learning",
+            "Monitoring"
+        ]
+    },
+    {
+        "job_name": "Radio Operator",
+        "job_description": "Radio operators transmit, receive and document communications using radiotelephone equipment. They exchange messages with ships, aircraft, offshore oil rigs, logging camps, mining crews and other remote operations. They also respond to distress calls and dispatch necessary emergency teams.",
+        "skill": [
+            "Telecommunications",
+            "Public safety and security",
+            "Active listening",
+            "Monitoring",
+            "Selective attention",
+            "Reading comprehension",
+            "Writing",
+            "Critical thinking",
+            "Time management",
+            "Problem-solving",
+            "Social perceptiveness",
+            "Attention to detail",
+            "Persistence",
+            "Adaptability",
+            "Social orientation",
+            "Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Craft Artist",
+        "job_description": "Craft artists create or reproduce handmade objects that are designed to be functional. Using a wide variety of materials, techniques and tools (such as needlecraft, weaving or welding), craft artists design glassware, pottery and textiles for sale, as well as for commercial purposes and exhibition.",
+        "skill": [
+            "Creativity",
+            "Communication",
+            "Organisational",
+            "Stamina",
+            "Decision-making",
+            "Problem-solving",
+            "Dexterity",
+            "Customer service",
+            "Analytical"
+        ]
+    },
+    {
+        "job_name": "Automotive Service Technician",
+        "job_description": "Automotive service technicians perform basic maintenance services on vehicles. Their work consists of checking fluid levels, rotating tyres, changing oil and providing tune-ups. They also repair or replace worn out parts, like brake pads and wheel bearings, while a key part of their job is to explain to clients about the problems associated with the vehicle.",
+        "skill": [
+            "Attention to detail",
+            "Communication",
+            "Physical stamina",
+            "Problem-solving",
+            "Customer service",
+            "Technical aptitude",
+            "Analytical",
+            "Tech savviness",
+            "Independence",
+            "Teamwork",
+            "Coordination",
+            "Leadership"
+        ]
+    },
+    {
+        "job_name": "Freight Forwarder",
+        "job_description": "Freight forwarders are responsible for the transport of goods from one point to another. They will determine the best method and mode of transport, whether by road, rail, air and sea. Freight forwarders also decide on the most appropriate route of transport, ensuring it safely reaches its destination in as little time as possible. These professionals determine the most affordable rates when moving volumes of freight.",
+        "skill": [
+            "Communication",
+            "Organisational",
+            "Problem-solving",
+            "Teamwork",
+            "Interpersonal",
+            "Geographical knowledge",
+            "Mathematical",
+            "Technical",
+            "Time management",
+            "Negotiation"
+        ]
+    },
+    {
+        "job_name": "Animal Breeder",
+        "job_description": "Animal breeders use their knowledge of genetics, conformation and animal science to breed animals for superior offspring. These professionals specialise in certain species such as cats, dogs, pigs, cows or chickens.",
+        "skill": [
+            "Dexterity",
+            "Physical stamina",
+            "Physical strength",
+            "Mechanical",
+            "Compassion",
+            "Observation",
+            "Problem-solving",
+            "Sales",
+            "Attention to detail"
+        ]
+    },
+    {
+        "job_name": "Community Health Worker",
+        "job_description": "Community health workers act as a liaison between the community and health care providers. They discuss health concerns with local residents, advise health educators and providers on the specific needs of those in the area, and advocate for improvements. Community health workers provide informal counselling, information on available health programmes and assistance with navigating insurance and other issues in the health system.",
+        "skill": [
+            "Social perceptiveness",
+            "Active listening",
+            "Communication",
+            "Compassion",
+            "Foreign languages",
+            "Problem-solving",
+            "Organisational",
+            "Patience",
+            "Dependability",
+            "Adaptability",
+            "Writing",
+            "Teamwork"
+        ]
+    },
+    {
+        "job_name": "Travel Agent",
+        "job_description": "Travel agents plan, sell and arrange holiday packages including transportation, accommodation, tours and activities for individuals, families and large groups.",
+        "skill": [
+            "Attention to detail",
+            "Patience",
+            "Communication",
+            "Customer service",
+            "Interpersonal",
+            "Listening",
+            "Persuasion",
+            "Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Machinist",
+        "job_description": "Machinists create, modify and repair metal parts, instruments and tools such as hydraulic parts, antilock brakes and automobile pistons. They produce these items by reading blueprints and sketches and by operating computer-controlled and mechanically controlled machine tools. Machinists are responsible for monitoring the feed and speed of machines, ensuring parts meet specifications and testing completed products for defects.",
+        "skill": [
+            "Manual dexterity",
+            "Attention to detail",
+            "Physical stamina",
+            "Mechanical",
+            "Analytical",
+            "Mathematical",
+            "Computer software",
+            "Technical"
+        ]
+    },
+    {
+        "job_name": "Food Science Technician",
+        "job_description": "Food science technicians assist food scientists by measuring and testing food, additives and related products. They compile and analyse test results on composition and quality, and present findings to their superiors. Food science technicians prepare chemicals and lab equipment and maintain a safe, sterile working environment.",
+        "skill": [
+            "Analytical software",
+            "Scientific software",
+            "Database software",
+            "Chemistry",
+            "Active listening",
+            "Reading comprehension",
+            "Critical thinking",
+            "Monitoring",
+            "Time management",
+            "Attention to detail",
+            "Coordination",
+            "Persistence",
+            "Teamwork",
+            "Communication",
+            "Integrity"
+        ]
+    },
+    {
+        "job_name": "Agricultural Technician",
+        "job_description": "Agricultural technicians assist scientists with experiments to increase the health and productivity of crops and agricultural animals. They may cultivate crops within specific parameters, measure and distribute animal feed, and collect samples for testing. Agricultural technicians keep detailed records, analyse test results and present findings to senior scientific staff.",
+        "skill": [
+            "Scientific software",
+            "Lab and farm equipment",
+            "Biology and chemistry",
+            "Mathematics",
+            "Reading comprehension",
+            "Active listening",
+            "Critical thinking",
+            "Writing",
+            "Attention to detail",
+            "Teamwork",
+            "Communication",
+            "Problem-solving",
+            "Patience",
+            "Physical fitness"
+        ]
+    },
+    {
+        "job_name": "Legal Secretary",
+        "job_description": "Legal secretaries perform clerical, administrative and phone work using legal terminology and procedures. They prepare and process legal documents such as subpoenas, appeals and motions. Legal secretaries may also handle client billing, legal research, office memos and the organisation of case files.",
+        "skill": [
+            "Legal databases",
+            "Attention to detail",
+            "Active listening",
+            "Reading comprehension",
+            "Writing",
+            "Communication",
+            "Stress tolerance",
+            "Time management",
+            "Organisational",
+            "Critical thinking",
+            "Teamwork"
+        ]
+    },
+    {
+        "job_name": "Rehabilitation Counsellor",
+        "job_description": "Rehabilitation counsellors assist people suffering from physical, mental, emotional and developmental disabilities in trying to live independent lives. This position involves working one on one with patients or clients to cope, manage or overcome the various effects of disabilities that can impact employment opportunities, social lives and independent living.",
+        "skill": [
+            "Empathy",
+            "Leadership",
+            "Confidence",
+            "Organisational",
+            "Time management",
+            "Analytical",
+            "Critical thinking",
+            "Problem-solving",
+            "Decision-making",
+            "Communication",
+            "Interpersonal",
+            "Teamwork",
+            "Recordkeeping",
+            "Creativity"
+        ]
+    },
+    {
+        "job_name": "Spa Manager",
+        "job_description": "Spa managers run, manage and coordinate the activities of spa facilities such as saunas, hot tubs and massages. They’re responsible for directing staff and arranging guest appointments. They also handle the accounting duties of a spa, and they supervise operations to ensure staff and guest comply with the applicable health, safety and hygiene standards.",
+        "skill": [
+            "Leadership",
+            "Business",
+            "Communication",
+            "Customer service",
+            "Interpersonal",
+            "Organisational",
+            "Problem-solving",
+            "Patience",
+            "Monitoring",
+            "Critical thinking",
+            "Deductive reasoning"
+        ]
+    },
+    {
+        "job_name": "Machine Assembler",
+        "job_description": "Machine assemblers use tools and machines to build, assemble and reconstruct a variety of industrial products, including engines, turbines, aircraft and other equipment utilised in paper manufacturing, construction or textiles industries. They put together finished products and the pieces that go inside every item, requiring extensive reading of instructions, manuals and blueprints provided by the manufacturer.",
+        "skill": [
+            "Attention to detail",
+            "Physical stamina",
+            "Time management",
+            "Decision-making",
+            "Judgment",
+            "Safety management",
+            "Creativity",
+            "Problem-solving",
+            "Communication",
+            "Analytical",
+            "Numerical"
+        ]
+    },
+    {
+        "job_name": "Medical Appliance Technician",
+        "job_description": "Medical appliance technicians combine their manual manufacturing skill with an interest in medicine to design, produce, maintain and fit a wide range of medical devices. These could consist of limb prosthetic devices, joint braces, orthotic supports and other medical or even surgical appliances with the purpose of medically supporting patients.",
+        "skill": [
+            "Attention to detail",
+            "Analytical",
+            "Numerical",
+            "Tech-savviness",
+            "Manual dexterity",
+            "Problem-solving",
+            "Decision-making",
+            "Independence",
+            "Teamwork",
+            "Communication",
+            "Creativity",
+            "Empathy",
+            "Organisational",
+            "Time management"
+        ]
+    },
+    {
+        "job_name": "Skincare Specialist",
+        "job_description": "Skincare specialists cleanse, treat, soothe and beautify the faces and bodies of their customers. By evaluating a customer’s skin condition, they apply the appropriate treatment, whether it be a facial, full-body scrub, peel, mask or massage.",
+        "skill": [
+            "Dexterity",
+            "Interpersonal",
+            "Communication",
+            "Customer service",
+            "Attention to detail",
+            "Leadership",
+            "Initiative",
+            "Tidiness",
+            "Organisational",
+            "Time management",
+            "Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Roustabout",
+        "job_description": "Roustabouts maintain oil fields by cleaning pipe deck and main deck areas, as well as tools and equipment such as drills and pumps. They also assemble, service and repair equipment and machinery like pipes, boilers and engine parts.",
+        "skill": [
+            "Dexterity",
+            "Physical stamina",
+            "Physical strength",
+            "Communication",
+            "Attention to detail",
+            "Problem-solving",
+            "Coordination",
+            "Troubleshooting"
+        ]
+    },
+    {
+        "job_name": "Umpire",
+        "job_description": "Umpires officiate athletic or sporting events and ensure that all rules and regulations of games are correctly followed. They look out for infractions and place penalties if they notice a breach of game rules.",
+        "skill": [
+            "Attention to detail",
+            "Analytical",
+            "Observational",
+            "Physical stamina",
+            "Communication",
+            "Decision-making",
+            "Teamwork",
+            "Good vision"
+        ]
+    },
+    {
+        "job_name": "Paramedic",
+        "job_description": "Paramedics tend to the sick or injured in emergency situations. They respond to 911 calls, provide medical assistance and transport patients in an ambulance to the emergency department of a hospital.",
+        "skill": [
+            "Critical thinking",
+            "Active listening",
+            "Speaking",
+            "Service orientation",
+            "Deductive reasoning",
+            "Communication",
+            "Physical stamina",
+            "Interpersonal",
+            "Medical software"
+        ]
+    },
+    {
+        "job_name": "Correspondence Clerk",
+        "job_description": "Correspondence clerks write letters, compose electronic correspondence and post immediate replies after sifting through company data. These correspondences will be performed pertaining to merchandise, credit information, incorrect billings, customer service disputes and delinquent accounts. A correspondence clerk can be found in a wide variety of industries and in all areas of the business.",
+        "skill": [
+            "Communication",
+            "Attention to detail",
+            "Tech-savvy",
+            "Problem-solving",
+            "Decision-making",
+            "Independence",
+            "Active listening",
+            "Organisational",
+            "Numerical",
+            "Teamwork",
+            "Creativity",
+            "Negotiation"
+        ]
+    },
+    {
+        "job_name": "Information Clerk",
+        "job_description": "Information clerks perform routine day-to-day office tasks for a business, government or organisation, including completing clerical functions, communicating with clients and the public, and finishing other administrative assignments that keep the office an organised and well-run machine.",
+        "skill": [
+            "Attention to detail",
+            "Communication",
+            "Analytical",
+            "Organisational",
+            "Interpersonal",
+            "Integrity",
+            "Customer service",
+            "Multitasking",
+            "Reliability",
+            "Problem-solving",
+            "Teamwork"
+        ]
+    },
+    {
+        "job_name": "Administrative Assistant",
+        "job_description": "Administrative assistants perform a variety of clerical and administrative duties to keep an organisation running smoothly. This typically includes directing calls, creating and maintaining filing systems, making appointments and organising calendars, typing up correspondence, arranging meetings, and creating spreadsheets and other reports. Admins may work exclusively for one executive but often manage the business affairs for several.",
+        "skill": [
+            "Attention to detail",
+            "Writing",
+            "Editing",
+            "Word processing software",
+            "Database software",
+            "Accounting software",
+            "Customer service",
+            "Active listening",
+            "Decision-making",
+            "Communication",
+            "Teamwork",
+            "Organisation",
+            "Multitasking",
+            "Leadership",
+            "Adaptability",
+            "Discretion"
+        ]
+    },
+    {
+        "job_name": "Animal Trainer",
+        "job_description": "Animal trainers teach behavioural and performance techniques to dogs, horses, dolphins and various other animals. They may improve an animal’s obedience, security and aggression, or they train them to perform certain commands. Animal trainers will monitor the animal’s progress and sometimes work alongside owners to improve behaviour.",
+        "skill": [
+            "Compassion",
+            "Patience",
+            "Physical stamina",
+            "Reliability",
+            "Teaching",
+            "Instructing",
+            "Monitoring",
+            "Interpersonal",
+            "Customer service",
+            "Attention to detail",
+            "Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Patient Representative",
+        "job_description": "Patient representatives help patients acquire healthcare services, understand policies and procedures, and make decisions about their health. They are responsible for coordinating the communication between patients and family members with medical and administrative staff or regulatory agencies. A patient representative often interviews patients to understand their needs and concerns, and they will also listen to and deal with any customer complaints.",
+        "skill": [
+            "Customer service",
+            "Interpersonal",
+            "Communication",
+            "Organisational",
+            "Listening",
+            "Patience",
+            "Computer software",
+            "Problem-solving"
+        ]
+    },
+    {
+        "job_name": "Preschool Teacher",
+        "job_description": "Preschool teachers nurture, care for and educate children under the age of five. They prepare a child for kindergarten by teaching them the appropriate skill such as language, number, motor and social skill. Preschool teachers use a variety of fun age-appropriate activities and exercises to encourage child development, all while monitoring progress and reporting to parents.",
+        "skill": [
+            "Communication",
+            "Creativity",
+            "Interpersonal",
+            "Organisational",
+            "Patience",
+            "Physical stamina",
+            "Critical thinking",
+            "Time management",
+            "Coordination",
+            "Social perceptiveness",
+            "Problem-solving",
+            "Instructing",
+            "Psychology"
+        ]
+    },
+    {
+        "job_name": "Customer Service Representative",
+        "job_description": "Customer service representatives offer support to clients, shoppers and patrons by answering questions, replying to complaints, offering information and rectifying billing issues. They serve as a front-line associate for a company, which is essential to ensure customers are 100% satisfied with its products, services and other features.",
+        "skill": [
+            "Customer service",
+            "Organisational",
+            "Communication",
+            "Negotiation",
+            "Problem-solving",
+            "Product knowledge",
+            "Patience",
+            "Time management",
+            "Independence",
+            "Teamwork",
+            "Tech-savvy"
+        ]
+    },
+    {
+        "job_name": "Dressmaker",
+        "job_description": "Dressmakers design and adjust clothing such as dresses, coats and suits according to customer measurements and specifications. During scheduled appointments, customers try on the clothing, and dressmakers make measurements for alterations. Their job involves cutting and sewing using needles and thread or sewing machines.",
+        "skill": [
+            "Attention to detail",
+            "Manual dexterity",
+            "Interpersonal",
+            "Creativity",
+            "Hand-eye coordination",
+            "Communication",
+            "Customer service",
+            "Management"
+        ]
+    },
+    {
+        "job_name": "Tailor",
+        "job_description": "Tailors repair damaged clothing and make alterations to garments to suit the measurements of each individual client. They sew by hand or using machinery, employing different techniques depending on the location of stitching, fabric weight and other factors.",
+        "skill": [
+            "Cad software",
+            "Accounting software",
+            "Design and sewing",
+            "Customer service",
+            "Active listening",
+            "Social perceptiveness",
+            "Critical thinking",
+            "Problem-solving",
+            "Time management",
+            "Attention to detail",
+            "Dexterity",
+            "Dependability",
+            "Persistence",
+            "Initiative",
+            "Innovation"
+        ]
+    },
+    {
+        "job_name": "Office Clerk",
+        "job_description": "Office clerks take care of administrative and clerical duties in a business, school, hospital or medical clinic. The position typically involves updating the organisation’s records, arranging and storing files, scheduling meetings, preparing and filing internal documents, and taking calls.",
+        "skill": [
+            "Organisational",
+            "Analytical",
+            "Independence",
+            "Time management",
+            "Tech-savviness",
+            "Teamwork",
+            "Problem-solving",
+            "Decision-making",
+            "Communication",
+            "Typing",
+            "Interpersonal",
+            "Attention to detail",
+            "Customer service"
+        ]
+    },
+    {
+        "job_name": "Beautician",
+        "job_description": "Beauticians are trained professionals who use their knowledge and skill to provide a range of different beauty treatments and therapies. These treatments can include massages, facial treatments, hair removal, nail services, spray tans, eyebrow shaping and semi-permanent tattoos, as well as non-surgical therapies and makeup.",
+        "skill": [
+            "Communication",
+            "Attention to detail",
+            "Approachableness",
+            "Patience",
+            "Compassion",
+            "Creativity",
+            "Manual dexterity",
+            "Precision",
+            "Diplomacy",
+            "Teamwork",
+            "Customer service",
+            "Time management",
+            "Listening"
+        ]
+    },
+    {
+        "job_name": "File Clerk",
+        "job_description": "File clerks organise and maintain paper and electronic records. They collect and enter data, file documents, and retrieve records for staff or customers. File clerks responsible for digital records also scan and upload documents, while they may also be required to perform additional clerical tasks like answering phones and sorting the mail.",
+        "skill": [
+            "Word processing",
+            "Database and spreadsheet software",
+            "Reading comprehension",
+            "Active listening",
+            "Time management",
+            "Attention to detail",
+            "Service orientation",
+            "Information ordering",
+            "Writing",
+            "Teamwork",
+            "Integrity"
+        ]
+    },
+    {
+        "job_name": "Veterinary Technician",
+        "job_description": "Veterinary technicians work with veterinarians to evaluate, care and treat animals. The position contains a variety of duties, such as preparing for vaccinations, sterilising instruments, cleaning and wrapping wounds, checking vital statistics, and performing clerical tasks. They might also assist a veterinarian during surgery.",
+        "skill": [
+            "Attention to detail",
+            "Physical stamina",
+            "Compassionate",
+            "Organisational",
+            "Problem-solving",
+            "Decision-making",
+            "Judgment",
+            "Communication",
+            "Time management",
+            "Dexterous",
+            "Administration",
+            "Teamwork",
+            "Independence"
+        ]
+    },
+    {
+        "job_name": "Veterinary Technologist",
+        "job_description": "Veterinary technologists, under direction from a veterinarian, perform medical tests in a laboratory to diagnose animal illnesses and injuries. They take blood, urine and tissue samples and execute related tests such as urinalysis and blood counts. They also perform diagnostic tests, such as taking and developing X-rays, and assist veterinarians with exams and surgery, including administering anaesthesia to animals and maintaining appropriate dosage.",
+        "skill": [
+            "Biology",
+            "Chemistry",
+            "Medicine and dentistry",
+            "Medical software",
+            "Critical thinking",
+            "Reading comprehension",
+            "Decision-making",
+            "Problem-solving",
+            "Social perceptiveness",
+            "Customer service",
+            "Compassion",
+            "Attention to detail",
+            "Time management",
+            "Communication",
+            "Teamwork",
+            "Initiative",
+            "Persistence",
+            "Physical strength",
+            "Dexterity",
+            "Selective attention",
+            "Stress tolerance"
+        ]
+    },
+    {
+        "job_name": "Security Guard",
+        "job_description": "A security guard is someone who is primarily hired by a private company or a public agency to protect its employees, property, money and equipment from burglaries, unsafe worker behaviour, trespassing, vandalism, external damages and other illegal activity.",
+        "skill": [
+            "Patience",
+            "Alertness",
+            "Vigilance",
+            "Energetic",
+            "Analytical",
+            "Communication",
+            "Customer service",
+            "Attention to detail",
+            "Preparedness",
+            "Good judgment",
+            "Leadership"
+        ]
+    },
+    {
+        "job_name": "Concierge",
+        "job_description": "Concierges interact directly with customers, patrons or visitors at an apartment complex, hospital, hotel or office building. They answer questions, provide information, extend advice or offer various services to ensure that individuals have been fully assisted with whatever help they required. Concierges will typically act as the middleman between guests and management.",
+        "skill": [
+            "Organisational",
+            "Communication",
+            "Independence",
+            "Time management",
+            "Problem-solving",
+            "Decision-making",
+            "Analytical",
+            "Motivated",
+            "Tech-savvy",
+            "Customer service",
+            "Transcription",
+            "Multitasking"
+        ]
+    },
+    {
+        "job_name": "Hairdresser",
+        "job_description": "Hairdressers are trained professionals that deliver a range of services including colouring, cutting and styling of the hair. They also recommend treatments and products to maintain the health of the hair and offer styling tips based on the client’s needs.",
+        "skill": [
+            "Active listening",
+            "Service orientation",
+            "Attention to detail",
+            "Communication",
+            "Manual dexterity",
+            "Precision",
+            "Patience",
+            "Organisational",
+            "Creativity",
+            "Pos software"
+        ]
+    },
+    {
+        "job_name": "Merchandise Displayer",
+        "job_description": "Merchandise displayers arrange, design and assemble promotional displays for retail stores and at trade shows. They arrange surrounding furniture or backdrops to ensure their displays are clearly visible to potential customers in order to increase a brand's overall sales and improve customer retention.",
+        "skill": [
+            "Design",
+            "Creativity",
+            "Physical stamina",
+            "Physical strength",
+            "Interpersonal",
+            "Communication",
+            "Attention to detail",
+            "Sales"
+        ]
+    },
+    {
+        "job_name": "Tour Guide",
+        "job_description": "Tour guides escort individuals or groups on sightseeing tours or through places of interest. They provide directional, historical and cultural information about local landmarks, museums, art galleries, scenic landscapes and other tourist destinations.",
+        "skill": [
+            "Tour management software",
+            "Customer service",
+            "Foreign language",
+            "History and archaeology",
+            "Active listening",
+            "Social perceptiveness",
+            "Communication",
+            "Adaptability",
+            "Public speaking",
+            "Creativity",
+            "Dependability",
+            "Initiative",
+            "Leadership",
+            "Integrity",
+            "Attention to detail",
+            "Stress tolerance",
+            "Patience"
+        ]
+    },
+    {
+        "job_name": "Sports Book Writer",
+        "job_description": "Sports book writers manage and handle customer bets on various sporting events like football, tennis or boxing. They’re responsible for taking bets from customers and recording them electronically. They also verify tickets and calculate and pay out winning bets to customers.",
+        "skill": [
+            "Attention to detail",
+            "Computer software",
+            "Interpersonal",
+            "Communication",
+            "Listening",
+            "Customer service",
+            "Leadership",
+            "Mathematics",
+            "Organisational",
+            "Patience"
+        ]
+    },
+    {
+        "job_name": "Bartender",
+        "job_description": "Bartenders fulfil orders for mixed drinks and serve bottled and on-tap beverages. They deliver orders to customers directly at the bar or with the assistance of wait staff. Bartenders check the identification of patrons to be sure they are of legal drinking age and monitor their intoxication level. Bar managers may also serve food, clean glasses and work areas, supervise staff, and maintain inventory.",
+        "skill": [
+            "Memorisation",
+            "Attention to detail",
+            "Customer service",
+            "Social perceptiveness",
+            "Communication",
+            "Active listening",
+            "Persuasion",
+            "Multitasking",
+            "Organisation",
+            "Time management",
+            "Problem-solving",
+            "Teamwork",
+            "Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Retail Salesperson",
+        "job_description": "A retail salesperson is responsible for a store’s sales activities and efforts. Their duties are wide-ranging and include greeting customers and sorting inventory to providing product information to shoppers. They also handle customer refunds, check out patrons and deal with theft.",
+        "skill": [
+            "Communication",
+            "Interpersonal",
+            "Stamina",
+            "Customer service",
+            "Teamwork",
+            "Supervision",
+            "Independence",
+            "Problem-solving",
+            "Numerical",
+            "Organisational",
+            "Time management",
+            "Empathy",
+            "Tech-savviness"
+        ]
+    },
+    {
+        "job_name": "Telemarketer",
+        "job_description": "Telemarketers solicit donations for charitable organisations or make sales for businesses over the phone. They call potential customers on a list and use marketing techniques to interest them in the company's goods or services.",
+        "skill": [
+            "Call centre software",
+            "Data entry",
+            "Sales and marketing",
+            "Active listening",
+            "Persuasion",
+            "Customer service",
+            "Social perceptiveness",
+            "Psychology",
+            "Oral expression",
+            "Stress tolerance",
+            "Dependability",
+            "Adaptability",
+            "Initiative",
+            "Persistence"
+        ]
+    },
+    {
+        "job_name": "Floral Designer",
+        "job_description": "Floral designers cut and arrange live, dried and silk flowers and greenery to make decorative displays. They recommend arrangements and plants according to the customer's taste, occasion and budget. Floral designers answer phones, take orders and wrap arrangements for sale or delivery. They also buy flowers and plants from wholesalers and maintain the necessary inventory to meet customer demand.",
+        "skill": [
+            "Accounting software",
+            "Creativity",
+            "Active listening",
+            "Service orientation",
+            "Social perceptiveness",
+            "Critical thinking",
+            "Time management",
+            "Dexterity",
+            "Selective attention",
+            "Dependability",
+            "Attention to detail",
+            "Initiative",
+            "Stress tolerance",
+            "Leadership",
+            "Adaptability"
+        ]
+    },
+    {
+        "job_name": "Baker",
+        "job_description": "Bakers combine ingredients and follow recipes to make sweet and savoury breads, pastries and cakes. They use mixers, blenders, ovens and pans to create baked goods for grocers, wholesalers, restaurants, bakeries and institutional food services.",
+        "skill": [
+            "Creativity",
+            "Manual dexterity",
+            "Patience",
+            "Interpersonal",
+            "Customer service",
+            "Communication",
+            "Attention to detail",
+            "Mathematical",
+            "Physical strength",
+            "Physical stamina"
+        ]
+    },
+    {
+        "job_name": "Laboratory Animal Caretaker",
+        "job_description": "Laboratory animal caretakers feed, water and monitor animals involved in research. They assist scientists and research veterinarians by holding animals during exams and procedures, administering medication and taking samples. Laboratory animal caretakers provide postoperative care and ensure animals are treated humanely. They also clean and disinfect cages, equipment and work areas.",
+        "skill": [
+            "Active listening",
+            "Communication",
+            "Analytical thinking",
+            "Problem-solving",
+            "Attention to detail",
+            "Physical strength",
+            "Dexterity",
+            "Integrity",
+            "Stress tolerance",
+            "Teamwork",
+            "Dependability",
+            "Compassion",
+            "Adaptability",
+            "Initiative"
+        ]
+    },
+    {
+        "job_name": "Teller",
+        "job_description": "Tellers are typically the first point of contact for customers in banks. They process routine monetary transactions, offer and explain bank services, and direct clients to appropriate staff and departments. Tellers prepare specialised funds like cashier's cheques, exchange currencies and order bank cards and cheques for customers.",
+        "skill": [
+            "Accounting and banking software",
+            "Mathematics and accounting",
+            "Customer service",
+            "Attention to detail",
+            "Time management",
+            "Active listening",
+            "Organisational",
+            "Honesty and integrity",
+            "Selective attention",
+            "Reading comprehension"
+        ]
+    },
+    {
+        "job_name": "Veterinary Assistant",
+        "job_description": "Veterinary assistants provide care to animals and help veterinarians and veterinary technicians during exams and surgery. They clean and disinfect examination and operating rooms, surgical instruments and equipment.",
+        "skill": [
+            "Biology",
+            "Customer service",
+            "Active listening",
+            "Monitoring",
+            "Social perceptiveness",
+            "Critical thinking",
+            "Physical strength",
+            "Coordination",
+            "Reading comprehension",
+            "Attention to detail",
+            "Cooperation",
+            "Dependability",
+            "Initiative",
+            "Adaptability",
+            "Compassion",
+            "Communication"
+        ]
+    },
+    {
+        "job_name": "Non Farm Animal Caretaker",
+        "job_description": "Non-farm animal caretakers care and service animals by feeding, grooming, exercising and training pets. Whether it is at a boarding kennel or a rescue shelter, they are tasked with providing basic care to every animal, including dogs, cats, birds, horses and marine mammals. Some animal caretakers are also professional pet sitters.",
+        "skill": [
+            "Empathy",
+            "Physical stamina",
+            "Patience",
+            "Attention to detail",
+            "Time management",
+            "Communication",
+            "Teamwork",
+            "Leadership",
+            "Independence",
+            "Decision-making",
+            "Problem-solving",
+            "Judgement"
+        ]
+    },
+    {
+        "job_name": "Lifeguard",
+        "job_description": "Lifeguards monitor and supervise patrons of beaches, public swimming pools, water parks, and spa and recreational centers. They enforce safety rules and are trained to identify and prevent dangerous situations, and spot and rescue distressed swimmers.",
+        "skill": [
+            "Swimming",
+            "Physical stamina",
+            "Communication",
+            "Leadership",
+            "Concentration",
+            "Confidence",
+            "Vision",
+            "Interpersonal",
+            "Responsible",
+            "Dedicated",
+            "Teamwork",
+            "Organisational"
+        ]
+    },
+    {
+        "job_name": "Gaming Dealer",
+        "job_description": "Gaming dealers operate table games inside casinos. This position entails standing or sitting behind a table and operating various card games, such as baccarat, blackjack and poker, and other gaming equipment. The role of a gaming dealer is to compare the house’s hand against players’ hands, detect cheating, solve disputes and exchange money for chips.",
+        "skill": [
+            "Attention to detail",
+            "Mathematics",
+            "Physical stamina",
+            "Stress tolerance",
+            "Adaptability",
+            "Persuasion",
+            "Instruction",
+            "Social perception",
+            "Multitasking",
+            "Communication",
+            "Coordination",
+            "Critical thinking",
+            "Time management",
+            "Dexterous"
+        ]
+    },
+    {
+        "job_name": "Childcare Worker",
+        "job_description": "Childcare workers care for and cater to the basic needs of children. They feed, play with, teach, bathe and dress children of all ages at schools, childcare centres or households.",
+        "skill": [
+            "Communication",
+            "Interpersonal",
+            "Patience",
+            "Physical stamina",
+            "Decision-making",
+            "Active listening",
+            "Coordination",
+            "Instructing",
+            "Problem-solving",
+            "Service orientation"
+        ]
+    },
+    {
+        "job_name": "Nail Technician",
+        "job_description": "Nail technicians clean, shape and decorate their clients’ fingernails (manicuring) and toenails (pedicuring). They are responsible for polishing both artificial and real nails and trimming and filing them to enhance their appearance. Nail technicians also massage and moisturise the skin on hands and feet and advise clients on nail and skincare. These professionals may also sell nail and skincare products.",
+        "skill": [
+            "Creativity",
+            "Dexterity",
+            "Active listening",
+            "Interpersonal",
+            "Customer service",
+            "Social perceptiveness",
+            "Arm-hand steadiness",
+            "Near vision"
+        ]
+    },
+    {
+        "job_name": "Criminal Investigator",
+        "job_description": "Criminal investigators analyse evidence, perform searches, conduct interviews with witnesses and undergo surveillance to solve crimes, identify and arrest suspects, and prevent future criminal activities. They typically work for local, state/provincial or federal law enforcement agencies.",
+        "skill": [
+            "Attention to detail",
+            "Communication",
+            "Teamwork",
+            "Interpersonal",
+            "Analytical thinking",
+            "Numerical reasoning",
+            "Negotiation",
+            "Physical stamina",
+            "Creativity"
+        ]
+    },
+    {
+        "job_name": "Armoured Assault Vehicle Crew",
+        "job_description": "An armoured assault vehicle crew member operates armoured equipment and fires weapons in a combat situation. Every position involves the individual specialising in the type of weaponry, like assault vehicles, tanks and light armour. All positions consist of being dispatched around the world at any time to participate in combat or to institute peace.",
+        "skill": [
+            "Independent",
+            "Communication",
+            "Organisation",
+            "Problem-solving",
+            "Critical thinking",
+            "Coordination",
+            "Decision-making",
+            "Teamwork",
+            "Leadership",
+            "Attention to detail",
+            "Physically fit",
+            "Survival and tactical skill",
+            "Work well under stress"
+        ]
+    },
+    {
+        "job_name": "Tutor",
+        "job_description": "Tutors teach, guide and advise students in lessons after school, during weekends or throughout holiday seasons. They work with individuals or small groups and promote productivity and academic learning by teaching one or more subjects.",
+        "skill": [
+            "Instructional",
+            "Interpersonal",
+            "Communication",
+            "Listening",
+            "Friendly",
+            "Organisational",
+            "Computer",
+            "Analytical"
+        ]
+    },
+    {
+        "job_name": "Radar & Sonar Operator",
+        "job_description": "A radar and sonar operator installs, operates and maintains highly advanced radar and sonar equipment. The position involves identifying, searching for and analysing objects concerning a mission or objective from the military command centre or aboard aircraft, ships or submarines. Radar and sonar operators are also requested to forecast the weather and utilise artillery fires.",
+        "skill": [
+            "Concentration",
+            "Independence",
+            "Teamwork",
+            "Leadership",
+            "Communication",
+            "Tech-savvy",
+            "Problem-solving",
+            "Attention to detail",
+            "Decision-making",
+            "Handle stress",
+            "Coordination",
+            "Analytical"
+        ]
+    },
+    {
+        "job_name": "Aircrew Member",
+        "job_description": "An aircrew member will perform a wide variety of pre-, in-, and post-flight duties that are meant to complete combat, search and rescue, transport or reconnaissance missions. The position consists of operating many different aircraft communications, detection equipment and weapons and defensive systems components.",
+        "skill": [
+            "Communication",
+            "Organisation",
+            "Decision-making",
+            "Problem-solving",
+            "Analytical",
+            "Critical thinking",
+            "Risk management",
+            "Coordination",
+            "Leadership",
+            "Attention to detail",
+            "Energy",
+            "Team member"
+        ]
+    },
+    {
+        "job_name": "Artillery & Missile Crew Member",
+        "job_description": "An artillery and missile crew member will operate weapons by targeting and firing guns, cannons, missiles and rockets to destroy enemy positions, aircraft and vessels. A crew member will predominantly participate in ground combat operations, but the position could also require participation on ships or submarines, which would include executing torpedoes.",
+        "skill": [
+            "Leadership",
+            "Organisation",
+            "Communication",
+            "Interpersonal",
+            "Energy",
+            "Attention to detail",
+            "Critical thinking",
+            "Teamwork",
+            "Decision-making",
+            "Problem-solving",
+            "Analytical",
+            "Coordination"
+        ]
+    },
+    {
+        "job_name": "Proofreader",
+        "job_description": "Proofreaders review copy to check for things like grammar, spelling, syntax and formatting errors. Unlike editors, they don’t make recommendations to improve copy in any way. Their job is to simply do a final check before publication.",
+        "skill": [
+            "Writing",
+            "Reading comprehension",
+            "Active listening",
+            "Communication",
+            "Critical thinking",
+            "Attention to detail",
+            "Flexibility",
+            "Teamwork",
+            "English language",
+            "Computer software"
+        ]
+    },
+    {
+        "job_name": "Command & Control Specialist",
+        "job_description": "A command and control center specialist will receive heavy volumes of incoming data and then analyse the information to transmit critical elements to air, naval and ground forces during military operations or training drills. The high-stress and demanding position requires determining importance, priority and relevance to ensure leaders execute the best decisions in a timely manner.",
+        "skill": [
+            "Communication",
+            "Analytical",
+            "Tech-savvy",
+            "Confidence",
+            "Attention to detail",
+            "Organisation",
+            "Coordination",
+            "Problem-solving",
+            "Decision-making",
+            "Energetic",
+            "Independent",
+            "Teamwork",
+            "Leadership"
+        ]
+    },
+    {
+        "job_name": "Wind Energy Engineer",
+        "job_description": "Wind energy engineers design and oversee the construction of wind farms. This includes wind collection systems, energy transmission lines and all access roads. Wind energy engineers also research, develop and test all hardware and electrical components. They evaluate existing systems for compliance with industry standards and make recommendations to improve output and efficiency.",
+        "skill": [
+            "Active learning",
+            "Problem-solving",
+            "Operations analysis",
+            "Visualisation",
+            "Monitoring",
+            "Attention to detail",
+            "Integrity",
+            "Adaptability",
+            "Leadership",
+            "Teamwork",
+            "Analytical software",
+            "Scientific software",
+            "Cad software",
+            "Project management software",
+            "Physics",
+            "Building and construction",
+            "Law and government"
+        ]
+    },
+    {
+        "job_name": "Special Forces Officer",
+        "job_description": "A special forces officer will lead elite teams by air, land or sea and work with commanders on the various aspects of special operations. During combat or peacetime missions, a special forces officer will work with commanders by piecing together gathered intelligence and planning operations. This position requires the officer to possess a great deal of knowledge about political structures, the armed forces, geography and history. In today’s world, special forces officers are expected to be experts in unconventional warfare.",
+        "skill": [
+            "Leadership",
+            "Management",
+            "Self-discipline",
+            "Critical thinking",
+            "Analytical",
+            "Coordination",
+            "Energy",
+            "Time management",
+            "Adaptable",
+            "Communication",
+            "Risk management",
+            "Problem-solving",
+            "Creativity",
+            "Decision-making"
+        ]
+    },
+    {
+        "job_name": "Infantry",
+        "job_description": "An infantry soldier will participate in combat forces on the front lines during a war in the military. The primary duty of the job is to destroy enemy ground forces, defend against enemy attacks or capture opposing soldiers. When the nation is in peacetime, a combat soldier will remain prepared and ready to defend the country at any time. It is considered one of the most physically and psychologically demanding than any other position in the military.",
+        "skill": [
+            "Physical condition",
+            "Communication",
+            "Teamwork",
+            "Interpersonal",
+            "Energy",
+            "Leadership",
+            "Independent",
+            "Attention to detail",
+            "Critical thinking",
+            "Decision-making",
+            "Coordination",
+            "Problem-solving",
+            "Analytical"
+        ]
+    },
+    {
+        "job_name": "Data Scientist",
+        "job_description": "Data scientists are big data wranglers, gathering and analyzing large sets of structured and unstructured data. A data scientist’s role combines computer science, statistics, and mathematics. They analyze, process, and model data then interpret the results to create actionable plans for companies and other organizations",
+        "skill": [
+            "Python",
+            "sql",
+            "machine learning",
+            "data analysis ",
+            "Data visualization"
+        ]
+    },
+    {
+        "job_name": "Iot Solution Architect",
+        "job_description": "An IoT solutions architect is a professional role involved in developing practical uses and applications of internet of things technology. The IoT solutions architect typically works with engineers and salespeople to facilitate process development",
+        "skill": [
+            "machine learning",
+            "programming skill",
+            "hardware architecture"
+        ]
+    },
+    {
+        "job_name": "Software Engineer",
+        "job_description": "Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users",
+        "skill": [
+            "programming skill",
+            "analytical skill ",
+            "java",
+            "c++",
+            "c",
+            "python",
+            "coding skill",
+            "data structures"
+        ]
+    },
+    {
+        "job_name": "Blockchain Engineer",
+        "job_description": "Blockchain development refers to building, maintaining, and designing blockchain applications and systems. Overall, it seeks to use the unique features of blockchain technology to solve problems and create opportunities. An example of innovative blockchain development is the smart contract",
+        "skill": [
+            "Coding Languages ",
+            "Datastructure",
+            "Cryptography ",
+            "Blockchain platforms ",
+            "Metamask",
+            "Remix",
+            "Truffle"
+        ]
+    },
+    {
+        "job_name": "DevOps Engineer",
+        "job_description": "A DevOps engineer is an IT generalist who should have a wide-ranging knowledge of both development and operations, including coding, infrastructure management, system administration, and DevOps toolchains. DevOps engineers should also possess interpersonal skill since they work across company silos to create a more collaborative environment.DevOps engineers need to have a strong understanding of common system architecture, provisioning, and administration, but must also have experience with the traditional developer toolset and practices such as using source control, giving and receiving code reviews, writing unit tests, and familiarity with agile principles.",
+        "skill": [
+            "Gradle ",
+            "Git ",
+            "Jenkins ",
+            "Coding skill ",
+            "Linux ",
+            "Unix"
+        ]
+    },
+    {
+        "job_name": "AI Architect",
+        "job_description": "AI architects work in the field of information technology to develop and implement infrastructure for applications, databases, and computer networks.",
+        "skill": [
+            "Python ",
+            "R ",
+            "Machine Learning ",
+            "Deep Learning",
+            "Statistical Learning",
+            "Neural Networks"
+        ]
+    },
+    {
+        "job_name": "cloud architect",
+        "job_description": "A cloud architect is an IT professional who is responsible for overseeing a company's cloud computing strategy. This includes cloud adoption plans, cloud application design, and cloud management and monitoring. Cloud architects oversee application architecture and deployment in cloud environments -- including public cloud, private cloud and hybrid cloud. Additionally, they act as consultants to their organization and need to stay current on the latest trends and issues. Companies that hire cloud architects either use cloud services or are planning to move to the cloud.",
+        "skill": [
+            "Linux ",
+            "Unix ",
+            "cloud computing",
+            "cloud security"
+        ]
+    },
+    {
+        "job_name": "Data Warehouse Architect",
+        "job_description": "What Is a Data Warehouse Architect? Data warehouse architects are responsible for creating solutions relating to data warehouses and working alongside standard data warehouse technologies to develop plans that best support an organization or business.",
+        "skill": [
+            "data warehousing ",
+            "database design ",
+            "J2EEE ",
+            "Cognos"
+        ]
+    },
+    {
+        "job_name": "Full Stack Developer",
+        "job_description": "A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)",
+        "skill": [
+            "Html ",
+            "Css ",
+            "Js ",
+            "api development",
+            "react.js",
+            "angularjs",
+            "mongoDb ",
+            "Node.js"
+        ]
+    },
+    {
+        "job_name": "Product manager",
+        "job_description": "A product manager sets the strategy, roadmap, and feature definition for a product or product line. A product manager role may also include product marketing, forecasting, and profit and loss (P&L) responsibilities. Product managers analyze market and competitive conditions, laying out a product vision that is differentiated and delivers unique value based on customer demands.",
+        "skill": [
+            "Asana ",
+            "PivotalTracker ",
+            "JIRA"
+        ]
+    },
+    {
+        "job_name": "Artificial Intelligence Professionals",
+        "job_description": "Artificial intelligence developers build AI functionality into software applications,” according to The Enterprisers Project. “The role is generally focused on integrating and implementing AI algorithms and logic into the deliverables of an IT project",
+        "skill": [
+            "Programming skill",
+            "Analytical skill",
+            "Robotics",
+            "Statistical skill"
+        ]
+    },
+    {
+        "job_name": "Cyber Security Professionals",
+        "job_description": "Roles of the Cyber Security Professional-At a mile-high level, cybersecurity professionals are responsible for protecting IT infrastructure, edge devices, networks, and data. More granularly, they are responsible for preventing data breaches and monitoring and reacting to attacks.",
+        "skill": [
+            "Problem-Solving skill ",
+            "Technical aptitude ",
+            "Analytical skill ",
+            "Computer Forensics skill"
+        ]
+    },
+    {
+        "job_name": "UI/UX Designer",
+        "job_description": "UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. They also process flows or sitemaps.",
+        "skill": [
+            "Coding",
+            "Analysis",
+            "Programming",
+            "Visulization",
+            "Figma",
+            "Adobe Photoshop",
+            "Design tools",
+            "typography",
+            "Design",
+            "Communication"
+        ]
+    },
+    {
+        "job_name": "Copywriting",
+        "job_description": "Copywriting is the act or occupation of writing text for the purpose of advertising or other forms of marketing. The product, called copy or sales copy, is written content that aims to increase brand awareness and ultimately persuade a person or group to take a particular action",
+        "skill": [
+            "Strong writing skill",
+            "Communication",
+            "Technical",
+            "Creative thinking",
+            "Problem-solving",
+            "Interpersonal skill",
+            "Research"
+        ]
+    },
+    {
+        "job_name": "SEO - Software Engine Optimisation",
+        "job_description": "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic.",
+        "skill": [
+            "Critical Thinking",
+            "Speaking",
+            "Writing Ability",
+            "Technical",
+            "Programming",
+            "Social",
+            "Analytics",
+            "Data skill",
+            "Motivation",
+            "Adaptability",
+            "Sense of Humor"
+        ]
+    },
+    {
+        "job_name": "Content Creator",
+        "job_description": "A content creator is someone who creates entertaining or educational material to be expressed through any medium or channel.Content creation especially pertains to digital content, since that’s where the majority of content is consumed (and where the money is, if you’re looking to earn revenue through your efforts).",
+        "skill": [
+            "Adaptability",
+            "Research",
+            "Search Enigne Optimization",
+            "Organization",
+            "Focus",
+            "Time Management",
+            "Communication",
+            "Editing",
+            "Editing"
+        ]
+    },
+    {
+        "job_name": "AR/VR Developer",
+        "job_description": "An AR/VR developer develops AR/VR games and immersive product configurators. Mixed Reality Artist: A mixed reality artist designs and creates technology that makes the interface between computers and humans more interactive.",
+        "skill": [
+            "Programming",
+            "Software Development",
+            "API",
+            "json",
+            "ui/ux",
+            "libraries",
+            "xr",
+            "ar",
+            "vr",
+            "xr sdk",
+            "aiml",
+            "modelling",
+            "animation",
+            "social media"
+        ]
+    },
+    {
+        "job_name": "Cyber Security Expert",
+        "job_description": " cybersecurity specialist is a person who works in information technology, designing and building systems and processes that help organizations keep information technology resources secure. They may develop software, databases and email systems.",
+        "skill": [
+            "iot",
+            "aiml",
+            "cloud security",
+            "html",
+            "php",
+            "python",
+            "c++",
+            "c",
+            "sql",
+            "javascript",
+            "operting systems",
+            "os",
+            "networking",
+            "administration",
+            "virtual machine"
+        ]
+    },
+    {
+        "job_name": "Trading",
+        "job_description": "Trading is the buying and selling of securities, such as stocks, bonds, currencies and commodities, as opposed to investing, which suggests a buy-and-hold strategy. Trading success depends on a trader's ability to be profitable over time.",
+        "skill": [
+            "Analysis",
+            "Research, Capacity",
+            "Record Maintenance",
+            "patience",
+            "dicscipline",
+            "risk taking",
+            "decision making"
+        ]
+    },
+    {
+        "job_name": "Management Consultant",
+        "job_description": "Management consulting is the practice of providing consulting services to organizations to improve their performance or in any way to assist in achieving organizational objectives",
+        "skill": [
+            "Teamwork",
+            "Flexibility",
+            "Problem Solving",
+            "Communication",
+            "Quatitative Analysis",
+            "Pressure",
+            "Critical thinking",
+            "Collaboration"
+        ]
+    },
+    {
+        "job_name": "Blockchain Developer",
+        "job_description": "Blockchain development refers to building, maintaining, and designing blockchain applications and systems. Overall, it seeks to use the unique features of blockchain technology to solve problems and create opportunities. An example of innovative blockchain development is the smart contract",
+        "skill": [
+            "cryptography",
+            "Smart contracts",
+            "dsa",
+            "algorithms",
+            "data structures",
+            "Blockchain Arcihtecture"
+        ]
+    },
+    {
+        "job_name": "Ethical Hacking",
+        "job_description": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers. This practice helps to identify security vulnerabilities which can then be resolved before a malicious attacker has the opportunity to exploit them",
+        "skill": [
+            "Computer Networking",
+            "Computer",
+            "Linux",
+            "Programming",
+            "Hardware Knowlegde",
+            "Reverse Engineering",
+            "Cryptography",
+            "Database",
+            "Problem Solving"
+        ]
+    }
+]
