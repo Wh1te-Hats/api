@@ -36,13 +36,23 @@ def growth_rate(skill):
     res.append(li)
     df = pd.DataFrame({'Careers': li})
 
-    data = []
+    data = {
+            "skill": skill,
+            "result": []
+    }
+
 
     for i in range(len(df)):
         for z in mycol.find():
             if  df.Careers[i].strip() == z['job_name'].strip():
                 pct = z['job_growth']
-                data.append({f"{z['job_name'].strip()}" : f"{z['job_growth']}"})
+                
+            
+                data["result"].append({
+                    "job_name":z['job_name'].strip(), 
+                    "job_growth": z['job_growth'],
+                    "job_description": z['job_description']
+                    })
 
     
 
