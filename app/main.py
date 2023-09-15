@@ -13,6 +13,9 @@ from app.service.video import scrape_video
 from app.aptitude.generalApt.logicalReasoning import logical_aptitude
 from app.aptitude.generalApt.verbalAbilityApt import aptitude as verbal_ability_aptitude
 from app.aptitude.generalApt.verbalReasoningApt import aptitude as verbal_reasoning_aptitude
+from app.aptitude.generalApt.arithmeticApt import aptitude as arithmetic_aptitude
+from app.aptitude.generalApt.generalKnowledgeApt import aptitude as general_knowledge_aptitude
+from app.aptitude.generalApt.verbalReasoningApt import aptitude as non_verbal_reasoning_aptitude
 
 app = FastAPI()
 
@@ -80,12 +83,12 @@ async def general_aptitude(data: Aptitude):
             response = verbal_reasoning_aptitude()
 
         if (data.topic).lower() == 'arithmetic':
-            response = verbal_reasoning_aptitude()
+            response = arithmetic_aptitude()
 
         if (data.topic).lower() == 'general knowledge':
-            response = verbal_reasoning_aptitude()
+            response = general_knowledge_aptitude()
 
-        if (data.topic).lower() == 'non':
-            response = verbal_reasoning_aptitude()
+        if (data.topic).lower() == 'non verbal reasoning':
+            response = non_verbal_reasoning_aptitude()
             
     return response

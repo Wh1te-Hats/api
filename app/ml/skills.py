@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import accuracy_score
 import json
 import difflib
 from sklearn.feature_extraction.text import TfidfVectorizer
