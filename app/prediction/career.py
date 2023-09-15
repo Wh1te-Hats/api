@@ -3,7 +3,7 @@ import pandas as pd
 import pymongo
 
 
-def growth_rate(skill:str):
+def growth_rate(skill):
     
     res = []
     
@@ -16,7 +16,10 @@ def growth_rate(skill:str):
 
     filcol = mycol.find()
     print(skill)
-    if "\n" in skill:
+
+    if type(skill) == list:
+        pskills = skill
+    elif "\n" in skill:
         pskills = list(skill.split("\n"))
     elif "," in skill:
         pskills = list(skill.split(","))

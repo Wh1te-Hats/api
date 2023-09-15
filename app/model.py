@@ -1,9 +1,12 @@
 from pydantic import BaseModel
 
-class Aptitude(BaseModel):
+class General(BaseModel):
     user_id: str
-    type: str
     topic: str
+
+class Course(BaseModel):
+    user_id: str
+    subject: str
     
 class UserRegister(BaseModel):
     username: str
@@ -19,3 +22,6 @@ class Job(BaseModel):
     role: str
     location: str
     type: str
+
+class Career(BaseModel):
+    skill: list
