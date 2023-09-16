@@ -1,6 +1,7 @@
 # General Knowledge Aptitude
 
 import time
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -137,6 +138,11 @@ def aptitude():
                 img_tag['src'] = 'https://www.indiabix.com' + src
 
         html = str(bix_div_container).split("</div>")
+        pattern = r'<span class="mdi mdi-alpha-(\w+)-circle-outline">(\w+)</span>'
+        try:
+            correct_option = re.search(pattern, html[4]).group(1)
+        except:
+            correct_option = ""
         true_explaination = ""
         for i in html[3:]:
             true_explaination += i.replace("\n","")
@@ -161,7 +167,7 @@ def aptitude():
 
 
     driver.quit()
-    return {"question":question_data_list, "explaination": explanation_list}
+    explanation_list.append({"correct_option": correct_option,"explaination":true_explaination})
 
 
 # aptitude()

@@ -36,10 +36,7 @@ def growth_rate(skill):
     res.append(li)
     df = pd.DataFrame({'Careers': li})
 
-    data = {
-            "skill": skill,
-            "result": []
-    }
+    career = []
 
 
     for i in range(len(df)):
@@ -48,12 +45,12 @@ def growth_rate(skill):
                 pct = z['job_growth']
                 
             
-                data["result"].append({
-                    "job_name":z['job_name'].strip(), 
-                    "job_growth": z['job_growth'],
-                    "job_description": z['job_description']
+                career.append({
+                    "career_name":z['job_name'].strip(), 
+                    "career_growth": z['job_growth'],
+                    "career_description": z['job_description']
                     })
 
     
 
-    return data
+    return career

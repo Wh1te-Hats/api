@@ -10,6 +10,8 @@ from app.service.job import job_seek
 from app.service.pdf import pdf_search
 from app.service.video import scrape_video
 from app.prediction.career import growth_rate
+from app.analytics.aptitude_analytic import analytics
+from app.helper import read_json
 
 from app.aptitude.generalApt.logicalReasoning import logical_aptitude
 from app.aptitude.generalApt.verbalAbilityApt import aptitude as verbal_ability_aptitude
@@ -74,7 +76,7 @@ async def job(data: Job):
 @app.post("/career")
 async def career(data: Career):
     career_list = growth_rate(data.skill)
-    return {"result":career_list}
+    return career_list
 
 @app.post("/document")
 async def document(data: str):
@@ -86,21 +88,347 @@ async def document(data: str):
     vid_res = scrape_video(data)
     return {"result": vid_res}
 
+
+@app.get("/stream/arts")
+async def arts():
+    client = MongoClient(MONGO_URI)  
+    db = client["stream"]  
+    collection = db["arts"]
+    results = collection.find()
+    data = []
+    for document in results:
+        data.append(
+            {    
+            "course name": document["course name"],
+            "course description": document["course description"],
+            "course duration": document["course duration"],
+            "career opportunities": document["career opportunities"],
+            "eligibility requirements": document["eligibility requirements"],
+            "course curriculum": document["course curriculum"],
+            "course structure": document["course structure"]
+            }
+        )
+    
+    return data
+
+@app.get("/stream/commerce")
+async def commerce():
+    client = MongoClient(MONGO_URI)  
+    db = client["stream"]  
+    collection = db["commerce"]
+    results = collection.find()
+    data = []
+    for document in results:
+        data.append(
+            {    
+            "course name": document["course name"],
+            "course description": document["course description"],
+            "course duration": document["course duration"],
+            "career opportunities": document["career opportunities"],
+            "eligibility requirements": document["eligibility requirements"],
+            "course curriculum": document["course curriculum"],
+            "course structure": document["course structure"]
+            }
+        )
+    
+    return data
+
+@app.get("/stream/pcb")
+async def pcb():
+    client = MongoClient(MONGO_URI)  
+    db = client["stream"]  
+    collection = db["pcb"]
+    results = collection.find()
+    data = []
+    for document in results:
+        data.append(
+            {    
+            "course name": document["course name"],
+            "course description": document["course description"],
+            "course duration": document["course duration"],
+            "career opportunities": document["career opportunities"],
+            "eligibility requirements": document["eligibility requirements"],
+            "course curriculum": document["course curriculum"],
+            "course structure": document["course structure"]
+            }
+        )
+    
+    return data
+
+@app.get("/stream/pcm")
+async def pcm():
+    client = MongoClient(MONGO_URI)  
+    db = client["stream"]  
+    collection = db["pcm"]
+    results = collection.find()
+    data = []
+    for document in results:
+        data.append(
+            {    
+            "course name": document["course name"],
+            "course description": document["course description"],
+            "course duration": document["course duration"],
+            "career opportunities": document["career opportunities"],
+            "eligibility requirements": document["eligibility requirements"],
+            "course curriculum": document["course curriculum"],
+            "course structure": document["course structure"]
+            }
+        )
+    
+    return data
+
+@app.get("/stream/pcmb")
+async def pcmb():
+    client = MongoClient(MONGO_URI)  
+    db = client["stream"]  
+    collection = db["pcmb"]
+    results = collection.find()
+    data = []
+    for document in results:
+        data.append(
+            {    
+            "course name": document["course name"],
+            "course description": document["course description"],
+            "course duration": document["course duration"],
+            "career opportunities": document["career opportunities"],
+            "eligibility requirements": document["eligibility requirements"],
+            "course curriculum": document["course curriculum"],
+            "course structure": document["course structure"]
+            }
+        )
+    
+    return data
+
+@app.get("/college/engineering")
+async def engineering():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["engineering colleges"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("college_nirf", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("average_package", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/architecture")
+async def engineering():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["Architecture"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/bcom")
+async def engineering():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["BCom"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/mass_media")
+async def law():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["mass_media"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/law")
+async def law():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["law"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/mba")
+async def mba():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["mba"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_icon", ""),
+        "fees": document.get("fees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/mbbs")
+async def mbbs():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["mbbs"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_img", ""),
+        "fees": document.get("FirstYearFees", ""),
+        "duration": document.get("duration", ""),
+        "exam": document.get("exam", ""),
+        "eligibility": document.get("eligibility", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get("/college/science")
+async def mbbs():
+    client = MongoClient(MONGO_URI)  
+    db = client["pragati"]  
+    collection = db["science"]
+    results = collection.find()
+    data = []
+    for document in results[:10]:
+        
+        data.append(
+    {
+        "college_name": document.get("college_name", ""),
+        "college_icon": document.get("college_img", ""),
+        "fees": document.get("fees1", ""),
+        "duration": document.get("duration1", ""),
+        "exam": document.get("exams1", ""),
+        "eligibility": document.get("eligibility1", ""),
+        "college_nirf": document.get("rank", ""),
+        "highest_package": document.get("highest_package", ""),
+        "average_package": document.get("salary", "")
+    }
+)
+    
+    return data
+
+@app.get('/college')
+def college_data():
+    return read_json()
+
+
 @app.post('/aptitude/general')
 async def general_aptitude(data: General):
-
+    
     if (data.topic).lower() == 'logical reasoning':
         response = logical_aptitude()
+        
     if (data.topic).lower() == 'verbal ability':
         response = verbal_ability_aptitude()
+        
     if (data.topic).lower() == 'verbal reasoning':
         response = verbal_reasoning_aptitude()
+        
     if (data.topic).lower() == 'arithmetic':
         response = arithmetic_aptitude()
+        
     if (data.topic).lower() == 'general knowledge':
         response = general_knowledge_aptitude()
+        
     if (data.topic).lower() == 'non verbal reasoning':
         response = non_verbal_reasoning_aptitude()
+
+
+    # analytics(response,topic,data)
+
+    return response["question"]
 
 @app.post('/aptitude/course/engineering')
 async def course_aptitude(data: Course):
@@ -116,6 +444,7 @@ async def course_aptitude(data: Course):
         response = eee_aptitude()
     if (data.subject).lower() == 'mechanical':
         response = mechanical_aptitude()
+    return response
 
 @app.post('/aptitude/course/medical')
 async def medical_aptitude(data: Course):

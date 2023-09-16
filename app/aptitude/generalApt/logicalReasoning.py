@@ -1,7 +1,7 @@
 # Critical thinking and Problem-solving Aptitude
 
 import time
-import json
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
@@ -19,6 +19,7 @@ chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 chrome_options.add_argument(f'user-agent={user_agent}')
 
 def logical_aptitude():
+    print("Hola")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
     # Step 1: Visit the website
     driver.get("https://www.indiabix.com/online-test/logical-reasoning-test/random")
@@ -136,11 +137,16 @@ def logical_aptitude():
                 img_tag['src'] = 'https://www.indiabix.com' + src
 
         html = str(bix_div_container).split("</div>")
+        pattern = r'<span class="mdi mdi-alpha-(\w+)-circle-outline">(\w+)</span>'
+        try:
+            correct_option = re.search(pattern, html[4]).group(1)
+        except:
+            correct_option = ""
         true_explaination = ""
         for i in html[3:]:
             true_explaination += i.replace("\n","")
         true_explaination += "</div>" 
-        explanation_list.append({f"{index}":true_explaination})
+        explanation_list.append({"correct_option": correct_option,"explaination":true_explaination})
 
     # for question_data, direction_question in zip(question_data_list, direction_question_list):
     #     print(f"Question {question_data['question_number']}:")

@@ -228,3 +228,8 @@ def trigger_second_scrape(driver,data,job_list,i,j):
     print(f"{job_list.upper()} || {j} CYCLE || {i} DONE")
     return data
 
+def read_json():
+    "Return json data"
+    f = open("app/dataset/college.json")
+    data = json.load(f)
+    return data
