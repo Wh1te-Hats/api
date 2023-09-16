@@ -41,27 +41,20 @@ def _get_info(query):
 
         # img.Q4LuWd is the google tumbnail selector
         thumbnails = wd.find_elements(by=By.CSS_SELECTOR, value="img.Q4LuWd")
-
-        for img in thumbnails[0:10]:
-            # We need to click every thumbnail so we can get the full image.
+        urls = []
+        for img in thumbnails[:10]:
             try:
                 img.click()
-            except Exception:
-                print('ERROR: Cannot click on the image.')
+                time.sleep(1)
+                page_source = wd.page_source
+                soup = BeautifulSoup(page_source, 'html.parser')
+                images = soup.find_all('img', class_='r48jcc pT0Scc iPVvYb')
+                for image in images:
+                    src_value = image.get('src')
+                    urls.append(src_value)
+            except Exception as e:
                 continue
-
-            images = wd.find_elements(by=By.CSS_SELECTOR, value='img.n3VNCb')
-            time.sleep(0.2)
-
-            for image in images:
-                if image.get_attribute('src') and 'http' in image.get_attribute('src'):
-                    # image_urls.add(image.get_attribute('src'))
-                    image_url = image.get_attribute('src')
-                    if image_url == None:
-                        continue
-                    else:
-                        wd.quit()
-                        return image_url
+        return urls
 
 
 def scrape_images(query):
