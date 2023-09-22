@@ -13,7 +13,6 @@ from app.helper import scrape_images
 
 
 def scrape_text(query):
-    # print("Universal Scraping Started")
     URL = "https://www.google.co.in"
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
     chrome_options = Options()
@@ -27,9 +26,9 @@ def scrape_text(query):
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)    
     driver.get(URL)
     time.sleep(0.25)
-    driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input').send_keys(query)
+    driver.find_element(By.NAME, "q").send_keys(query)
     time.sleep(0.25)
-    driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input').send_keys(Keys.ENTER)
+    driver.find_element(By.NAME, "q").send_keys(Keys.ENTER)
     time.sleep(0.5)
 
     page_source = driver.page_source.encode('utf8')
@@ -37,18 +36,18 @@ def scrape_text(query):
 
     related_list = []
     related_list.append('Related searches👇')
-    related = soup.find_all(class_ = 's75CSd OhScic AB4Wff',limit=3)
+    related = soup.find_all(class_ = 'JCzEY ZwRhJd',limit=3)
     for x in related:
         related_list.append(x.get_text().strip())
 
     try:
         text1 = soup.find_all(class_ = 'bjV81b')
         text2 = soup.find_all(class_ = 'JDfRZb')
-        driver.quit()
         if len(text1) == 0 or len(text2) == 0:
             raise Exception('List is empty')
         for a, b in zip(text1, text2):
             print(a.get_text(),b.get_text(),related_list)
+            # driver.quit()
             return {"message": [a.get_text(),b.get_text()],"related list":related_list,"flow": "EMPTY","num":-1}
     except:
         try: # scraping all the lists from "People also ask"
@@ -69,7 +68,7 @@ def scrape_text(query):
                     concat += '\n'
                 concat += each + '\n'
             lists.clear()   
-            driver.quit()
+            # driver.quit()
             return {"message": concat,"related list":related_list,"flow": "EMPTY","num":-1}
         except:
             try: # scraping is done from "People also ask"
@@ -82,9 +81,10 @@ def scrape_text(query):
                     print(x.get_text().strip())
                     related_list.append(x.get_text().strip())
                     print(related_list)
+                    # driver.quit()
                     return {"message": [a.get_text(),b.get_text()],"related list":related_list,"flow": "EMPTY","num":-1}
             except:
-                driver.quit()
+                # driver.quit()
                 return {"message": "Sorry couldn't find anything. I am still learning📖\nTry asking similar queries🤔","flow": "EMPTY","num":-1}
 
 # res = scrape_text('what is kmp algorithm')

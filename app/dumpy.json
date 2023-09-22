@@ -1,0 +1,254 @@
+[
+    {
+      "question_number": "1.",
+      "question_text_html": "21 25 18 29 33 18",
+      "options_html": [
+        "43 18",
+        "41 44",
+        "37 18",
+        "37 41",
+        "38 41"
+      ],
+      "correct_option": "d",
+      "explaination": "This is a simple addition series with a random number, 18, interpolated as every third number. In the series, 4 is added to each number except 18, to arrive at the next number."
+    },
+    {
+      "question_number": "2.",
+      "question_text_html": "FAG, GAF, HAI, IAH, ____",
+      "options_html": [
+        "JAK",
+        "HAL",
+        "HAK",
+        "JAI"
+      ],
+      "correct_option": "a",
+      "explaination": "The middle letters are static, so concentrate on the first and third letters. The series involves an alphabetical order with a reversal of the letters. The first letters are in alphabetical order: F, G, H, I , J. The second and fourth segments are reversals of the first and third segments. The missing segment begins with a new letter."
+    },
+    {
+      "question_number": "3.",
+      "question_text_html": "ZA5, Y4B, XC6, W3D, _____",
+      "options_html": [
+        "E7V",
+        "V2E",
+        "VE5",
+        "VE7"
+      ],
+      "correct_option": "d",
+      "explaination": "There are three series to look for here. The first letters are alphabetical in reverse: Z, Y, X, W, V. The second letters are in alphabetical order, beginning with A. The number series is as follows: 5, 4, 6, 3, 7."
+    },
+    {
+      "question_number": "4.",
+      "question_text_html": "Which word does NOT belong with the others?",
+      "options_html": [
+        "unimportant",
+        "trivial",
+        "insignificant",
+        "familiar"
+      ],
+      "correct_option": "d",
+      "explaination": "The first three choices are all synonyms."
+    },
+    {
+      "question_number": "5.",
+      "question_text_html": "<u>shoe</u>",
+      "options_html": [
+        "sole",
+        "leather",
+        "laces",
+        "walking"
+      ],
+      "correct_option": "a",
+      "explaination": "All shoes have a sole of some sort.Not all shoes are  made of leather (choice b); nor do they all have laces (choice c).Walking (choice d) is not essential to a shoe."
+    },
+    {
+      "question_number": "6.",
+      "question_text_html": "<img src=\"https://www.indiabix.com/_files/images/logical-reasoning/5-232-q-1.png\"/>",
+      "options_html": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_option": "b",
+      "explaination": "Closet is to shirt as kitchen cabinets are to cans of food. The shirt is stored in the closet; the food is stored in the cabinets."
+    },
+    {
+      "question_number": "7.",
+      "question_text_html": "Mrs. Carson took a taxi to meet her three friends for lunch. They were waiting for her outside the restaurant when she pulled up in the car. She was so excited to see her friends that she left her tote bag in the taxi. As the taxi pulled away, she and her friends took notice of the license plate number so they would be able to identify the car when they called the taxi company. \n#1: The four women seem to agree that the plate starts out with the letter J.\n#2: Three of them agree that the plate ends with 12L.\n#3: Three of them think that the second letter is X, and a different three think that the third letter is K.\nThe four license plate numbers below represent what each of the four women thinks she saw. Which one is most likely the license plate number of the taxi?",
+      "options_html": [
+        "JXK 12L",
+        "JYK 12L",
+        "JXK 12I",
+        "JXX 12L"
+      ],
+      "correct_option": "a",
+      "explaination": "The four women seem to agree that the plate starts out with the letter J. Three of them agree that the plate ends with 12L. Three of them think that the second letter is X, and a different three think that the third letter is K. The plate description that has all of these common elements  is \"Option A\"."
+    },
+    {
+      "question_number": "8.",
+      "question_text_html": "Martina is sitting in the desk behind Jerome.<br/>\nJerome is sitting in the desk behind Bryant.<br/>\nBryant is sitting in the desk behind Martina.<br/>\nIf the first two statements are true, the third statement is",
+      "options_html": [
+        "true",
+        "false",
+        "uncertain"
+      ],
+      "correct_option": "b",
+      "explaination": "Given the information in the first two statements, Bryant is sitting in front of both Jerome and Martina, so the third statement must be false."
+    },
+    {
+      "question_number": "9.",
+      "question_text_html": "Statements: A neurotic is a non-stupid person who behaves stupidly.\nConclusions:\n\nNeuroticism and stupidity go hand in hand.\nNormal persons behave intelligently.\n",
+      "options_html": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correct_option": "a",
+      "explaination": "It is mentioned in the statement that a neurotic is a person who behaves stupidly. So, I follows. The behaviour of normal persons cannot be deduced from the given statement. So, II does not follow."
+    },
+    {
+      "question_number": "10.",
+      "question_text_html": "Statements: India's economy is depending mainly on forests.\nConclusions:\n\nTrees should be preserved to improve Indian economy.\nIndia wants only maintenance of forests to improve economic conditions.\n",
+      "options_html": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correct_option": "a",
+      "explaination": "It is mentioned in the statement that India's economy depends mainly on forests. This means that forests should be preserved. So, I follows. But, that only preservation of forests can improve the economy, cannot be said. So, II does not follow."
+    },
+    {
+      "question_number": "11.",
+      "question_text_html": "Statement:  'Double your money in five months.' - An advertisement.\nAssumptions:\n\nThe assurance is not genuine.\nPeople want their money to grow.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "b",
+      "explaination": "The truth or falsity of the promise made in the statement cannot be judged. So, I is not implicit. Since the concerned firm advertises with the assurance that money can be doubled quickly by investing with it, so II is implicit."
+    },
+    {
+      "question_number": "12.",
+      "question_text_html": "Statement:  The patient's condition would improve after operation.\nAssumptions:\n\nThe patient can be operated upon in this condition.\nThe patient cannot be operated upon in this condition.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "a",
+      "explaination": "The fact that patient's condition would improve after the operation clearly implies that the patient can be operated upon in this condition. So, I is implicit."
+    },
+    {
+      "question_number": "13.",
+      "question_text_html": "Statement:  The Principal instructed all the teachers to be careful in class because some students may disturb other students.\nAssumptions:\n\nThe teachers will handle the situation properly and they will point out the naughty students. \nThe students will welcome the decision of the Principal.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "",
+      "explaination": "Clearly, teachers have been instructed to maintain discipline in the class and point out the naughty students who do not let other students study. So, I is implicit. Besides, the implementation of the instructions would surely help good students to concentrate on their studies and ensure a good working atmosphere in the class. So, II is also implicit."
+    },
+    {
+      "question_number": "14.",
+      "question_text_html": "Statement:  An advertisement in a newspaper - \"Wanted unmarried, presentable, matriculate girls between 18 and 21, able to speak fluently in English to be taken as models.\"\nAssumptions:\n\nFluency in English is a pre-requisite for good performance as a model.\nHeight does not matter in performing as a model.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "a",
+      "explaination": "'Fluency in English' is a condition mentioned for girls to be taken as models. So, I is implicit. Since nothing is mentioned about the height, so II is not implicit."
+    },
+    {
+      "question_number": "15.",
+      "question_text_html": "Statement:  Money is the root cause of all the problems in a family.\nAssumptions:\n\nEvery problem is caused by something.\nThere are always some problems in a family.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "d",
+      "explaination": "The statement mentions the cause of family problems and does not deal with all the problems. So, I is not implicit. Also, it is mentioned that money is the cause of family problems. But this does not mean that problems always exist in a family. So, II is also not implicit."
+    },
+    {
+      "question_number": "16.",
+      "question_text_html": "Statement:  The product X that you have asked for is not with us but can be made available against firm order from you.\nAssumptions:\n\nThe product X is not in great demand.\nThe product X is out of stock as new model is coming up.\n",
+      "options_html": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Either I or II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "correct_option": "a",
+      "explaination": "The statement mentions that the seller does not keep product X in ready stock and intends to provide the same only against a confirmed order from the customer. So, I is implicit However, II appears to be vague in this context."
+    },
+    {
+      "question_number": "17.",
+      "question_text_html": "Statements: All artists are smokers. Some smokers are drunkards.\nConclusions:\n\nAll smokers are artists.\nSome drunkards are not smokers.\n",
+      "options_html": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either I or II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correct_option": "d",
+      "explaination": "Since the middle term 'smokers' is not distributed even once in the premises, no definite conclusion follows."
+    },
+    {
+      "question_number": "18.",
+      "question_text_html": "Statement: Should the education at all levels be offered only in vernacular medium?\nArguments:\n\nYes. This is the only way to enhance performance of the students.\nNo. This will severely affect acquiring knowledge for want of good text books in vernacular medium.\n",
+      "options_html": [
+        "Only argument I is strong",
+        "Only argument II is strong",
+        "Either I or II is strong",
+        "Neither I nor II is strong",
+        "Both I and II are strong"
+      ],
+      "correct_option": "b",
+      "explaination": "Teaching in vernacular medium would surely make it easy for students to grasp. But the use of 'only' in argument I makes if invalid. Also, teaching in international language would open up more avenues for students - in procuring books and study material, in going abroad for studies as well as taking up jobs which require interaction with people of different nationalities. So, argument II holds strong,"
+    },
+    {
+      "question_number": "19.",
+      "question_text_html": "Statement:  \"We do not want you to see our product on newspaper, visit our shop to get a full view.\" - An advertisement.\nAssumptions:\n\nPeople generally decide to purchase any product after seeing the name in the advertisement.\nUncommon appeal may attract the customers.\nPeople may come to see the product.\n",
+      "options_html": [
+        "None is implicit",
+        "Only I and II are implicit",
+        "Only II and III are implicit",
+        "All are implicit",
+        "None of these"
+      ],
+      "correct_option": "c",
+      "explaination": "It can be inferred from the statement that people also like to see a product before buying. So, I is not implicit. Also, the statement is just an attempt to arouse the people to come and see the shop. So, both II and III are implicit."
+    },
+    {
+      "question_number": "20.",
+      "question_text_html": "Statements:  All snakes are trees. Some trees are roads. All roads are mountains.\nConclusions:\n\nSome mountains are snakes.\nSome roads are snakes.\nSome mountains are trees.\n",
+      "options_html": [
+        "Only I follows",
+        "Only II follows",
+        "Only III follows",
+        "Both I and II follow",
+        "None follows"
+      ],
+      "correct_option": "c",
+      "explaination": "All snakes are trees. Some trees are roads.Since the middle term is not distributed even once in the premises, so no definite conclusion follows.Some trees are roads. All roads are mountains.Since one premise is particular, the conclusion must be particular and should not contain the middle term. So, it follows that 'Some trees are mountains'. III is the converse of this conclusion and so it holds.All snakes are trees. Some trees are mountains.Since the middle term is not distributed even once in the premises, so no definite conclusion follows."
+    }
+  ]

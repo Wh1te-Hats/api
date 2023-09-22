@@ -146,7 +146,8 @@ def aptitude():
         true_explaination = ""
         for i in html[3:]:
             true_explaination += i.replace("\n","")
-        true_explaination += "</div>" 
+        true_explaination = true_explaination.split("Explanation:")[1] 
+        true_explaination += "</div>"
         explanation_list.append({"correct_option": correct_option,"explaination":true_explaination})
 
     for question_data, direction_question in zip(question_data_list, direction_question_list):
@@ -167,7 +168,18 @@ def aptitude():
 
 
     driver.quit()
-    return {"question":question_data_list, "explaination": explanation_list}
+    data = []
+    for i,ques in enumerate(question_data_list):
+        data.append(
+            {
+                "question_number": ques["question_number"],
+                "question_text_html": ques["question_text_html"],
+                "options_html": ques["options_html"],
+                "correct_option": explanation_list[i]["correct_option"],
+                "explaination":  explanation_list[i]["explaination"]
+            }
+        )
+    return data
 
 
 # aptitude()

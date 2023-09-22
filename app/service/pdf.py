@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import time
+from bs4 import BeautifulSoup
 
 
 
@@ -26,24 +27,26 @@ def pdf_search(site):
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
     driver.get("https://www.google.com")
 
-    search_bar = driver.find_element(by=By.XPATH, value="//*[@id=\"APjFqb\"]")
+    search_bar = driver.find_element(By.NAME, "q")
     search_expr = "{} filetype:pdf "
     search_bar.send_keys(search_expr.format(site))
     search_bar.send_keys(Keys.RETURN)
 
     pdf_links = []
     try:
-       links = [x.get_attribute("href") for x in driver.find_elements(by=By.TAG_NAME, value="a")]
-       print(links)
-       print(x.get_attribute("href") for x in driver.find_elements(by=By.TAG_NAME, value="a"))
-       pdf_links += list(filter(get_pdf_links, links))
-       time.sleep(0.25)
-       driver.find_element(by=By.ID, value="pnnext").click()
-       driver.quit()
-       return pdf_links
+        time.sleep(2)  # Allow some time for the search results to load
 
+        # Extract page source using BeautifulSoup
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, 'html.parser')
+
+        # Find all hrefs that end with ".pdf" using BeautifulSoup
+        pdf_links += [a['href'] for a in soup.find_all('a', href=True) if a['href'].endswith('.pdf')]
+
+        return pdf_links
     except Exception as e:
-        pass
+        print("An error occurred:", str(e))
+
 
 # link = pdf_search('dsce.edu.in')
 # for _ in link:
