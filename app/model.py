@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class General(BaseModel):
     user_id: str
@@ -13,6 +14,11 @@ class UserRegister(BaseModel):
     password: str
     grade: int
     board: str
+
+class ChatBot(BaseModel):
+    message: str
+    flow: Optional[str] = "EMPTY"
+    num: Optional[int] = -1
 
 class UserLogin(BaseModel):
     username: str

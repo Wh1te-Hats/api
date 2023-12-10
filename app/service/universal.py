@@ -4,6 +4,8 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+import json
+from starlette.responses import Response
 from app.helper import img_download
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
@@ -22,6 +24,7 @@ def scrape_text(query):
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     chrome_options.add_argument(f'user-agent={user_agent}')
+
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)    
     driver.get(URL)
@@ -48,7 +51,11 @@ def scrape_text(query):
         for a, b in zip(text1, text2):
             print(a.get_text(),b.get_text(),related_list)
             # driver.quit()
-            return {"message": [a.get_text(),b.get_text()],"related list":related_list,"flow": "EMPTY","num":-1}
+            my_list = [a.get_text(),b.get_text()]
+            result_string = "\n".join(my_list)
+            data =  {"message": result_string,"related list":related_list,"flow": "EMPTY","num":-1}
+            data = json.dumps(data)
+            return Response(content=data, media_type="text/plain; charset=utf-8")
     except:
         try: # scraping all the lists from "People also ask"
             lists = []
@@ -61,7 +68,7 @@ def scrape_text(query):
             for x in data:
                 lists.append("▸ {}".format(x.get_text().strip()[:-1]))
             if len(link) != 0:
-                lists.append("*For more* information, see {}".format(link[0].get("href")))
+                lists.append("For more information, see {}".format(link[0].get("href")))
             concat = ''
             for each in lists:
                 if each == lists[-1]:
@@ -69,23 +76,29 @@ def scrape_text(query):
                 concat += each + '\n'
             lists.clear()   
             # driver.quit()
-            return {"message": concat,"related list":related_list,"flow": "EMPTY","num":-1}
+            data = {"message": concat,"related list":related_list,"flow": "EMPTY","num":-1}
+            data = json.dumps(data)
+            return Response(content=data, media_type="text/plain; charset=utf-8")
         except:
             try: # scraping is done from "People also ask"
                 data = soup.find_all(class_ = 'hgKElc', limit=1)
                 img_url = scrape_images(query) # scrape related image
-                driver.quit()
+                # driver.quit()
                 for x in data:
-                    path = img_download(img_url)
-                    print(path)
+                    # path = img_download(img_url)
+                    # print(path)
                     print(x.get_text().strip())
                     related_list.append(x.get_text().strip())
                     print(related_list)
                     # driver.quit()
-                    return {"message": [a.get_text(),b.get_text()],"related list":related_list,"flow": "EMPTY","num":-1}
+                data =  {"message": x.get_text().strip(),"related list":related_list,"flow": "EMPTY","num":-1}
+                data = json.dumps(data)
+                return Response(content=data, media_type="text/plain; charset=utf-8")
             except:
                 # driver.quit()
-                return {"message": "Sorry couldn't find anything. I am still learning📖\nTry asking similar queries🤔","flow": "EMPTY","num":-1}
+                data =  {"message": "Sorry couldn't find anything. I am still learning📖\nTry asking similar queries🤔","flow": "EMPTY","num":-1}
+                data = json.dumps(data)
+                return Response(content=data, media_type="text/plain; charset=utf-8")
 
 # res = scrape_text('what is kmp algorithm')
 # search = res[-1]
