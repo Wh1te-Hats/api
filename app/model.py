@@ -10,9 +10,12 @@ class Course(BaseModel):
     subject: str
     
 class UserRegister(BaseModel):
-    username: str
-    password: str
-    grade: int
+    id:str
+    name: str
+    city: str
+    state: str
+    grade: str
+    gender:str
     board: str
 
 class ChatBot(BaseModel):
