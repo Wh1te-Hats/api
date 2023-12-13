@@ -22,6 +22,12 @@ def intialize_driver(chrome_options,start_url):
     driver.get(start_url)
     return driver
 
+def get_get_link(html_code):
+    html_code = BeautifulSoup(html_code, 'html.parser')
+    first_anchor = html_code.select_one('.B8oxKe.BQC79e.xXyUwe a.pMhGee.Co68jc.j0vryd')
+    href_link = first_anchor.get('href')
+    return href_link
+
 
 def job_seek(info):
 
@@ -52,8 +58,8 @@ def job_seek(info):
         except:
             pass
     
-    link = driver.find_elements(By.XPATH,"""//span/a[@class='pMhGee Co68jc j0vryd']""")
- 
+    link = driver.find_elements(By.XPATH,"""//div[@class='B8oxKe BQC79e xXyUwe']""")
+    
     jobs = driver.find_elements(By.TAG_NAME,"ul")
     try:
         soup = BeautifulSoup(jobs[0].get_attribute('innerHTML'),'html.parser')
@@ -66,7 +72,7 @@ def job_seek(info):
             data = {}
             data["job_name"] = job_name[i].get_text()
             data["company_name"] = company_name[i].get_text()
-            data["link"] = link[i].get_attribute('href')
+            data["link"] = get_get_link(link[i].get_attribute("outerHTML"))
             if i %2 == 0:
                 data["location"] = location[i].get_text()
             else :
