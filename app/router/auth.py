@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Request
 from app.model import UserRegister, UserLogin
 from app.database import collection
 from fastapi import HTTPException
@@ -9,13 +9,14 @@ auth_router = APIRouter(tags=["authentication"])
 @auth_router.post("/register")
 async def register_user(user: UserRegister):
     # Check if the username already exists
-    if collection.find_one({"username": user.username}):
+    if collection.find_one({"username": user.name}):
         raise HTTPException(status_code=400, detail="Username already taken")
     # Insert the user into the MongoDB collection and generate a random ID
     user_dict = user.dict()
-    user_dict["user_id"] = secrets.token_hex(16)
+    print(user_dict)
     collection.insert_one(user_dict)
-    return {"message": "User registered successfully", "user_id": user_dict["user_id"]}
+    print("User registered successfully")
+    return {"message": "User registered successfully", "id": user_dict["id"]}
 
 @auth_router.post("/login")
 async def login_user(user: UserLogin):

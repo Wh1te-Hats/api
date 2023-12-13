@@ -14,7 +14,7 @@ async def stream(stream:str):
         results = collection.find()
         data = []
         for document in results:
-            data.stream_routerend(
+            data.append(
                 {    
                 "course name": document["course name"],
                 "course description": document["course description"],
@@ -32,7 +32,7 @@ async def stream(stream:str):
         results = collection.find()
         data = []
         for document in results:
-            data.stream_routerend(
+            data.append(
             {    
             "course name": document["course name"],
             "course description": document["course description"],
@@ -50,7 +50,7 @@ async def stream(stream:str):
         results = collection.find()
         data = []
         for document in results:
-            data.stream_routerend(
+            data.append(
             {    
             "course name": document["course name"],
             "course description": document["course description"],
@@ -68,7 +68,7 @@ async def stream(stream:str):
         results = collection.find()
         data = []
         for document in results:
-            data.stream_routerend(
+            data.append(
             {    
             "course name": document["course name"],
             "course description": document["course description"],
@@ -86,7 +86,7 @@ async def stream(stream:str):
         results = collection.find()
         data = []
         for document in results:
-            data.stream_routerend(
+            data.append(
             {    
             "course name": document["course name"],
             "course description": document["course description"],
@@ -112,7 +112,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -133,7 +133,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -154,7 +154,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -175,7 +175,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -196,7 +196,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -217,7 +217,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_icon", ""),
@@ -237,7 +237,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_img", ""),
@@ -258,7 +258,7 @@ async def college(college_type:str):
         data = []
         for document in results[:10]:
         
-            data.stream_routerend(
+            data.append(
             {
             "college_name": document.get("college_name", ""),
             "college_icon": document.get("college_img", ""),
