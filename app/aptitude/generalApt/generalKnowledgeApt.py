@@ -13,7 +13,7 @@ from selenium.webdriver.chrome.options import Options
 
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
 chrome_options = Options()
-chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument("--disable-extensions")
 chrome_options.add_argument("--disable-gpu")
@@ -146,9 +146,12 @@ def aptitude():
         true_explaination = ""
         for i in html[3:]:
             true_explaination += i.replace("\n","")
-        true_explaination = true_explaination.split("Explanation:")[1]
-        true_explaination += "</div>" 
-        explanation_list.append({f"{index}":true_explaination})
+        try:
+            true_explaination = true_explaination.split("Explanation:")[1]
+            true_explaination += "</div>" 
+            explanation_list.append({f"{index}":true_explaination})
+        except:
+            explanation_list.append({f"{index}":"<div></div>"})
 
     # for question_data, direction_question in zip(question_data_list, direction_question_list):
     #     print(f"Question {question_data['question_number']}:")
@@ -182,4 +185,4 @@ def aptitude():
     return data
 
 
-# aptitude()
+print(aptitude())

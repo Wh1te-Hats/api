@@ -46,17 +46,17 @@ async def general_aptitude(data: General):
         response = non_verbal_reasoning_aptitude()
 
 #REMOVE
-# import json
-# @app.post('/aptitude/general/dummy')
-# def dummy(data: General):
-#     file_path = 'app/dumpy.json'
-#     with open(file_path, 'r') as json_file:
-#             data = json.load(json_file)
-#     return data
+import json
+@aptitude_router.post('/aptitude/general/dummy')
+def dummy(data: General):
+    file_path = 'app/dumpy.json'
+    with open(file_path, 'r') as json_file:
+            data = json.load(json_file)
+    return data
 
-#     # analytics(response,topic,data)
+    # analytics(response,topic,data)
 
-#     return response
+    return response
 
 @aptitude_router.post('/aptitude/course/engineering')
 async def course_aptitude(data: Course):
