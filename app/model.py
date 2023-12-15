@@ -34,3 +34,16 @@ class Job(BaseModel):
 
 class Career(BaseModel):
     skill: list
+
+class Exam(BaseModel):
+    start_time: str
+    end_time:str
+    date: str
+    score: int
+    incorrect: int
+    correct: int
+    type: str
+    subtype: str
+
+class Interest(BaseModel):
+    pass

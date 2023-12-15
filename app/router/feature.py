@@ -1,10 +1,12 @@
 from fastapi import APIRouter
+import json
 
 from app.intent_classifier import search
 from app.service.job import job_seek
 from app.service.pdf import pdf_search
 from app.service.video import scrape_video
 from app.prediction.career import growth_rate
+from app.database import rd
 
 from app.model import Job,Career,ChatBot
 
@@ -17,7 +19,15 @@ async def chatbot(data: ChatBot):
 
 @feature_router.post("/job")
 async def job(data: Job):
-    job_res = job_seek([data.role,data.location,data.type])
+    cache_key = f"{data.role}:{data.location}:{data.type}"
+    cache = rd.get(cache_key)
+    if cache:
+        print("HIT")
+        return json.loads(cache)
+    else:
+        job_res = job_seek([data.role,data.location,data.type])
+        rd.set(cache_key,json.dumps(job_res))
+        rd.expire(cache_key,3600)
     return job_res
 
 @feature_router.post("/career")
