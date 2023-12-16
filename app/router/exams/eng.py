@@ -6,14 +6,14 @@ import json
 engineering_exam_router = APIRouter(tags=["exam"])
 
 @engineering_exam_router.get("/exams/eng/{exam_type}")
-async def exam(school_type:str):
-    cache = rd.get(school_type)
+async def exam(exam_type:str):
+    cache = rd.get(exam_type)
     if cache: 
         return json.loads(cache)
     else:
         client = MongoClient("mongodb+srv://harshil:shanu123@pragati.oeap8sk.mongodb.net/exam")
 
-        if school_type == 'national':
+        if exam_type == 'national':
             db = client["exam"]
             collection = db["eng(national)"]
             # Fetch the document from MongoDB
@@ -42,7 +42,7 @@ async def exam(school_type:str):
                     }
                     )
 
-        elif school_type == 'state_government':
+        elif exam_type == 'state_government':
             db = client["exam"]
             collection = db["eng_state_govt"]
             # Fetch the document from MongoDB
@@ -69,7 +69,7 @@ async def exam(school_type:str):
                     }
                     )
 
-        elif school_type == 'state_private':
+        elif exam_type == 'state_private':
             db = client["exam"]
             collection = db["eng_state_pvt"]
             # Fetch the document from MongoDB
@@ -97,7 +97,7 @@ async def exam(school_type:str):
                     }
                     )
 
-        rd.set(school_type,json.dumps(data))
-        rd.expire(school_type,3600) 
+        rd.set(exam_type,json.dumps(data))
+        rd.expire(exam_type,3600) 
         return data
 
