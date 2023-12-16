@@ -18,8 +18,24 @@ chrome_options.add_argument("--disable-gpu")
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 chrome_options.add_argument(f'user-agent={user_agent}')
 
+def remove_html_tags(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    text = soup.get_text()
+    return text
+
+def extract_question_range(text):
+    # Use regular expression to find the range
+    match = re.search(r'Q\.Nos\. (\d+)(?: - (\d+))?', text)
+
+    if match:
+        start = int(match.group(1))
+        end = int(match.group(2)) if match.group(2) else None
+        return start, end
+    else:
+        return None, None
+
 def logical_aptitude():
-    print("Hola")
+    
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=chrome_options)
     # Step 1: Visit the website
     driver.get("https://www.indiabix.com/online-test/logical-reasoning-test/random")
@@ -35,13 +51,29 @@ def logical_aptitude():
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, 'html.parser')
 
+
     bix_div_containers = soup.find_all('div', class_='bix-div-container')
     direction_divs = soup.find_all('div', class_='direction-div')
 
+    direction_div_list = []
+    
+    for i in direction_divs:
+        sentence = i.get_text().replace("\n","")
+        sentence = " ".join(sentence.split())
+        start ,end = extract_question_range(sentence)
+        if end is None: 
+            direction_div_list.append(sentence)
+        else:
+            n = end-start + 1
+            while(n!=0):
+                direction_div_list.append(sentence)
+                n -= 1
+
+  
     question_data_list = []
     direction_question_list = [None] * 20
 
-    for index, bix_div_container in enumerate(bix_div_containers, start=1):
+    for index, bix_div_container in enumerate(bix_div_containers, start=0):
         # Find the question number
         question_number = bix_div_container.find('div', class_='bix-td-qno').text.strip()
 
@@ -55,20 +87,20 @@ def logical_aptitude():
                 img_tag['src'] = 'https://www.indiabix.com' + src
 
         # Find the question text HTML as a string
-        question_text_html = str(bix_div_container.find('div', class_='bix-td-qtxt'))
+        question_text_html = bix_div_container.find('div', class_='bix-td-qtxt').get_text()
 
         # Find all options HTML as strings
-        option_divs = bix_div_container.find_all('div', class_='flex-wrap')
+        option_divs = [option.get_text() for option in bix_div_container.find_all('div', class_='flex-wrap')]
 
         question_data = {
             "question_number": question_number,
-            "question_text_html": question_text_html,
-            "options_html": []
+            "question_text_html": direction_div_list[index] + '\n '+ question_text_html,
+            "options_html": option_divs
         }
 
-        for option in option_divs:
-            question_data['options_html'].append(str(option))
+        # for option in option_divs:
         question_data_list.append(question_data)
+
 
     for direction_div in direction_divs:
         # Extract the value of xx from "Direction (Q.No. {xx})"
@@ -107,27 +139,7 @@ def logical_aptitude():
         explain_links = bix_div_container.find_all('div', class_='explain-link')
         for explain_link in explain_links:
             explain_link.extract()
-
-        # Find the <span> tag with class 'mdi-alpha-xx-circle-outline' mapping of class names to corresponding alphabets
-        span_tag = bix_div_container.find('span', class_=lambda x: 'mdi-alpha' in x and 'circle-outline' in x)
-
-        if span_tag:
-            class_attr = span_tag.get('class')
-            for class_name in class_attr:
-                if 'mdi-alpha' in class_name and 'circle-outline' in class_name:
-                    # Extract the 'xx' value from the class name
-                    xx = class_name.split('-')[2]
-                    # Map 'xx' to the corresponding alphabet
-                    alphabet = {
-                        'a': 'A',
-                        'b': 'B',
-                        'c': 'C',
-                        'd': 'D',
-                    }.get(xx, '')  # Default to empty string if 'xx' is not in the mapping
-                    # Update the content of the <span> tag with the corresponding alphabet
-                    span_tag.string = alphabet
-
-        # Find all <img> tags
+    
         img_tags = bix_div_container.find_all('img')
 
         for img_tag in img_tags:
@@ -137,41 +149,30 @@ def logical_aptitude():
                 img_tag['src'] = 'https://www.indiabix.com' + src
 
         html = str(bix_div_container).split("</div>")
-        pattern = r'<span class="mdi mdi-alpha-(\w+)-circle-outline">(\w+)</span>'
-        try:
-            correct_option = re.search(pattern, html[4]).group(1)
-        except:
-            correct_option = ""
-        true_explaination = ""
-        for i in html[3:]:
-            true_explaination += i.replace("\n","")
-        true_explaination = true_explaination.split("Explanation:")[1]
-        true_explaination += "</div>" 
+        # print(html)
+        # print(html[4])
+        pattern = r'<span class="mdi mdi-alpha-(\w+)-circle-outline">\s*</span>'
+
+        correct_option = re.search(pattern, html[4])
+        if correct_option:
+            correct_option = correct_option.group(1)
+            # print(correct_option)
+        else:
+            raise("CORRECT OPTION ERROR")
+
+        true_explaination = remove_html_tags(html[-3])
+        # print(true_explaination)
+      
         explanation_list.append({"correct_option": correct_option,"explaination":true_explaination})
 
-    # for question_data, direction_question in zip(question_data_list, direction_question_list):
-    #     print(f"Question {question_data['question_number']}:")
-    #     print("Question Text HTML:")
-    #     print(question_data['question_text_html'])
-    #     print("Options HTML:")
-    #     for option in question_data['options_html']:
-    #         print(option)
-    #     if direction_question is not None:
-    #         print("Direction Text HTML:")
-    #         print(direction_question)
-    #     print("--------------------")
-
-    # for explanation in explanation_list:
-    #     print(explanation)
-    #     print("--------------------")
     driver.quit()
     data = []
     for i,ques in enumerate(question_data_list):
         data.append(
             {
                 "question_number": ques["question_number"],
-                "question_text_html": ques["question_text_html"],
-                "options_html": ques["options_html"],
+                "question": ques["question_text_html"],
+                "options": ques["options_html"],
                 "correct_option": explanation_list[i]["correct_option"],
                 "explaination":  explanation_list[i]["explaination"]
             }
@@ -179,4 +180,4 @@ def logical_aptitude():
     return data
 
 
-# aptitude()
+# print(logical_aptitude())

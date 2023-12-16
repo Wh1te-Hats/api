@@ -1,25 +1,25 @@
 from fastapi import APIRouter
-
+from fastapi.responses import JSONResponse
 from app.model import General, Course
 from app.helper import read_json
 
 from app.aptitude.generalApt.logicalReasoning import logical_aptitude
-from app.aptitude.generalApt.verbalAbilityApt import aptitude as verbal_ability_aptitude
-from app.aptitude.generalApt.verbalReasoningApt import aptitude as verbal_reasoning_aptitude
-from app.aptitude.generalApt.arithmeticApt import aptitude as arithmetic_aptitude
+from app.aptitude.generalApt.verbalAbilityApt import verbal_ability_aptitude 
+from app.aptitude.generalApt.verbalReasoningApt import verbal_reasoning_aptitude 
+from app.aptitude.generalApt.arithmeticApt import arithematic_aptitude
 from app.aptitude.generalApt.generalKnowledgeApt import aptitude as general_knowledge_aptitude
-from app.aptitude.generalApt.verbalReasoningApt import aptitude as non_verbal_reasoning_aptitude
+from app.aptitude.generalApt.nonVerbalReasoningApt import nonVerbal_aptitude
 
-from app.aptitude.courseBased.engineering.chemical import aptitude as chemical_aptitude
-from app.aptitude.courseBased.engineering.civil import aptitude as civil_aptitude
-from app.aptitude.courseBased.engineering.cse import aptitude as cse_aptitude
-from app.aptitude.courseBased.engineering.ece import aptitude as ece_aptitude
-from app.aptitude.courseBased.engineering.eee import aptitude as eee_aptitude
-from app.aptitude.courseBased.engineering.mechanical import aptitude as mechanical_aptitude
+from app.aptitude.courseBased.engineering.chemical import chemical_aptitude 
+from app.aptitude.courseBased.engineering.civil import civil_aptitude 
+from app.aptitude.courseBased.engineering.cse import cse_aptitude
+from app.aptitude.courseBased.engineering.ece import ece_aptitude
+from app.aptitude.courseBased.engineering.eee import eee_aptitude
+from app.aptitude.courseBased.engineering.mechanical import mechanical_aptitude
 
-from app.aptitude.courseBased.medical.bioChemical import aptitude as bio_chem_aptitude
-from app.aptitude.courseBased.medical.biotech import aptitude as bio_tech_aptitude
-from app.aptitude.courseBased.medical.microBiology import aptitude as micro_bio_aptitude
+from app.aptitude.courseBased.medical.bioChemical import bio_chemical_aptitude
+from app.aptitude.courseBased.medical.biotech import bio_tech_aptitude
+from app.aptitude.courseBased.medical.microBiology import microbiology_aptitude
 
 
 aptitude_router = APIRouter(tags=["aptitude test"])
@@ -37,13 +37,15 @@ async def general_aptitude(data: General):
         response = verbal_reasoning_aptitude()
         
     if (data.topic).lower() == 'arithmetic':
-        response = arithmetic_aptitude()
+        response = arithematic_aptitude()
         
     if (data.topic).lower() == 'general knowledge':
         response = general_knowledge_aptitude()
         
     if (data.topic).lower() == 'non verbal reasoning':
-        response = non_verbal_reasoning_aptitude()
+        response = nonVerbal_aptitude()
+
+    return JSONResponse(content=response,media_type="application/json")
 
 #REMOVE
 import json
@@ -78,10 +80,10 @@ async def course_aptitude(data: Course):
 @aptitude_router.post('/aptitude/course/medical')
 async def medical_aptitude(data: Course):
     if (data.subject).lower() == 'bio_chem':
-        response = bio_chem_aptitude()
+        response = bio_chemical_aptitude()
     if (data.subject).lower() == 'bio_tech':
         response = bio_tech_aptitude()
     if (data.subject).lower() == 'micro_bio':
-        response = micro_bio_aptitude()
+        response = microbiology_aptitude()
 
     return response

@@ -7,6 +7,7 @@ from app.service.pdf import pdf_search
 from app.service.video import scrape_video
 from app.prediction.career import growth_rate
 from app.database import rd
+from app.service.course import course
 
 from app.model import Job,Career,ChatBot
 
@@ -44,3 +45,16 @@ async def document(data: str):
 async def document(data: str):
     vid_res = scrape_video(data)
     return {"result": vid_res}
+
+@feature_router.post('/course')
+async def course_data(data:str):
+    cache_key = f"{data}"
+    cache = rd.get(cache_key)
+    if cache:
+        print("HIT")
+        return json.loads(cache)
+    else:
+        course_result = course(data)
+        rd.set(cache_key,json.dumps(course_result))
+        rd.expire(cache_key,3600)
+        return {"result": course_result}
