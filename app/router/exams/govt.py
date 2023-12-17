@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.database import MongoClient, rd
+from app.database import MongoClient, rd,client
 
 import json
 
@@ -11,7 +11,6 @@ async def exam(exam_type:str):
     if cache: 
         return json.loads(cache)
     else:
-        client = MongoClient("mongodb+srv://harshil:shanu123@pragati.oeap8sk.mongodb.net/exam")
 
         if exam_type == 'insurance':
             db = client["exam"]
@@ -31,7 +30,7 @@ async def exam(exam_type:str):
 
                         "Title":exam_data.get("Title", ""),"Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -58,7 +57,7 @@ async def exam(exam_type:str):
                     {
                         "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -84,9 +83,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -113,7 +112,7 @@ async def exam(exam_type:str):
                     {
                         "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -139,9 +138,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -167,9 +166,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -195,9 +194,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -222,9 +221,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -249,9 +248,9 @@ async def exam(exam_type:str):
                     data.append(
                     {
 
-                        "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
+                        "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": [],
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -260,6 +259,8 @@ async def exam(exam_type:str):
                         "Previous year Question papers": exam_data.get("Prev_year_papers", ""),
                     }
                     )
+        for i, exam_data in enumerate(data):
+            data[i] = {key: value if value is not None else "" for key, value in exam_data.items()}
         rd.set(exam_type,json.dumps(data))
         rd.expire(exam_type,3600) 
         return data

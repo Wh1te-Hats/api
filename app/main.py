@@ -8,7 +8,7 @@ from app.router.exams.school import school_exam_router
 from app.router.analytics import analytics_router
 from app.router.exams.govt import govt_exam_router
 from app.router.exams.eng import engineering_exam_router
-
+from app.router.community import community_router
 
 app = FastAPI()
 
@@ -20,6 +20,7 @@ app.include_router(school_exam_router)
 app.include_router(analytics_router)
 app.include_router(govt_exam_router)
 app.include_router(engineering_exam_router)
+app.include_router(community_router)
 
 # @app.get('/college')
 # def college_data():

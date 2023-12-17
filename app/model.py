@@ -17,6 +17,8 @@ class UserRegister(BaseModel):
     grade: str
     gender:str
     board: str
+    community_id: list
+    career_goal: list
 
 class ChatBot(BaseModel):
     message: str
@@ -47,3 +49,15 @@ class Exam(BaseModel):
 
 class Interest(BaseModel):
     pass
+
+class CommunityUser(BaseModel):
+    name:str
+    city:str
+    state:str
+    school_or_college:str
+    career_goal: list
+
+class CourseExam(BaseModel):
+    grade:str
+    subejct: str
+    chapter: str

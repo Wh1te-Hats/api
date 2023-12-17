@@ -102,6 +102,8 @@ async def stream(stream:str):
                 "course structure": document["course structure"]
                 }
             )
+        for i, college_data in enumerate(data):
+            data[i] = {key: value if value is not None else "" for key, value in college_data.items()}
         rd.set(stream,json.dumps(data))
         rd.expire(stream,3600)   
         return data
@@ -281,6 +283,8 @@ async def college(college_type:str):
                 "average_package": document.get("salary", "")
                 }
                 )
-                rd.set(college_type,json.dumps(data))
-                rd.expire(college_type,3600)
+        for i, college_data in enumerate(data):
+            data[i] = {key: value if value is not None else "" for key, value in college_data.items()}
+        rd.set(college_type,json.dumps(data))
+        rd.expire(college_type,3600)
         return data

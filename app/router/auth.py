@@ -14,7 +14,7 @@ async def register_user(user: UserRegister):
     # Insert the user into the MongoDB collection and generate a random ID
     user_dict = user.dict()
     print(user_dict)
-    collection.insert_one(user_dict)
+    print(collection.insert_one(user_dict))
     print("User registered successfully")
     return {"message": "User registered successfully", "id": user_dict["id"]}
 

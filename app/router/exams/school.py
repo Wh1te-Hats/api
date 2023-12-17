@@ -26,12 +26,15 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
 
                         "Title":exam_data.get("Title", ""),"Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -41,6 +44,7 @@ async def exam(school_type:str):
 
                     }
                     )
+                    
 
         elif school_type == 'icse':
             db = client["exam"]
@@ -55,11 +59,14 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
                         "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -82,12 +89,15 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
 
                         "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered":subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -110,11 +120,14 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
                         "Title":exam_data.get("Title", ""),
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -137,12 +150,15 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
 
                         "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered":subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -165,12 +181,15 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
 
                         "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered": subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -193,12 +212,15 @@ async def exam(school_type:str):
             for exam_name, exam_data in document.items():
                 # Skip the "_id" field which is not an exam object
                 if exam_name != "_id":
+                    subject_covered = exam_data.get("Subjects Covered", "")
+                    if type(subject_covered) != list:
+                        subject_covered = subject_covered.split(",")
                     data.append(
                     {
 
                         "Title":exam_data.get("Title", ""),"Exam Name": exam_name,
                         "Description": exam_data.get("Description", ""),
-                        "Subjects Covered": exam_data.get("Subjects Covered", ""),
+                        "Subjects Covered":subject_covered,
                         "Eligibility Criteria": exam_data.get("Eligibility", ""),
                         "Pass Criteria": exam_data.get("Pass Criteria", ""),
                         "Link to Website": exam_data.get("Link", ""),
@@ -207,6 +229,8 @@ async def exam(school_type:str):
                         "Previous year Question papers": exam_data.get("Prev_year_papers", ""),
                     }
                     )
+        for i, exam_data in enumerate(data):
+            data[i] = {key: value if value is not None else "" for key, value in exam_data.items()}
         rd.set(school_type,json.dumps(data))
         rd.expire(school_type,3600) 
         return data

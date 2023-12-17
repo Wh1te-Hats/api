@@ -4,7 +4,7 @@ from app.model import Exam, Interest
 
 analytics_router = APIRouter(tags=["Analytics"],prefix="/analytics")
 
-analytics_router.post('/exam')
+@analytics_router.post('/exam')
 def exam_analytics(exam_data: Exam):
     '''
     Store in MongoDB 
@@ -18,7 +18,7 @@ def exam_analytics(exam_data: Exam):
     pass
 
 
-analytics_router.get('/exam_details/{user_id}')
+@analytics_router.get('/exam_details/{user_id}')
 def exam_details(user_id:str):
     '''
     Give dashboard analytics
@@ -30,7 +30,7 @@ def exam_details(user_id:str):
     '''
     pass
 
-analytics_router.post('/interest')
+@analytics_router.post('/interest')
 def interested_job(data: Interest):
     '''
     - collect the user skills 
