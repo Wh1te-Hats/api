@@ -7,6 +7,8 @@ COMMUNITY_DATABASE_NAME = "Community"
 COMMUNITY_COLLECTION_NAME = "communities"
 COMMUNITY_USER_DATABASE_NAME = "Community"
 COMMUNITY_USER_COLLECTION_NAME = "user"
+ANALYTICS_DATABAME_NAME = "Analytics"
+ANALYTICS_COLLECTION_NAME = "User"
 
 
 client = MongoClient(MONGO_URI)  
@@ -18,6 +20,9 @@ community_collection = db_community[COMMUNITY_COLLECTION_NAME]
 
 db_authentication = client[COMMUNITY_USER_DATABASE_NAME]
 user_collection = db_authentication[COMMUNITY_USER_COLLECTION_NAME]
+
+db_analytics = client[ANALYTICS_DATABAME_NAME]
+analytics_collection = db_analytics[ANALYTICS_COLLECTION_NAME]
 
 import redis
 

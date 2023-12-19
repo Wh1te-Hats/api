@@ -23,7 +23,7 @@ from app.aptitude.courseBased.medical.bioChemical import bio_chemical_aptitude
 from app.aptitude.courseBased.medical.biotech import bio_tech_aptitude
 from app.aptitude.courseBased.medical.microBiology import microbiology_aptitude
 
-from app.static import nineth_course
+from app.static import nineth_course,tenth_course,eleventh_course,twelveth_course
 
 
 aptitude_router = APIRouter(tags=["aptitude test"])
@@ -93,41 +93,51 @@ async def medical_aptitude(data: Course):
     return response
 
 @aptitude_router.get('/aptitude/course/{grade}')
-async def grade_course(grade:int):
-    if grade == 9:
+async def grade_course(grade:str):
+    if grade == "9":
         return nineth_course
+    if grade == "10":
+        return tenth_course
+    if grade == "11":
+        return eleventh_course
+    if grade == "12":
+        return twelveth_course
     
 
 @aptitude_router.post('/aptitude/course')
 async def course_exam(data: CourseExam):
-    if data.grade == "9" and data.subejct == "English":
-        db = client["9_English"]
 
-    elif data.grade == "9" and data.subejct == "Hindi":
-        db = client["9_Hindi"]
-
-    elif data.grade == "9" and data.subejct == "IT(A)":
-        db = client["9_Maths"]
-        
-    elif data.grade == "9" and data.subejct == "IT(B)":
-        db = client["9_IT_subject_specifc"]
-
-    elif data.grade == "9" and data.subejct == "Math":
-        db = client["9_Maths"]
-
-    elif data.grade == "9" and data.subejct == "Science":
-        db = client["9_Science"]
-        
-    elif data.grade == "9" and data.subejct == "Social Studies":
-        db = client["9_Social_Science"]
-
-    collection = db[f"{data.chapter}"]
-    document = collection.find()
-    
     option = {'1': 'a', '2': 'b', '3': 'c', '4': 'd'}
     question = []
-    for j,i in enumerate(document):
-        question.append(
+
+    if data.grade == "9":
+
+        if data.subject == "English":
+            db = client["9_English"]
+
+        elif data.subject == "Hindi":
+            db = client["9_Hindi"]
+
+        elif data.subject == "IT(A)":
+            db = client["9_Maths"]
+
+        elif data.subject == "IT(B)":
+            db = client["9_IT_subject_specifc"]
+
+        elif data.subject == "Math":
+            db = client["9_Maths"]
+
+        elif data.subject == "Science":
+            db = client["9_Science"]
+
+        elif data.subject == "Social Studies":
+            db = client["9_Social_Science"]
+
+        collection = db[f"{data.chapter}"]
+        document = collection.find()
+    
+        for j,i in enumerate(document):
+            question.append(
                 {
                     "question_number": f"{j+1}",
                     "question": i.get("Question"),
@@ -136,6 +146,89 @@ async def course_exam(data: CourseExam):
                     "explaination": ""
                 }
             )
+
+    if data.grade == "10":
+        if data.subject == "English":
+            db = client["10_English"]
+
+        elif data.subject == "Hindi-A":
+            db = client["10_Hindi_A"]
+
+        elif data.subject == "Hindi-B":
+            db = client["10_Hindi_B"]
+
+        elif data.subject == "Math":
+            db = client["10_Maths"]
+
+        elif data.subject == "Science":
+            db = client["10_Science"]
+
+        elif data.subject == "Social Science":
+            db = client["10_Social_Science"]
+
+        collection = db[f"{data.chapter}"]
+        document = collection.find()
+    
+        for j,i in enumerate(document):
+            question.append(
+                {
+                    "question_number": f"{j+1}",
+                    "question": i.get("question"),
+                    "options": [i.get("option1"),i.get("option2"),i.get("option3"),i.get("option4")],
+                    "correct_option": option.get(i.get("correctOption", "")),
+                    "explaination": ""
+                }
+            )
+
+    if data.grade == 11:
+        if data.subject == 'Physics':
+            db = client["11_Phy"]
+        if data.subject == 'Biology':
+            db = client["11_bio"]
+        if data.subject == 'Chemistry':
+            db = client["11_chem"]
+        if data.subject == 'Math':
+            db = client["11_math"]
+
+        collection = db[f"{data.chapter}"]
+        document = collection.find()
+
+        for j,i in enumerate(document):
+            question.append(
+                {
+                    "question_number": f"{j+1}",
+                    "question": i.get("Question"),
+                    "options": [i.get("Option1"),i.get("Option2"),i.get("Option3"),i.get("Option4")],
+                    "correct_option": option.get(i.get("CorrectOption", "")),
+                    "explaination": ""
+                }
+            )
+
+    if data.grade == 12:
+        if data.subject == 'Physics':
+            db = client["12_Phy"]
+        if data.subject == 'Biology':
+            db = client["12_bio"]
+        if data.subject == 'Chemistry':
+            db = client["12_chem"]
+        if data.subject == 'Math':
+            db = client["12_math"]
+
+        collection = db[f"{data.chapter}"]
+        document = collection.find()
+
+        for j,i in enumerate(document):
+            question.append(
+                {
+                    "question_number": f"{j+1}",
+                    "question": i.get("Question"),
+                    "options": [i.get("Option1"),i.get("Option2"),i.get("Option3"),i.get("Option4")],
+                    "correct_option": option.get(i.get("CorrectOption", "")),
+                    "explaination": ""
+                }
+            )
+
+        
 
     question = random.sample(question,20)
         

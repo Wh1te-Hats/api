@@ -10,6 +10,7 @@ from app.router.exams.govt import govt_exam_router
 from app.router.exams.eng import engineering_exam_router
 from app.router.community import community_router
 from app.router.counselor import counselor_data_router
+from app.router.community_server import community_server_router
 
 app = FastAPI()
 
@@ -23,6 +24,7 @@ app.include_router(govt_exam_router)
 app.include_router(engineering_exam_router)
 app.include_router(community_router)
 app.include_router(counselor_data_router)
+app.include_router(community_server_router)
 
 # @app.get('/college')
 # def college_data():

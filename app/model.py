@@ -38,8 +38,8 @@ class Career(BaseModel):
     skill: list
 
 class Exam(BaseModel):
-    start_time: str
-    end_time:str
+    user_id: str
+    total_time: int
     date: str
     score: int
     incorrect: int
@@ -48,7 +48,8 @@ class Exam(BaseModel):
     subtype: str
 
 class Interest(BaseModel):
-    pass
+    user_id:str
+    career_goal:str
 
 class CommunityUser(BaseModel):
     name:str
@@ -59,5 +60,5 @@ class CommunityUser(BaseModel):
 
 class CourseExam(BaseModel):
     grade:str
-    subejct: str
+    subject: str
     chapter: str

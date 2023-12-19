@@ -11,6 +11,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import random
 import time
+from fastapi.responses import JSONResponse
 
 from app.prediction.career import growth_rate
 from app.service.job import job_seek
@@ -89,64 +90,68 @@ def search(query:dict):
     
     if intent != None and intent['tag'] == 'greeting' and query["flow"] == 'EMPTY':
       response = random.choice(intent['responses'])
-      data =  {"message": response,"flow": "EMPTY","num":-1}
+      data =  {"template":1,"message": [response],"flow": "EMPTY","num":-1}
       data = json.dumps(data)
+      print(data)
       return Response(content=data, media_type="text/plain; charset=utf-8")
     
-    # elif query["flow"] == 'career' or (intent != None and intent['tag'] == 'career'):
-    #   if query["num"] == -1:
-    #     flow = "career"
-    #     num = 1
-    #     return {"message": ["Please refer the below website to get an insight of all the skills👇", "https://marcresi.github.io/CareerList/"], "flow": flow,"num": num}
+    elif query["flow"] == 'career' or (intent != None and intent['tag'] == 'career'):
+      # if query["num"] == -1:
+      #   flow = "career"
+      #   num = 1
+      #   data = {"template":1,"message": ["Please refer the below website to get an insight of all the skills👇", "https://marcresi.github.io/CareerList/"], "flow": flow,"num": num}
+      #   Response(content=data, media_type="text/plain; charset=utf-8")
 
-    #   else:
-    #     career_list = growth_rate(query["message"])
-    #     return {"message":career_list,"flow":"EMPTY","num":-1}
+      # else:
+      #   career_list = growth_rate(query["message"])
+      return {"template":3,"message":["Click here for more info"],"flow":"career","num":-1}
       
-    # elif query['flow'] == 'job' or (intent != None and intent['tag'] == 'job'):
+    elif query['flow'] == 'job' or (intent != None and intent['tag'] == 'job'):
 
-    #   if query['num'] == -1 :
-    #     flow = "job"
-    #     num = 1
-    #     return {"message": "Enter the Job Role","flow": flow,"num": num}
+      if query['num'] == -1 :
+        flow = "job"
+        num = 1
+        return {"template":1,"message": ["Enter the Job Role"],"flow": flow,"num": num}
 
-    #   if query['num'] == 1 :
-    #     job_list.append(query['message'])
-    #     flow = "job"
-    #     num = 2
-    #     return {"message": "Enter the Job Location","flow": flow,"num": num}
+      if query['num'] == 1 :
+        job_list.append(query['message'])
+        flow = "job"
+        num = 2
+        return {"template":1,"message": ["Enter the Job Location"],"flow": flow,"num": num}
       
-    #   if query["num"] == 2 :
-    #     job_list.append(query['message'])
-    #     flow = "job"
-    #     num = 3
-    #     return {"message": "Enter the Job Type : [FULLTIME, PARTTIME, CONTRACTOR, INTERNSHIP]","flow": flow,"num": num}
+      if query["num"] == 2 :
+        job_list.append(query['message'])
+        flow = "job"
+        num = 3
+        return {"template":1,"message": ["Enter the Job Type : [FULLTIME, PARTTIME, CONTRACTOR, INTERNSHIP]"],"flow": flow,"num": num}
       
-    #   if query["num"] == 3 :
-    #     job_list.append(query['message'])
-    #     job_res = job_seek(job_list)
-    #     print(job_res)
-    #     job_list.clear()
-    #     if job_res != None:
-    #       flow = "EMPTY"
-    #       num = -1
-    #       return {"message": job_res,"flow": flow,"num": num}
-    #     else:
-    #       flow = "EMPTY"
-    #       num = -1
-    #       return {"message": "Sorry, Pragati couldn't find jobs for you 😔","flow": flow,"num": num}
+      if query["num"] == 3 :
+        job_list.append(query['message'])
+        print(job_list)
+        job_res = job_seek(job_list)
+        job_list.clear()
+        if job_res != None:
+          flow = "EMPTY"
+          num = -1
+          data  = {"template":2,"message": job_res,"flow": flow,"num": num}
+          data = json.dumps(data)
+          return Response(content=data,media_type="text/plain; charset=utf-8")
+        else:
+          flow = "EMPTY"
+          num = -1
+          return {"template":1,"message": ["Sorry, Pragati couldn't find jobs for you 😔"],"flow": flow,"num": num}
         
     elif intent != None and (intent['tag'] == 'goodbye' or intent['tag'] == 'thanks'):
       response = random.choice(intent['responses'])
-      return {"message": response,"flow": "EMPTY","num":-1}
+      return {"template":1,"message": [response],"flow": "EMPTY","num":-1}
     
     #TODO
     elif intent != None and intent['tag'] == 'college':
-      return {"message": "Top College","flow": "EMPTY","num":-1}
+      return {"template":3,"message": ["Click here for more info"],"flow": "college","num":-1}
 
     #TODO
     elif intent != None and intent['tag'] == 'subject':
-      return {"message": "Show Subject","flow": "EMPTY","num":-1}
+      return {"template":3,"message": ["Click here for more info"],"flow": "subject","num":-1}
   
     
     # elif intent != None and intent['tag'] != 'document' and intent['tag'] != 'video':
@@ -155,11 +160,13 @@ def search(query:dict):
     
     elif intent != None and intent['tag'] == 'document':
       pdf_res = pdf_search(query["message"])
-      return {"message": pdf_res,"flow": "EMPTY","num":-1}
+      pdf_res.insert(0,"Refer the below Material")
+      return {"template":4,"message": pdf_res,"flow": "document","num":-1}
 
     elif intent != None and intent['tag'] == 'video':
       vid_res = scrape_video(query)
-      return {"message": vid_res,"flow": "EMPTY","num":-1}
+      vid_res.insert(0,"Refer the below Video")
+      return {"template":4,"message": vid_res,"flow": "video","num":-1}
 
     else:
       print("Universal Scraping")

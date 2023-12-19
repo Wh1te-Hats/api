@@ -53,7 +53,9 @@ def scrape_text(query):
             # driver.quit()
             my_list = [a.get_text(),b.get_text()]
             result_string = "\n".join(my_list)
-            data =  {"message": result_string,"related list":related_list,"flow": "EMPTY","num":-1}
+            # data =  {"message": [result_string],"related list":related_list,"flow": "EMPTY","num":-1}
+            related_list.insert(0,result_string)
+            data =  {"template":5,"message": related_list,"flow": "EMPTY","num":-1}
             data = json.dumps(data)
             return Response(content=data, media_type="text/plain; charset=utf-8")
     except:
@@ -76,7 +78,9 @@ def scrape_text(query):
                 concat += each + '\n'
             lists.clear()   
             # driver.quit()
-            data = {"message": concat,"related list":related_list,"flow": "EMPTY","num":-1}
+            # data = {"message": [concat],"related list":related_list,"flow": "EMPTY","num":-1}
+            related_list.insert(0,concat)
+            data = {"template":5,"message": related_list,"flow": "EMPTY","num":-1}
             data = json.dumps(data)
             return Response(content=data, media_type="text/plain; charset=utf-8")
         except:
@@ -91,12 +95,15 @@ def scrape_text(query):
                     related_list.append(x.get_text().strip())
                     print(related_list)
                     # driver.quit()
-                data =  {"message": x.get_text().strip(),"related list":related_list,"flow": "EMPTY","num":-1}
+
+                # data =  {"message": [x.get_text().strip()],"related list":related_list,"flow": "EMPTY","num":-1}
+                related_list.insert(0,x.get_text().strip())
+                data =  {"template":5,"message": related_list,"flow": "EMPTY","num":-1}
                 data = json.dumps(data)
                 return Response(content=data, media_type="text/plain; charset=utf-8")
             except:
                 # driver.quit()
-                data =  {"message": "Sorry couldn't find anything. I am still learning📖\nTry asking similar queries🤔","flow": "EMPTY","num":-1}
+                data =  {"template":1,"message": ["Sorry couldn't find anything. I am still learning📖\nTry asking similar queries🤔"],"flow": "EMPTY","num":-1}
                 data = json.dumps(data)
                 return Response(content=data, media_type="text/plain; charset=utf-8")
 

@@ -1,6 +1,8 @@
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from app.database import collection,community_collection
+from app.model import Interest
+from fastapi.responses import RedirectResponse
 
 community_router = APIRouter(tags=['Community'],prefix='/community')
 
@@ -27,8 +29,9 @@ def update_community_members(community_id, user_id, community_collection):
     community_collection.update_one(
         {"community_id": community_id},
         {"$push": {"members": user_id}})
+    
 
-@community_router.post('/add/{user_id}')
+@community_router.post('/add')
 def add_user_to_community(user_id:str):
     community = collection.find_one({"id": user_id})
     state=  community.get("state"),
@@ -64,4 +67,11 @@ def user_info(user_id:str):
         community_data.append(data)
     
     return JSONResponse(content=community_data, media_type="application/json")
+
+@community_router.post('/interest')
+def add_career_goal(data: Interest):
+    collection.update_one(
+        {"id": data.user_id},
+        {"$push": {"career_goal": data.career_goal}})
+    # return RedirectResponse(url=f"/add?user_id={data.user_id}")
 
