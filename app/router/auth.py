@@ -26,3 +26,9 @@ async def login_user(user: UserLogin):
         raise HTTPException(status_code=401, detail="Invalid credentials")
     
     return {"message": "Login successful", "user_id": stored_user["_id"]}
+
+@auth_router.get("/info/{user_id}")
+async def get_info(user_id):
+    stored_user = collection.find_one({"id": user_id})
+    print(stored_user)
+    return

@@ -139,7 +139,10 @@ def search(query:dict):
         else:
           flow = "EMPTY"
           num = -1
-          return {"template":1,"message": ["Sorry, Pragati couldn't find jobs for you 😔"],"flow": flow,"num": num}
+          data = {"template":1,"message": ["Sorry, Pragati couldn't find jobs for you 😔"],"flow": flow,"num": num}
+          json_data = json.dumps(data, ensure_ascii=False).encode("utf-8")
+          return JSONResponse(content=json_data, media_type="application/json; charset=utf-8")
+
         
     elif intent != None and (intent['tag'] == 'goodbye' or intent['tag'] == 'thanks'):
       response = random.choice(intent['responses'])
@@ -150,7 +153,7 @@ def search(query:dict):
       return {"template":3,"message": ["Click here for more info"],"flow": "college","num":-1}
 
     #TODO
-    elif intent != None and intent['tag'] == 'subject':
+    elif intent != None and (intent['tag'] == 'subject' or  intent['tag'] == 'stream'):
       return {"template":3,"message": ["Click here for more info"],"flow": "subject","num":-1}
   
     
