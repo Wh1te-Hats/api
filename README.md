@@ -17,3 +17,7 @@ pip install -r requirements-dev.txt
 ```
 uvicorn app.main:app --reload
 ```
+### View swagger docs
+```
+http://localhost:8000/docs#/
+```
