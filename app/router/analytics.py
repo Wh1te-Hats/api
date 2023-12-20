@@ -184,3 +184,29 @@ def interested_job(data: Interest):
     - store the interested job, user skills in a list
     '''
     pass
+
+@analytics_router.get('/exam_details/dummy/{user_id}')
+def dummy_data(user_id):
+    user_data = analytics_collection.find_one({"user_id": user_id})
+    total_time_spent = user_data.get("total_time_spent")
+    total_test_taken = user_data.get("total_test_taken")
+
+    for details in user_data.get("history"):
+        if details["type"] == 'course':
+            course_score = details["score"]
+
+        elif details["type"] == 'general':
+            general_score = details["score"]
+            
+        elif details["type"] == 'career':
+            career_score = details["score"]
+            
+    data = {
+        "total_time_spent": total_time_spent,
+        "total_test_taken": total_test_taken,
+        "course_score": course_score,
+        "general_score": general_score,
+        "career_score": career_score
+
+    }
+    return data
