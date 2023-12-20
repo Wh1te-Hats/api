@@ -38,6 +38,7 @@ def update_analytics(data:Exam):
     else:
         # {'user_id': 'string', 'history': [{'course': [{'subtj': [{'data': 'string', 'total_time': 0, 'score': 16, 'incorrect': 4, 'correct': 16}], 'avg_score': ''}], 'avg_score': ''}], 'total_time_spent': 0, 'total_test_taken': 0}
         exam_details = user_data.get('history')
+        print(exam_details)
         for i in exam_details:
             print(i)
             if i["type"] == data.type:
@@ -112,6 +113,7 @@ def exam_details(user_id:str):
     - Show Avg percentage of all the subtype in the particular apititude type
     '''
     user_data = analytics_collection.find_one({"user_id": user_id})
+    
     total_time_spent = user_data.get("total_time_spent")
     total_test_taken = user_data.get("total_test_taken")
     
@@ -131,6 +133,7 @@ def exam_details(user_id:str):
 
 
     for details in user_data.get("history"):
+        print(details)
         if details["type"] == 'course':
             course_score = details["score"]
             for j in details["history"]:
@@ -190,8 +193,12 @@ def dummy_data(user_id):
     user_data = analytics_collection.find_one({"user_id": user_id})
     total_time_spent = user_data.get("total_time_spent")
     total_test_taken = user_data.get("total_test_taken")
+    general_score = 0
+    course_score = 0
+    career_score = 0
 
     for details in user_data.get("history"):
+        print(details)
         if details["type"] == 'course':
             course_score = details["score"]
 
@@ -201,12 +208,11 @@ def dummy_data(user_id):
         elif details["type"] == 'career':
             career_score = details["score"]
             
-    data = {
+    data = [{
         "total_time_spent": total_time_spent,
         "total_test_taken": total_test_taken,
         "course_score": course_score,
         "general_score": general_score,
         "career_score": career_score
-
-    }
+    }]
     return data
