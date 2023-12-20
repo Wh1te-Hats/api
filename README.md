@@ -1,16 +1,19 @@
-To run the project
+# To run the project
+
+### Create a virtual environment
 
 ```
-# Create a virtual environment
 python -m venv venv
-
-# Go inside the virtual environment
+```
+### Go inside the virtual environment
+```
 ./venv/script/activate (In Windows)
-
-# Install all the requirements
+```
+### Install all the requirements
+```
 pip install -r requirements-dev.txt
-
-# Run the server from the root folder
+```
+### Run the server from the root folder
+```
 uvicorn app.main:app --reload
-
 ```
